@@ -1,6 +1,6 @@
 # Getting Started with my React App
 
-Welcome to my 'Sallies' Kitchen app'. The best things in life are simple and so is my app! - :D
+Welcome to my 'Sallies' Kitchen App'. The best things in life are simple and so is my App! - :D 
 
 
 # In the project directory, you can run: `npm start`
