@@ -1,0 +1,36 @@
+.TestimonyContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.Card {
+    width: 12rem;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 1rem ;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.ImageContainer{
+    height: 5rem;
+    margin: 0;
+}
+
+.CardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(40px at center);
+}
+
+/*//--> I am still not happy with the results :( help! */
+@media only screen and (max-width: 1020px) {
+    .TestimonyContainer {
+        gap: .1rem;
+        padding: 0.1rem;
+        width:10%;
+        margin:auto;
+    }
+
+}

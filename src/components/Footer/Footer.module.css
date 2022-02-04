@@ -1,0 +1,67 @@
+footer {
+    margin-top: 5rem;
+}
+
+.Sect {
+    padding: 1rem;
+    width: 120%;
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    margin: .5rem;
+}
+
+.Sect p {
+    margin: 0;
+}
+
+Footer img {
+    width: 3rem;
+    margin: 0 .3rem 0 .3rem;
+}
+
+
+.Icon {
+    display: flex;
+    justify-content: center;
+}
+
+.Bottom {
+    padding: .5rem 0 .5rem 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f3f1d0;
+}
+
+.Bottom {
+    color: #804d01;
+    margin: 0;
+
+}
+
+@media only screen and (max-width: 1442px) {
+    .Container {
+        width: 80%;
+    }
+}
+
+
+p {
+    text-transform: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width: 1020px) {
+    .Container {
+        gap: .1rem;
+        padding: 0.1rem;
+        width:30%;
+        margin:auto;
+    }
+
+}
