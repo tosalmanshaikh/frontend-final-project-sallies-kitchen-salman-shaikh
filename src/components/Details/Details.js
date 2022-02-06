@@ -1,10 +1,20 @@
 import React from 'react';
+import  {ProductConsumer} from "../../context/Context";
 
-function Details() {
+function Details(props) {
     return (
-        <div>
-            details
-        </div>
+        <ProductConsumer>
+            {value => {
+
+                const {data}=value;
+                console.log(this.props.match.params.id);
+                return (
+                    <div>
+                        Hello from details
+                    </div>
+                )
+            }}
+        </ProductConsumer>
     );
 }
 

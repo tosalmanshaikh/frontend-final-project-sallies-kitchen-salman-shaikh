@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {ProductConsumer} from "../../context/Context";
-import SubTitle from "../SubTitle/SubTitle";
 import ImageDisplay from "../ImageDisplay/ImageDisplay";
 
 

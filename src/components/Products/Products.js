@@ -1,7 +1,8 @@
 import React from 'react';
 import {ProductConsumer} from "../../context/Context";
-import product from "../Product/Product";
 import Product from "../Product/Product";
+import Banner from "../Banner/Banner";
+import SubTitle from "../SubTitle/SubTitle";
 
 function Products() {
     return (
@@ -14,16 +15,30 @@ function Products() {
 
                 return (
 
-                    <div className="products">
-                        <h2>Products</h2>
+                    <>
+                        {/*<SubTitle>*/}
 
-                        <div className="products-center">
-                            {data.map(data => {
-                                return <Product key={data.id} data={data} closeNavCart={closeNavCart}/>
-                            })}
-                        </div>
-                    </div>
 
+                            <section className="heading-product-page">
+
+                                <Banner title="Products"/>
+                                {/*<Banner sub="lets get you all sorted!"/>*/}
+
+                            </section>
+
+
+
+                            <div className="products">
+
+                                <div className="products-center">
+                                    {data.map(data => {
+                                        return <Product key={data.id} data={data} closeNavCart={closeNavCart}/>
+                                    })}
+                                </div>
+                            </div>
+
+                        {/*</SubTitle>*/}
+                    </>
 
                 )
             }}
