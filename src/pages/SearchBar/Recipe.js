@@ -13,7 +13,7 @@ function Recipe({recipe}) {
         <div className="recipe">
 
             <Banner title={label}/>
-            <img src={image} alt={label}/>
+            <img className="recipe-image" src={image} alt={label}/>
 
             <Button
                 onClick={() => setShow(!show)}

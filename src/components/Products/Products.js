@@ -15,15 +15,13 @@ function Products() {
 
                 return (
 
-                    <>
-                        {/*<SubTitle>*/}
+                    <div className="product-container">
 
-
-                            <section className="heading-product-page">
-
-                                <Banner title="Products"/>
-                                {/*<Banner sub="lets get you all sorted!"/>*/}
-
+                            <section className="heading-home-page">
+                                <SubTitle>
+                                    <Banner title="Products"/>
+                                    <Banner sub="Lets get you all sorted!"/>
+                                </SubTitle>
                             </section>
 
 
@@ -37,12 +35,12 @@ function Products() {
                                 </div>
                             </div>
 
-                        {/*</SubTitle>*/}
-                    </>
+                    </div>
 
                 )
             }}
         </ProductConsumer>
+
     );
 }
 

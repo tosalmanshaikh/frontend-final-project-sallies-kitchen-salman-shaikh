@@ -43,8 +43,17 @@ function SearchBar() {
 
     return (
 
-        <SubTitle>
-            <Banner title="Looking for inspirations?"/>
+        <div className="searchbar-container">
+
+            <section className="heading-home-page">
+                <SubTitle>
+                    <Banner title="Food search"/>
+                    <Banner sub="Looking for inspirations?"/>
+                </SubTitle>
+            </section>
+
+            <SubTitle>
+            <Banner title="Search your favourite food item here!"/>
 
             <form onSubmit={onSubmit} className="search-form">
                 {alert !== "" && <Alert alert={alert} />}
@@ -67,7 +76,9 @@ function SearchBar() {
                 {recipes !== [] &&
                     recipes.map(recipe => <Recipe key={uuidv4()} recipe={recipe} />)}
             </div>
-        </SubTitle>
+            </SubTitle>
+
+        </div>
     );
 }
 

@@ -479,6 +479,10 @@ nav{
 
 /*//....................products.....................*/
 
+
+
+
+
 .heading-product-page{
     /*display: flex;*/
     /*flex-direction: row;*/
@@ -529,8 +533,12 @@ nav{
 }
 
 .product{
+
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px;
     box-shadow: 1px 1px 4px 1px var(--secondary-color);
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     /*margin-bottom: 40px;*/
     transition: all 0.3s ease-in-out;
 }
@@ -822,6 +830,25 @@ section  {
 }
 
 
+/*........................SearchBar......................*/
 
+.recipes{
+    display: inline-block;
+    column-count: 2;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.recipe {
+    display: inline-block;
+}
+
+.recipe-image{
+    width: 98%;
+    padding: 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
 
 
