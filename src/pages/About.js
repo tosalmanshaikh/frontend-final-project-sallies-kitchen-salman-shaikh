@@ -33,7 +33,7 @@ function About() {
 
 
                 <section>
-                    <p>-> <Link to="/products"> Go back the products?</Link> </p>
+                    <p><Link to="/products"> Go back the products?</Link> </p>
                 </section>
 
             </SubTitle>
@@ -43,26 +43,3 @@ function About() {
 }
 
 export default About;
-
-
-// import React from 'react';
-//
-// function About() {
-//     return (
-//         <div className="about">
-//             <div className="about-center">
-//
-//                 <div className="about-img">
-//                     <img src="" alt=""/>
-//                 </div>
-//
-//                 <div className="about-info">
-//                     <p>undefined</p>
-//                 </div>
-//
-//             </div>
-//         </div>
-//     );
-// }
-//
-// export default About;

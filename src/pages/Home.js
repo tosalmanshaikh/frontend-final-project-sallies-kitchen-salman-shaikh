@@ -7,6 +7,8 @@ import Testimony from "../components/Testimony/Testimony";
 import Parents from "../components/Parents/Parents";
 import Gallery from "../components/Gallery/Gallery";
 import logo from "../images/images/Logo/baking-2303545-1951860.png";
+import Product from "../components/Product/Product";
+import Products from "../components/Products/Products";
 
 
 function Home() {
@@ -21,10 +23,12 @@ function Home() {
             </section>
 
             <SubTitle>
-            <section>
-                <Banner title="Our Shop"/>
-                {/*<PopularCreations/>*/}
-            </section>
+            {/*<section>*/}
+            {/*    <Banner title="Our Shop"/>*/}
+            {/*</section>*/}
+
+
+
             </SubTitle>
 
             <SubTitle>
@@ -63,8 +67,8 @@ function Home() {
                 </section>
 
                 <section>
-                    <p>Click here to <Link to="/signin">Log in </Link> if you dont have an account yet? <Link
-                        to="/signup"> Register here </Link> if you dont have an account yet
+                    <p><Link to="/signin">Log in </Link> if you already have an account <Link
+                        to="/signup"> Register </Link> if you dont have an account yet
                     </p>
                 </section>
 
