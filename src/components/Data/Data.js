@@ -56,7 +56,7 @@ export const Data=[
         image: Spongecake,
         price: 80.00,
         type: "Sponge",
-        flavour: "Vanilla",
+        flavour: "Simple but super fluffy, exactly what you want sometime!",
         count:1,
         id:1,
         isInCart:false
@@ -67,7 +67,7 @@ export const Data=[
         image: ChocolateBerrySponge,
         price: 90.00,
         type: "Sponge",
-        flavour: "Chocolate",
+        flavour: "Chocolate and berry just works. Perfect if you are celebrating something",
         count:1,
         id:2,
         isInCart:false
@@ -77,7 +77,7 @@ export const Data=[
         image: MudCake,
         price: 45.00,
         type: "Sponge",
-        flavour: "Chocolate",
+        flavour: "Chocolate mud cake, this one is addictive, we promise its gone even before you know",
         count:1,
         id:3,
         isInCart:false
@@ -87,7 +87,7 @@ export const Data=[
         image: ChocolateSponge,
         price: 65.00,
         type: "Sponge",
-        flavour: "Chocolate",
+        flavour: "Chocolate added to our classic sponge, yummy!",
         count:1,
         id:4,
         isInCart:false
@@ -97,7 +97,7 @@ export const Data=[
         image: LemonSponge,
         price: 65.00,
         type: "Sponge",
-        flavour: "Lemon",
+        flavour: "Lemon makes this one crisp and fresh, perfect for a sunny afternoon!",
         count:1,
         id:5,
         isInCart:false
@@ -107,7 +107,7 @@ export const Data=[
         image: SpongeCakeStrawBerry,
         price: 75.00,
         type: "Sponge",
-        flavour: "Vanilla",
+        flavour: "When the strawberries are in season, we make this a lot!",
         count:1,
         id:6,
         isInCart:false
@@ -117,7 +117,7 @@ export const Data=[
         image: SpongeCake,
         price: 35.00,
         type: "Sponge",
-        flavour: "Vanilla",
+        flavour: "Vanilla that we import from Madagascar makes this an elegant beauty",
         count:1,
         id:7,
         isInCart:false
@@ -127,7 +127,7 @@ export const Data=[
         image: DanishButtercake,
         price: 55.00,
         type: "Butter Cake",
-        flavour: "Vanilla",
+        flavour: "We learned this from our danish friend and oh boy its going to melt in your mouth",
         count:1,
         id:8,
         isInCart:false
@@ -137,7 +137,7 @@ export const Data=[
         image: ButterCake,
         price: 30.00,
         type: "Butter Cake",
-        flavour: "Vanilla",
+        flavour: "A Simple version but the organic salted butter that we import from Il de rea is our secret to this one!",
         count:1,
         id:9,
         isInCart:false
@@ -147,7 +147,7 @@ export const Data=[
         image: ChocolateCupcakeStrawBerry,
         price: 4.00,
         type: "Cupcake",
-        flavour: "Chocolate",
+        flavour: "For a perfect afternoon bite with your tea",
         count:1,
         id:10,
         isInCart:false
@@ -157,7 +157,7 @@ export const Data=[
         image: ChocolateCupcake,
         price: 3.80,
         type: "Cupcake",
-        flavour: "Chocolate",
+        flavour: "You can never have enough of this one",
         count:1,
         id:11,
         isInCart:false
@@ -167,7 +167,7 @@ export const Data=[
         image: ChocolateChipCupcake,
         price: 3.00,
         type: "Cupcake",
-        flavour: "Vanilla",
+        flavour: "For an explosion in your mouth, we use belgian dark chocolate chips",
         count:1,
         id:12,
         isInCart:false
@@ -177,7 +177,7 @@ export const Data=[
         image: ChocolateShavingCupCake,
         price: 4.50,
         type: "Cupcake",
-        flavour: "Chocolate",
+        flavour: "if you havent tried yet, you are missing out!",
         count:1,
         id:13,
         isInCart:false
@@ -187,7 +187,7 @@ export const Data=[
         image: StrawBerryCupCake,
         price: 3.20,
         type: "Cupcake",
-        flavour: "Strawberry",
+        flavour: "We make them when the strawberries are in season, they are very popular!",
         count:1,
         id:14,
         isInCart:false
@@ -197,7 +197,7 @@ export const Data=[
         image: TripleChocolateCakeCup,
         price: 4.00,
         type: "Cupcake",
-        flavour: "Chocolate",
+        flavour: "So you are a sucker for chocolates then this one is for you!",
         count:1,
         id:15,
         isInCart:false
@@ -207,7 +207,7 @@ export const Data=[
         image: VanillaCupCakeChocolate,
         price: 4.30,
         type: "Cupcake",
-        flavour: "Vanilla",
+        flavour: "A hint of the madagascar vanilla goes really well with the belgium dark chocolate",
         count:1,
         id:16,
         isInCart:false
@@ -217,7 +217,7 @@ export const Data=[
         image: VanillaCupCake,
         price: 3.25,
         type: "Cupcake",
-        flavour: "Vanilla",
+        flavour: "Simple but some things in life are just perfectly fine that way",
         count:1,
         id:17,
         isInCart:false
@@ -227,7 +227,7 @@ export const Data=[
         image: ChocolateMacarons,
         price: 35.00,
         type: "Macarons",
-        flavour: "Vanilla",
+        flavour: "They fly out the door everytime we make them",
         count:1,
         id:18,
         isInCart:false
@@ -237,7 +237,7 @@ export const Data=[
         image: FrenchMacaronsMix,
         price: 40.00,
         type: "Macarons",
-        flavour: "Mix",
+        flavour: "cant choose? we have mixed in flavours for you!",
         count:1,
         id:19,
         isInCart:false
@@ -247,7 +247,7 @@ export const Data=[
         image: FrenchMacarons,
         price: 25.00,
         type: "Macarons",
-        flavour: "Mix",
+        flavour: "cant choose? we have mixed in flavours for you!",
         count:1,
         id:20,
         isInCart:false
@@ -257,7 +257,7 @@ export const Data=[
         image: LemonMacarons,
         price: 35.00,
         type: "Macarons",
-        flavour: "Lemon",
+        flavour: "Lemon makes this one very fresh and crisp",
         count:1,
         id:21,
         isInCart:false
@@ -267,7 +267,7 @@ export const Data=[
         image: StrawBerryMacarons,
         price: 35.00,
         type: "Macarons",
-        flavour: "Berry",
+        flavour: "Fresh seasonal strawberries make this one complete",
         count:1,
         id:22,
         isInCart:false
@@ -277,7 +277,7 @@ export const Data=[
         image: BlueBerryMacarons,
         price: 35.00,
         type: "Macarons",
-        flavour: "Berry",
+        flavour: "If you love blueberries",
         count:1,
         id:23,
         isInCart:false
@@ -287,7 +287,7 @@ export const Data=[
         image: BlueBerryDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Berry",
+        flavour: "Our special donuts with blueberry",
         count:1,
         id:24,
         isInCart:false
@@ -297,7 +297,7 @@ export const Data=[
         image: ChocolateTopDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Chocolate",
+        flavour: "If chocolate is your cup of tea",
         count:1,
         id:25,
         isInCart:false
@@ -307,7 +307,7 @@ export const Data=[
         image: DonutSpread,
         price: 18.00,
         type: "Donut",
-        flavour: "Mix",
+        flavour: "This one is very popular too!",
         count:1,
         id:26,
         isInCart:false
@@ -317,7 +317,7 @@ export const Data=[
         image: LemonDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Lemon",
+        flavour: "Lemon is makes this one very crisp and fresh",
         count:1,
         id:27,
         isInCart:false
@@ -327,7 +327,7 @@ export const Data=[
         image: StrawBerryDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Berry",
+        flavour: "We love this one!",
         count:1,
         id:28,
         isInCart:false
@@ -337,7 +337,7 @@ export const Data=[
         image: NutellaDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Chocolate",
+        flavour: "If you love nutella that this is it!",
         count:1,
         id:29,
         isInCart:false
@@ -347,7 +347,7 @@ export const Data=[
         image: FudgyBrownies,
         price: 20.00,
         type: "Brownies",
-        flavour: "Chocolate",
+        flavour: "This is very soft from inside, our brownies are to die for, but dont die just yet, try first!",
         count:1,
         id:30,
         isInCart:false
@@ -357,7 +357,7 @@ export const Data=[
         image: Brownies,
         price: 16.00,
         type: "Brownies",
-        flavour: "Chocolate",
+        flavour: "Our classic, this one never gets old",
         count:1,
         id:31,
         isInCart:false
@@ -367,7 +367,7 @@ export const Data=[
         image: ShortCakeSpread,
         price: 50.00,
         type: "Spread",
-        flavour: "Mix",
+        flavour: "Are you celebrating something than this is perfect!",
         count:1,
         id:32,
         isInCart:false
@@ -377,7 +377,7 @@ export const Data=[
         image: PartyCakeSpread,
         price: 90.00,
         type: "Spread",
-        flavour: "Mix",
+        flavour: "Are you celebrating something than this is perfect!",
         count:1,
         id:33,
         isInCart:false
@@ -387,7 +387,7 @@ export const Data=[
         image: PartyCakeTrio,
         price: 120.00,
         type: "Spread",
-        flavour: "Mix",
+        flavour: "We also make special cakes to order like this one!",
         count:1,
         id:34,
         isInCart:false
@@ -397,7 +397,7 @@ export const Data=[
         image: RainbowCake,
         price: 60.00,
         type: "Sponge",
-        flavour: "Rainbow",
+        flavour: "We also make special cakes to order like this one!",
         count:1,
         id:35,
         isInCart:false
@@ -407,7 +407,7 @@ export const Data=[
         image: TierCake,
         price: 60.00,
         type: "Sponge",
-        flavour: "Vanilla",
+        flavour: "We also make special cakes to order like this one!",
         count:1,
         id:36,
         isInCart:false

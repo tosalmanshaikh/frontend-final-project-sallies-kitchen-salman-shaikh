@@ -33,7 +33,7 @@ function About() {
 
 
                 <section>
-                    <p>Do you want to  <Link to="/products"> go back the products?</Link> </p>
+                    <p>-> <Link to="/products"> Go back the products?</Link> </p>
                 </section>
 
             </SubTitle>
