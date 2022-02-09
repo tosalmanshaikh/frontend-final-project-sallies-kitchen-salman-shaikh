@@ -3,6 +3,7 @@ import {ProductConsumer} from "../../context/Context";
 import Product from "../Product/Product";
 import Banner from "../Banner/Banner";
 import SubTitle from "../SubTitle/SubTitle";
+import classes from './Products.module.css'
 
 function Products() {
     return (
@@ -10,7 +11,7 @@ function Products() {
         <ProductConsumer>
 
             {function (value) {
-                const {data, closeNavCart} = value;
+                const {data, closeNavCart,addToCart} = value;
 
 
                 return (
@@ -30,7 +31,7 @@ function Products() {
 
                                 <div className="products-center">
                                     {data.map(data => {
-                                        return <Product key={data.id} data={data} closeNavCart={closeNavCart}/>
+                                        return <Product key={data.id} data={data} closeNavCart={closeNavCart} addToCart={()=>addToCart(data.id)}/>
                                     })}
                                 </div>
                             </div>

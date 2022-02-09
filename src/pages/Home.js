@@ -6,9 +6,7 @@ import IconDisplay from "../components/IconDisplay/IconDisplay"
 import Testimony from "../components/Testimony/Testimony";
 import Parents from "../components/Parents/Parents";
 import Gallery from "../components/Gallery/Gallery";
-import logo from "../images/images/Logo/baking-2303545-1951860.png";
-import Product from "../components/Product/Product";
-import Products from "../components/Products/Products";
+
 
 
 function Home() {
@@ -22,14 +20,6 @@ function Home() {
                 </SubTitle>
             </section>
 
-            <SubTitle>
-            {/*<section>*/}
-            {/*    <Banner title="Our Shop"/>*/}
-            {/*</section>*/}
-
-
-
-            </SubTitle>
 
             <SubTitle>
                 <section>
@@ -37,6 +27,7 @@ function Home() {
                     <Banner sub="In our bakery, we work with organic products. We try to keep our footprint as little as
                         possible. Its never a dull moment at ours as we constantly experimenting with flavours. In for a treat?"/>
                 </section>
+
 
                 <section>
                     <Banner title="Our Gallery"/>

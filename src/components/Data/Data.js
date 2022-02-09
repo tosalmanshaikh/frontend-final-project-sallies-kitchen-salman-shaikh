@@ -317,7 +317,7 @@ export const Data=[
         image: LemonDonut,
         price: 18.00,
         type: "Donut",
-        flavour: "Lemon is makes this one very crisp and fresh",
+        flavour: "Lemon makes this one very crisp and fresh",
         count:1,
         id:27,
         isInCart:false

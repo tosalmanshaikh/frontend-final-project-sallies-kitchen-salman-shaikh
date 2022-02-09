@@ -11,7 +11,7 @@ export default class Details extends Component {
         <ProductConsumer>
             {value=>{
 
-                const{data}=value;
+                const{data, addToCart}=value;
                 console.log(this.props.match.params.id);
 
                 //parseInt:(this.props.match.params.id) is a string and it order to see it as a number we should use parseInt
@@ -46,7 +46,7 @@ export default class Details extends Component {
                                     </section>
 
                                     <div className="but-options">
-                                        <button className="add-toCart">Add to the cart</button>
+                                        <button className="add-toCart" onClick={()=>addToCart(results.id)}>Add to the cart</button>
                                     </div>
 
                                 </div>

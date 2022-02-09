@@ -10,7 +10,7 @@ export default class Product extends Component {
 
         const {name, image, price, type, flavour, count, id, isInCart} = this.props.data;
 
-        const {closeNavCart} = this.props;
+        const {closeNavCart, addToCart} = this.props;
 
     return (
 
@@ -34,7 +34,7 @@ export default class Product extends Component {
                         </div>
 
                         <div className="cartBtn">
-                            <button className={isInCart ?'disabled':''}>
+                            <button onClick={addToCart} className={isInCart ?'disabled':''}>
                                 <i className="fas fa-shopping-cart"></i>
                                 {isInCart?"Already in the cart" : "Add to cart"}
                             </button>
