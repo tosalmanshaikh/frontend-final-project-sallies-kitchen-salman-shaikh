@@ -1,5 +1,5 @@
 import  React, { Component } from 'react';
-import {Data} from "../components/Data/Data"
+import {Data} from "./Data/Data"
 
 
 // provider: provides all the data and generally gives us access to data from context

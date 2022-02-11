@@ -31,7 +31,6 @@ function About() {
                     ingredients possible."/>
                 </section>
 
-
                 <section>
                     <p><Link to="/products"> Go back the products?</Link> </p>
                 </section>

@@ -21,7 +21,7 @@ function Products() {
                             <section className="heading-home-page">
                                 <SubTitle>
                                     <Banner title="Products"/>
-                                    <Banner sub="Lets get you all sorted!"/>
+                                    <Banner sub="welcome to our shop!"/>
                                 </SubTitle>
                             </section>
 

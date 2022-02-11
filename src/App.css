@@ -22,10 +22,10 @@ a{
     background-color: var(--primary-color);
 }
 
-.container{
-    /*margin: 0 auto;*/
-    /*background-color: var(--primary-color);*/
-}
+/*.container{*/
+/*    !*margin: 0 auto;*!*/
+/*    !*background-color: var(--primary-color);*!*/
+/*}*/
 
 /*nav{*/
 /*    background-color: var(--secondary-color);*/
@@ -644,7 +644,7 @@ nav{
     flex-direction: row ;
     justify-content: space-between;
     /*background-color: red;*/
-    letter-spacing: 0.41rem;
+    letter-spacing: 0.35rem;
 
 
 }

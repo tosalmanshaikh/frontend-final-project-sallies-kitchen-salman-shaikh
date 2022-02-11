@@ -136,7 +136,7 @@ function App() {
                 <Switch>
 
                     <Route path="/" exact component={Home} />
-                    <Route path='/shop' exact component={Shop}/>
+                    {/*<Route path='/shop' exact component={Shop}/>*/}
                     <Route path="/about" exact component={About}/>
                     <Route path='/blogs' exact component={Blogs} />
                     <Route path="/contact" exact component={Contact}/>
@@ -160,7 +160,6 @@ function App() {
                 </Switch>
             </Route>
             <Footer/>
-            {/*</StockProvider>*/}
 
         </div>
 

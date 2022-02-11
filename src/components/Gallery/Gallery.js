@@ -9,7 +9,6 @@ import ChocolateTopCake from '../../images/images/chocolate-top-cakes.jpg';
 import ShortCakes from '../../images/images/short-cakes.jpg';
 
 
-
 function Gallery() {
     return (
         <div className="Gallery HomePageGallery">

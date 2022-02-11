@@ -30,7 +30,6 @@ function Cart(props) {
 
                             :
 
-
                             <div className="cartItem" key={product.id}>
                                 <span className="inside-btn" onClick={handleCartNav}>X</span>
 
@@ -56,15 +55,10 @@ function Cart(props) {
                                                 <button onClick={()=>increaseItem(product.id)}>+</button>
                                             </div>
 
-                                            {/*<div className="price-cart">*/}
-                                            {/*    <h5>€{product.price*product.count}</h5>*/}
-                                            {/*</div>*/}
 
                                             <div className="del-item" onClick={()=>deleteItem(product.id)}>
                                                 <i className="fa fa-trash"></i>
                                             </div>
-
-
 
                                         </div>
                                     )

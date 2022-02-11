@@ -4,13 +4,11 @@ import SubTitle from "../SubTitle/SubTitle";
 import {Link} from "react-router-dom";
 
 
-
 function ContactForm() {
     const { register, formState: { errors }, handleSubmit, watch } = useForm({
         mode: 'onChange',
     });
 
-    const selectedFrequency = watch('delivery-frequency');
 
     function onFormSubmit(data) {
         console.log(data);
