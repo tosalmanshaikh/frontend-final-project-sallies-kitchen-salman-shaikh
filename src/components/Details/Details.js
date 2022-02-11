@@ -48,15 +48,16 @@ export default class Details extends Component {
                                     <div className="but-options">
                                         <button className="add-toCart" onClick={()=>addToCart(results.id)}>Add to the cart</button>
                                     </div>
+                                    <section>
+                                        <p><Link to="/products"> Go back the products?</Link> </p>
+                                    </section>
 
                                 </div>
 
                             </div>
                         </div>
 
-                        <section>
-                            <p><Link to="/products"> Go back the products?</Link> </p>
-                        </section>
+
 
                     </div>
                     </SubTitle>

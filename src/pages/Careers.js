@@ -2,7 +2,7 @@ import React from 'react';
 import SubTitle from "../components/SubTitle/SubTitle";
 import Banner from "../components/Banner/Banner";
 import ContactForm from "../components/ContactForm/ContactForm";
-import Button from "../components/Button/Button";
+
 
 function Careers () {
     return (
@@ -26,31 +26,8 @@ function Careers () {
                         <h2>Submit Application Form</h2>
                     </SubTitle>
 
-                    <ContactForm>
-                        <label htmlFor="name">Name</label>
-                        <input type="text" id="name" placeholder="Your Name" />
+                    <ContactForm/>
 
-                        <label htmlFor="email">Email</label>
-                        <input type="text" id="email" placeholder="Your Email" />
-
-                        <label htmlFor="position">Your Choosen Position</label>
-                        <input type="text" id="position" placeholder="Choosen Position" />
-
-                        <label htmlFor="resume">Upload Resume</label>
-                        <input type="file" id="resume" placeholder="Your resume" />
-
-                        <label htmlFor="cover">Upload Cover Letter</label>
-                        <input type="file" id="cover" placeholder="Your Cover Letter" />
-
-                        <label htmlFor="message">Message</label>
-                        <textarea name="message" id="" cols="30" rows="10"></textarea>
-
-                        <Button
-                            type="submit"
-                            title="Submit"
-                        />
-
-                    </ContactForm>
                 </div>
 
             </SubTitle>
