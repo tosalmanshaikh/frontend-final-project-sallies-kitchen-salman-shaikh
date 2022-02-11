@@ -1,8 +1,8 @@
 /*//--> you need to fix this still*/
 
-@media only screen and (max-width: 1442px) {
+@media only screen and (min-width: 600px) {
     .NavBar {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -11,7 +11,7 @@
     .NavBar {
         gap: .5rem;
         padding: 1rem;
-        width:80%;
+        width:100%;
         margin:auto;
     }
 
