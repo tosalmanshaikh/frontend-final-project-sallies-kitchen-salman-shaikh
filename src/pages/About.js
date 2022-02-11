@@ -3,6 +3,7 @@ import Banner from "../components/Banner/Banner";
 import SubTitle from "../components/SubTitle/SubTitle";
 import Salman from '../images/images/salman/IMG_0158.PNG';
 import {Link} from "react-router-dom";
+import logo from "../images/images/Logo/baking-2303545-1951860.png";
 
 
 function About() {
@@ -34,6 +35,7 @@ function About() {
                 <section>
                     <p><Link to="/products"> Go back the products?</Link> </p>
                 </section>
+
 
             </SubTitle>
         </div>

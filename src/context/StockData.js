@@ -1,56 +1,56 @@
 // === sponge cake imports ===
-import Spongecake from '../../images/images/victorian-sponge-cake-strawberry.jpg';
-import ChocolateBerrySponge from '../../images/images/chocolate-berry-sponge.jpg';
-import MudCake from '../../images/images/chocolate-mud.jpg';
-import ChocolateSponge from '../../images/images/chocolate-sponge-cake.jpg'
-import LemonSponge from '../../images/images/lemon-sponge.jpg';
-import SpongeCakeStrawBerry from '../../images/images/Sponge-Cake-strawberry.jpg'
-import SpongeCake from '../../images/images/sponge-cake.jpg'
+import Spongecake from '../images/images/victorian-sponge-cake-strawberry.jpg';
+import ChocolateBerrySponge from '../images/images/chocolate-berry-sponge.jpg';
+import MudCake from '../images/images/chocolate-mud.jpg';
+import ChocolateSponge from '../images/images/chocolate-sponge-cake.jpg'
+import LemonSponge from '../images/images/lemon-sponge.jpg';
+import SpongeCakeStrawBerry from '../images/images/Sponge-Cake-strawberry.jpg'
+import SpongeCake from '../images/images/sponge-cake.jpg'
 
 // === buttercake import ===
-import DanishButtercake from '../../images/images/Danish-butter-cake.jpg'
-import ButterCake from '../../images/images/vanilla-butter-cake.jpg'
+import DanishButtercake from '../images/images/Danish-butter-cake.jpg'
+import ButterCake from '../images/images/vanilla-butter-cake.jpg'
 
 // === Cupcake import ===
-import ChocolateCupcakeStrawBerry from '../../images/images/Chocolate-cupcake-strawberry-topping.jpg';
-import ChocolateCupcake from '../../images/images/chocolate-cupcake.jpg';
-import ChocolateChipCupcake from '../../images/images/chocolate-cupcakes.jpg';
-import ChocolateShavingCupCake from '../../images/images/chocolate-shaving-cupcake.jpg';
-import StrawBerryCupCake from '../../images/images/strawberry-cupcake.jpg';
-import TripleChocolateCakeCup from '../../images/images/triple-chocolate-cupcakes.jpg';
-import VanillaCupCakeChocolate from '../../images/images/vanilla-cupcakes-chocolate-frosting.jpg';
-import VanillaCupCake from '../../images/images/vanilla-cupcakes.jpg';
+import ChocolateCupcakeStrawBerry from '../images/images/Chocolate-cupcake-strawberry-topping.jpg';
+import ChocolateCupcake from '../images/images/chocolate-cupcake.jpg';
+import ChocolateChipCupcake from '../images/images/chocolate-cupcakes.jpg';
+import ChocolateShavingCupCake from '../images/images/chocolate-shaving-cupcake.jpg';
+import StrawBerryCupCake from '../images/images/strawberry-cupcake.jpg';
+import TripleChocolateCakeCup from '../images/images/triple-chocolate-cupcakes.jpg';
+import VanillaCupCakeChocolate from '../images/images/vanilla-cupcakes-chocolate-frosting.jpg';
+import VanillaCupCake from '../images/images/vanilla-cupcakes.jpg';
 
 // === Macarons import ===
-import ChocolateMacarons from '../../images/images/Chocolate-Macarons.jpg';
-import FrenchMacaronsMix from '../../images/images/french-macaron-mix.jpg';
-import FrenchMacarons from '../../images/images/french-macaron.jpg';
-import LemonMacarons from '../../images/images/Lemon-Macarons.jpg';
-import StrawBerryMacarons from '../../images/images/Macaron-strawberry.jpg';
-import BlueBerryMacarons from '../../images/images/Macarons-blueberry.jpg';
+import ChocolateMacarons from '../images/images/Chocolate-Macarons.jpg';
+import FrenchMacaronsMix from '../images/images/french-macaron-mix.jpg';
+import FrenchMacarons from '../images/images/french-macaron.jpg';
+import LemonMacarons from '../images/images/Lemon-Macarons.jpg';
+import StrawBerryMacarons from '../images/images/Macaron-strawberry.jpg';
+import BlueBerryMacarons from '../images/images/Macarons-blueberry.jpg';
 
 // === Donut import ===
-import BlueBerryDonut from '../../images/images/blueberry-donuts.jpg';
-import ChocolateTopDonut from '../../images/images/chocolate-top-donut.jpg';
-import DonutSpread from '../../images/images/donuts-display.jpg';
-import LemonDonut from '../../images/images/donuts-lemon.jpg';
-import StrawBerryDonut from '../../images/images/strawberry-cupcake.jpg';
-import NutellaDonut from '../../images/images/Nutella-Donut.jpg';
+import BlueBerryDonut from '../images/images/blueberry-donuts.jpg';
+import ChocolateTopDonut from '../images/images/chocolate-top-donut.jpg';
+import DonutSpread from '../images/images/donuts-display.jpg';
+import LemonDonut from '../images/images/donuts-lemon.jpg';
+import StrawBerryDonut from '../images/images/strawberry-cupcake.jpg';
+import NutellaDonut from '../images/images/Nutella-Donut.jpg';
 
 // === Brownies import ===
-import FudgyBrownies from '../../images/images/Fudge-Brownies-3.jpg'
-import Brownies from '../../images/images/fudgy-brownies.jpg';
+import FudgyBrownies from '../images/images/Fudge-Brownies-3.jpg'
+import Brownies from '../images/images/fudgy-brownies.jpg';
 
 // === Cake spreads imports ===
-import ShortCakeSpread from '../../images/images/short-cakes.jpg';
-import PartyCakeSpread from '../../images/images/cakespread.png';
-import PartyCakeTrio from '../../images/images/cakes-display.jpg';
+import ShortCakeSpread from '../images/images/short-cakes.jpg';
+import PartyCakeSpread from '../images/images/cakespread.png';
+import PartyCakeTrio from '../images/images/cakes-display.jpg';
 
 // === Special cake import ===
-import RainbowCake from '../../images/images/rainbow-cake.jpg';
-import TierCake from '../../images/images/4-tier-cake.jpg'
+import RainbowCake from '../images/images/rainbow-cake.jpg';
+import TierCake from '../images/images/4-tier-cake.jpg'
 
-export const Data=[
+export const StockData=[
     {
         name: "Sponge Cake",
         image: Spongecake,

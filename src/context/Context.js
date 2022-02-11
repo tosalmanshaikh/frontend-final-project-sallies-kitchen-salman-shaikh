@@ -1,5 +1,5 @@
 import  React, { Component } from 'react';
-import {Data} from "./Data/Data"
+import {StockData} from "./StockData"
 
 
 // provider: provides all the data and generally gives us access to data from context
@@ -15,7 +15,7 @@ class ProductProvider extends Component {
 
         navOpen:false,
         cartOpen: false,
-        data:Data,
+        data:StockData,
         cart:[],
         total:0,
         shipping:10

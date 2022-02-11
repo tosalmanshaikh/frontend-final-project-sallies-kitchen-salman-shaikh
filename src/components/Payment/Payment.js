@@ -103,7 +103,7 @@ function Payment() {
                 I agree to the terms and conditions
             </label>
 
-            <div className="payment"><Link to="/">Place your order </Link></div>
+            <div className="payment"><Link to="/checkout">Place your order </Link></div>
 
 
         </form>

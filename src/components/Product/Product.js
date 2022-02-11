@@ -40,11 +40,15 @@ export default class Product extends Component {
                                 </div>
 
                             </div>
+
+
                         )
                     }}
 
                 </ProductConsumer>
             </ImageDisplay>
+
+
         );
     }
 }

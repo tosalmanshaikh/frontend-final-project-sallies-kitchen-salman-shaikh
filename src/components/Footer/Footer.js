@@ -1,5 +1,4 @@
 import React from 'react';
-
 import FacebookIcon from '../../images/social media /facebook.svg';
 import TwitterIcon from '../../images/social media /twitter.svg';
 import InstagramIcon from '../../images/social media /instagram.svg';
@@ -16,7 +15,9 @@ function Footer() {
 
                 <div className={classes.Container}>
                     <div className={classes.Sect}>
+
                         <h3>Our Address</h3>
+
                         <p>
                             Prinsestraat 47,
                             2513 CA,
@@ -32,6 +33,7 @@ function Footer() {
                         <p>
                             Email: info@sallieskitchen.nl
                         </p>
+
                         <h3>Connect With Us</h3>
                         <div className={classes.Icon}>
                             <img src={FacebookIcon} alt="facebook icon"/>
