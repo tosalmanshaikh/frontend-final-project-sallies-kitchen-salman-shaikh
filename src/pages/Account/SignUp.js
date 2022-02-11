@@ -9,10 +9,10 @@ import Button from "../../components/Button/Button";
 
 function SignUp() {
 
-    const history = useHistory()
-    const [email, setEmail] = useState('')
-    const [username, setUsername] = useState('')
-    const [password, setPassword] = useState('')
+    const history = useHistory();
+    const [email, setEmail] = useState('');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
     const {register, handleSubmit, formState: {errors}} = useForm();
 
     async function onFormSubmit(data) {
