@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuid } from "uuid";
 import Recipe from "../../pages/SearchBar/Recipe";
 import Alert from "../../pages/SearchBar/Alert";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import Banner from "../../components/Banner/Banner";
-
 
 
 function SearchBar() {
@@ -16,6 +15,8 @@ function SearchBar() {
     const url = `https://api.edamam.com/search?q=${query}&app_id=${process.env.REACT_APP_APP_ID}&app_key=${process.env.REACT_APP_API_KEY}`;
 
     async function getData() {
+
+        //if the input field is empty, display the alert message
         if (query !== "") {
             const result = await axios.get(url);
             if (!result.data.more) {
@@ -23,7 +24,7 @@ function SearchBar() {
             }
             console.log(result);
             setRecipes(result.data.hits);
-            setQuery("");
+            setQuery("");           //the input form will be cleared once we submit the form: ""
             setAlert("");
         } else {
             setAlert("Please fill the form");
@@ -56,6 +57,7 @@ function SearchBar() {
             <Banner title="Search your favourite food item here!"/>
 
             <form onSubmit={onSubmit} className="search-form">
+
                 {alert !== "" && <Alert alert={alert} />}
                 <input
                     type="text"
@@ -73,9 +75,14 @@ function SearchBar() {
             </form>
 
             <div className="recipes">
+
+                {/*check if the recipe array is empty or not, if it is not empty it means we have to receive the data requested, if the first condition is true the second part will be executed!*/}
+                {/*uuid:this package will generate a unique id for each recipe in the list when we search for the food*/}
+
                 {recipes !== [] &&
-                    recipes.map(recipe => <Recipe key={uuidv4()} recipe={recipe} />)}
+                    recipes.map(recipe => <Recipe key={uuid()} recipe={recipe} />)}
             </div>
+
             </SubTitle>
 
         </div>

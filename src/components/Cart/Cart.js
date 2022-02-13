@@ -71,10 +71,10 @@ function Cart(props) {
                                 </div>
 
                                 <div className="shipping">
-                                    <h3><span>shipping:</span>{total>90?"free":`+${shipping}`}</h3>
+                                    <h3><span>shipping:</span>{total>30?"free":`+${shipping}`}</h3>
                                 </div>
 
-                                <h3><span>total amount:</span>${total>90 ?total: total+shipping}</h3>
+                                <h3><span>total amount:</span>€{total>30 ?total: total+shipping}</h3>
 
                                 <div className="payment" onClick={closeNavCart}><Link to="/payment">Payment</Link></div>
 

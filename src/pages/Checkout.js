@@ -11,14 +11,14 @@ function Checkout(){
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="Thank you for your purchase"/>
-                    <Banner sub="we are going to get this you as soon as we can!"/>
+                    <Banner sub="we are going to get this to you as soon as we can!"/>
                 </SubTitle>
             </section>
 
             <SubTitle>
             <section>
-                <p>Click <Link to="/"> home </Link> or go back to the <Link
-                    to="/products"> shop?    </Link>
+                <p><Link to="/"> home </Link> or  <Link
+                    to="/products"> shop   </Link>
                 </p>
             </section>
             </SubTitle>
