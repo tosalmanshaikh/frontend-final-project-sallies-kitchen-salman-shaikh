@@ -6,6 +6,7 @@ import SubTitle from "../../components/SubTitle/SubTitle";
 import Button from "../../components/Button/Button";
 import {useForm} from "react-hook-form";
 import TextField from "../../components/TextField/TextField";
+import Banner from "../../components/Banner/Banner";
 
 
 function SignIn() {
@@ -38,7 +39,7 @@ function SignIn() {
     return (
         <>
             <SubTitle>
-            <h1>Log In</h1>
+            <Banner title="Log in"> </Banner>
 
                 <form onSubmit={handleSubmit(onFormSubmit)}>
 

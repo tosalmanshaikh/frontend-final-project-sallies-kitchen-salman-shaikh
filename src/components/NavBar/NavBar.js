@@ -30,7 +30,7 @@ function NavBar() {
                                 <div className="logo-btn">
 
                                     <Link to="/" onClick={closeNavCart}><img alt="logo" src={logo}/><span
-                                        className="food"></span></Link>
+                                        className="food"> </span></Link>
 
                                     <div className="dra">
                                         <div className="drawers">
@@ -40,7 +40,7 @@ function NavBar() {
                                                 <nav className="navBar">
                                                     <li><Link to="/">Home</Link></li>
                                                     <li><Link to="/about">About</Link></li>
-                                                    <li><Link to="/products">Products</Link></li>
+                                                    <li><Link to="/products">Shop</Link></li>
                                                     <li><Link to="/contact">Contact</Link></li>
                                                     <li><Link to="/faq">FAQ</Link></li>
                                                     <li><Link to="/gallery">Gallery</Link></li>

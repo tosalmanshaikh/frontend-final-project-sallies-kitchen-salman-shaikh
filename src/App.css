@@ -524,6 +524,8 @@ nav{
     column-count: 4;
     margin: 15px 15px 15px 15px;
     padding: 15px 15px 15px 15px;
+    justify-content: center;
+    justify-items: center;
 
 }
 
@@ -632,7 +634,7 @@ nav{
 
 .cartBtn{
     width: 95%;
-    padding-bottom: 5px;
+    /*padding-bottom: 3px;*/
 }
 
 

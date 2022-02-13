@@ -6,9 +6,6 @@ import IconDisplay from "../components/IconDisplay/IconDisplay"
 import Testimony from "../components/Testimony/Testimony";
 import Parents from "../components/Parents/Parents";
 import Gallery from "../components/Gallery/Gallery";
-import logo from "../images/images/Logo/baking-2303545-1951860.png";
-// import {logo} from "../images/images/Logo/baking-2303545-1951860.png"
-
 
 function Home() {
     return (

@@ -3,7 +3,7 @@ import {ProductConsumer} from "../../context/Context";
 import Product from "../Product/Product";
 import Banner from "../Banner/Banner";
 import SubTitle from "../SubTitle/SubTitle";
-import classes from './Products.module.css'
+
 
 function Products() {
     return (
@@ -20,7 +20,7 @@ function Products() {
 
                             <section className="heading-home-page">
                                 <SubTitle>
-                                    <Banner title="Products"/>
+                                    <Banner title="Shop"/>
                                     <Banner sub="welcome to our shop!"/>
                                 </SubTitle>
                             </section>
@@ -28,6 +28,7 @@ function Products() {
 
 
                             <div className="products">
+
 
                                 <div className="products-center">
                                     {data.map(data => {
@@ -41,6 +42,7 @@ function Products() {
                 )
             }}
         </ProductConsumer>
+
 
     );
 }

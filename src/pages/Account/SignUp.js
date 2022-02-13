@@ -5,6 +5,7 @@ import SubTitle from "../../components/SubTitle/SubTitle";
 import {useForm} from "react-hook-form";
 import TextField from "../../components/TextField/TextField";
 import Button from "../../components/Button/Button";
+import Banner from "../../components/Banner/Banner";
 
 
 function SignUp() {
@@ -36,7 +37,7 @@ function SignUp() {
 
         return (
             <SubTitle>
-                <h1>Register</h1>
+                <Banner title="Register"> </Banner>
 
                 <div className="page-container">
                     <form onSubmit={handleSubmit(onFormSubmit)}>

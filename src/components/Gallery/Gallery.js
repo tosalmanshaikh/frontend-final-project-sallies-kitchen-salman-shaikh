@@ -1,43 +1,43 @@
 import React from 'react'
-import StackDonuts from '../../images/images/stacked-donuts.jpg';
-import ChocolateShavingCupcake from '../../images/images/chocolate-shaving-cupcake.jpg';
-import ChocolateCupcake from '../../images/images/chocolate-cupcakes.jpg';
-import PancakeTower from '../../images/images/pancake-tower.jpg';
-import BlueBerry from '../../images/images/blueberry-.jpg';
-import Macroos from '../../images/images/macroos.jpg';
-import ChocolateTopCake from '../../images/images/chocolate-top-cakes.jpg';
-import ShortCakes from '../../images/images/short-cakes.jpg';
+
+import Muffins from '../../images/photos /BlueberryMuffin.JPG';
+import SpecialCroissants from '../../images/photos /SpecialCroissantsHero.JPG'
+import BananaBread from '../../images/photos /BananaBread.JPG';
+import Coffee from '../../images/photos /coffee1.jpg';
+import SourDough from '../../images/photos /SourdoughNatural.JPG'
+import PecanCoffeeCake from '../../images/photos /PecanCoffeeCake.JPG'
+import BrownieWalnuts from '../../images/photos /BrownieWalnuts.JPG'
+import SourDoughHero from '../../images/photos /SourdoughNaturalHero.JPG'
 
 
-function Gallery() {
+
+export default function Gallery() {
     return (
         <div className="Gallery HomePageGallery">
             <figure className="Gallery__Item--1">
-                <img src={StackDonuts} alt="Multi Tier cake" className="Gallery__img"/>
+                <img src={Muffins} alt="Multi Tier cake" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--2">
-                <img src={ChocolateShavingCupcake} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={BananaBread} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--3">
-                <img src={ChocolateCupcake} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={SourDoughHero} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--4">
-                <img src={PancakeTower} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={BrownieWalnuts} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--5">
-                <img src={BlueBerry} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={Coffee} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--6">
-                <img src={Macroos} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={PecanCoffeeCake} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--7">
-                <img src={ChocolateTopCake} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={SpecialCroissants} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
             <figure className="Gallery__Item--8">
-                <img src={ShortCakes} alt="Stacked Donuts" className="Gallery__img"/>
+                <img src={SourDough} alt="Stacked Donuts" className="Gallery__img" />
             </figure>
         </div>
     )
 }
-
-export default Gallery;
