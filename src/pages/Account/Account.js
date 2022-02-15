@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { useHistory } from 'react-router-dom';
 import { AuthContext} from "../../context/AuthContextProvider";
-import SubTitle from "../../components/SubTitle/SubTitle";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Banner from "../../components/Banner/Banner";
 
 function Account() {

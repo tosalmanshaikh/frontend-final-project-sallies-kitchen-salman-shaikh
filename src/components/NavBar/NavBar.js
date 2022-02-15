@@ -2,15 +2,15 @@
 
 import React from 'react';
 import {Link} from 'react-router-dom';
-import cartIcon from "../../images/homepage icons /carticon.png";
-import searchBarIcon from "../../images/homepage icons /search engine icon.png";
-import accountIcon from "../../images/homepage icons /account icon.png";
-import languageIcon from "../../images/homepage icons /languages icon.png";
+import cartIcon from "../../images/HomepageIcons/carticon.png";
+import searchBarIcon from "../../images/HomepageIcons/search engine icon.png";
+import accountIcon from "../../images/HomepageIcons/account icon.png";
+import languageIcon from "../../images/HomepageIcons/languages icon.png";
 import classes from './NavBar.module.css'
 
 import {ProductConsumer} from "../../context/Context";
-import logo from "../../images/images/Logo/baking-2303545-1951860.png";
-import Cart from "../Cart/Cart";
+import logo from "../../images/HomepageLogo/Logo.png";
+import Cart from "../ShoppingCart/Cart/Cart";
 
 
 function NavBar() {

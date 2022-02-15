@@ -2,7 +2,7 @@ import React, {useContext, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from "../../context/AuthContextProvider";
 import axios from "axios";
-import SubTitle from "../../components/SubTitle/SubTitle";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Button from "../../components/Button/Button";
 import {useForm} from "react-hook-form";
 import TextField from "../../components/TextField/TextField";

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import SubTitle from "../SubTitle/SubTitle";
+import SubTitle from "../StyledComponents/SubTitle/SubTitle";
 import {Link} from "react-router-dom";
 
 

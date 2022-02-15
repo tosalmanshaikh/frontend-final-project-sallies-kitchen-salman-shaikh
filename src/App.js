@@ -3,17 +3,17 @@
 
 import './App.css';
 import {Route, Switch} from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Blogs from "./pages/Blogs";
-import Faq from "./pages/Faq";
-import GalleryNav from "./pages/GalleryNav";
-import Careers from "./pages/Careers";
+import Home from "./pages/Pages/Home";
+import About from "./pages/Pages/About";
+import Contact from "./pages/Pages/Contact";
+import Blogs from "./pages/Pages/Blogs";
+import Faq from "./pages/Pages/Faq";
+import GalleryNav from "./pages/Pages/GalleryNav";
+import Careers from "./pages/Pages/Careers";
 import SearchBar from "./pages/SearchBar/SearchBar";
-import ShoppingCart from "./pages/ShoppingCart";
-import Checkout from "./pages/Checkout";
-import Language from "./pages/Language";
+import ShoppingCart from "./pages/Pages/ShoppingCart";
+import Checkout from "./pages/Pages/Checkout";
+import Language from "./pages/Pages/Language";
 
 import {useContext} from "react";
 import {AuthContext} from "./context/AuthContextProvider";
@@ -23,11 +23,11 @@ import SignUp from './pages/Account/SignUp';
 import Profile from "./pages/Account/Profile";
 import {Redirect} from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/HomePage/Footer/Footer";
 
-import Products from "./components/Products/Products";
-import Details from "./components/Details/Details";
-import Payment from "./components/Payment/Payment";
+import Products from "./components/ShoppingCart/Products/Products";
+import Details from "./components/ShoppingCart/Details/Details";
+import Payment from "./components/ShoppingCart/Payment/Payment";
 
 
 function App() {

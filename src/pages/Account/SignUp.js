@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from "axios";
 import {useHistory, Link} from "react-router-dom";
-import SubTitle from "../../components/SubTitle/SubTitle";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import {useForm} from "react-hook-form";
 import TextField from "../../components/TextField/TextField";
 import Button from "../../components/Button/Button";
