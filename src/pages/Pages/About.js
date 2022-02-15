@@ -1,7 +1,7 @@
 import React from 'react';
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Others/Banner/Banner";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Salman from '../../images/AboutSalman/Salman2.PNG';
+import Salman from '../../images/AboutSalman/Salman.PNG';
 import {Link} from "react-router-dom";
 
 
@@ -32,7 +32,7 @@ function About() {
                 </section>
 
                 <section>
-                    <p><Link to="/products"> Go back the products?</Link> </p>
+                    <p><Link to="/products"> Start Shopping?</Link> </p>
                 </section>
 
 

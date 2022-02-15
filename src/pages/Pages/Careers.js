@@ -1,7 +1,7 @@
 import React from 'react';
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Banner from "../../components/Banner/Banner";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import Banner from "../../components/Others/Banner/Banner";
+import ContactForm from "../../components/Others/ContactForm/ContactForm";
 
 
 function Careers () {

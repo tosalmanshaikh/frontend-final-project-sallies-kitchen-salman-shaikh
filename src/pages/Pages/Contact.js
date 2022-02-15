@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Others/Banner/Banner";
 import {useForm} from "react-hook-form";
-import TextField from "../../components/TextField/TextField";
-import Button from "../../components/Button/Button";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import TextField from "../../components/Others/TextField/TextField";
+import Button from "../../components/Others/Button/Button";
+import ContactForm from "../../components/Others/ContactForm/ContactForm";
 
 function Contact() {
 

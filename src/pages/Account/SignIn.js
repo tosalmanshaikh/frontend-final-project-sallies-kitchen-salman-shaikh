@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from "../../context/AuthContextProvider";
 import axios from "axios";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Button from "../../components/Button/Button";
+import Button from "../../components/Others/Button/Button";
 import {useForm} from "react-hook-form";
-import TextField from "../../components/TextField/TextField";
-import Banner from "../../components/Banner/Banner";
+import TextField from "../../components/Others/TextField/TextField";
+import Banner from "../../components/Others/Banner/Banner";
 
 
 function SignIn() {

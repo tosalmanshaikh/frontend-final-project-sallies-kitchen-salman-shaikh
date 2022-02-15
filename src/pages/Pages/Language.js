@@ -1,6 +1,6 @@
 import React from 'react';
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Others/Banner/Banner";
 
 function Language () {
     return (

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import RecipeDetails from "./RecipeDetails";
-import Banner from "../../components/Banner/Banner";
-import Button from "../../components/Button/Button";
+import Banner from "../../components/Others/Banner/Banner";
+import Button from "../../components/Others/Button/Button";
 
 function Recipe({recipe}) {
 

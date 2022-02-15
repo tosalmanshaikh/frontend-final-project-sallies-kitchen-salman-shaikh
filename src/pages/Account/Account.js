@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import { useHistory } from 'react-router-dom';
 import { AuthContext} from "../../context/AuthContextProvider";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Banner from "../../components/Banner/Banner";
+import Banner from "../../components/Others/Banner/Banner";
 
 function Account() {
 

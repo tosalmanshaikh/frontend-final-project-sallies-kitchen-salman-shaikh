@@ -12,7 +12,7 @@ import GalleryNav from "./pages/Pages/GalleryNav";
 import Careers from "./pages/Pages/Careers";
 import SearchBar from "./pages/SearchBar/SearchBar";
 import ShoppingCart from "./pages/Pages/ShoppingCart";
-import Checkout from "./pages/Pages/Checkout";
+import Checkout from "./components/Shop/Checkout/Checkout";
 import Language from "./pages/Pages/Language";
 
 import {useContext} from "react";
@@ -25,9 +25,9 @@ import {Redirect} from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/HomePage/Footer/Footer";
 
-import Products from "./components/ShoppingCart/Products/Products";
-import Details from "./components/ShoppingCart/Details/Details";
-import Payment from "./components/ShoppingCart/Payment/Payment";
+import Products from "./components/Shop/Products/Products";
+import Details from "./components/Shop/Details/Details";
+import Payment from "./components/Shop/Payment/Payment";
 
 
 function App() {

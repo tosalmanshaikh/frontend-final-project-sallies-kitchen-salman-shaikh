@@ -2,9 +2,9 @@
 import React, {useState} from 'react'
 import classes from './Testimony.module.css'
 
-import Coffee1 from '../../../images/ProductPhotos/coffee1.jpg';
-import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissantsHero.JPG'
-import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCakeRedFruits.jpeg';
+import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
+import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
+import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.jpeg';
 
 
 function Testimony() {
