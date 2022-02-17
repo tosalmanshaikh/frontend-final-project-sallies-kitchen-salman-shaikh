@@ -19,6 +19,7 @@ function Cart(props) {
                 return (
                     <ul className={cartOpen? "newCartNav cartNav cartItem":"cartNav cartItem"}>
 
+                        {/*//if the cart is empty then show this, else the rest!*/}
                         {cart.length===0 ?
 
                             <div>
@@ -79,7 +80,6 @@ function Cart(props) {
                                 <div className="payment" onClick={closeNavCart}><Link to="/payment">Payment</Link></div>
 
                             </div>
-
 
                         }
 

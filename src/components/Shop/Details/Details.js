@@ -7,11 +7,14 @@ import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 export default class Details extends Component {
 
     render(props) {
+
+
         return (
             <ProductConsumer>
+
                 {value => {
 
-                    const {data, addToCart} = value;
+                    const {data, addToCart, isInCart} = value;
                     console.log(this.props.match.params.id);
 
                     //parseInt:(this.props.match.params.id) is a string and it order to see it as a number we should use parseInt
@@ -46,10 +49,11 @@ export default class Details extends Component {
                                             </section>
 
                                             <div className="but-options">
-                                                <button className="add-toCart" onClick={() => addToCart(results.id)}>Add
+                                                <button className="add-toCart" onClick={() => addToCart(results.id)}>  <i className="fas fa-shopping-cart"></i> Add
                                                     to the cart
                                                 </button>
                                             </div>
+
                                             <section>
                                                 <p><Link to="/products"> Go back the products?</Link></p>
                                             </section>

@@ -11,7 +11,6 @@ import classes from './NavBar.module.css'
 import {ProductConsumer} from "../../context/Context";
 import logo from "../../images/HomepageLogo/Logo.png";
 import Cart from "../Shop/Cart/Cart";
-import Button from "../Others/Button/Button";
 
 
 function NavBar() {
@@ -22,7 +21,7 @@ function NavBar() {
             <ProductConsumer>
                 {(value) => {
 
-                    const {cart, handleNav, handleCartNav, navOpen, closeNavCart} = value
+                    const {cart, handleNav, handleCartNav, navOpen, closeNavCart, addToCart, data} = value;
 
                     return (
 
@@ -73,12 +72,11 @@ function NavBar() {
                                                       <span className="logo-container">
                                                       <span className="carta" onClick={handleCartNav}><img
                                                           src={cartIcon} onClick={handleNav} alt="logo"
-                                                          className="logo"/>{cart.length}</span>
+                                                          className="logo"/>{cart.length} </span>
                                                       </span>
                                                      </Link>
 
                                                 {/*<button className="btn-light">light mode</button>*/}
-
 
                                             </ul>
 

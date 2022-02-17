@@ -16,6 +16,7 @@ export default class Product extends Component {
 
             <ImageDisplay>
                 <ProductConsumer>
+
                     {value => {
 
                         return (
@@ -41,13 +42,11 @@ export default class Product extends Component {
 
                             </div>
 
-
                         )
                     }}
 
                 </ProductConsumer>
             </ImageDisplay>
-
 
         );
     }
