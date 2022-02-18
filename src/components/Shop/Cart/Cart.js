@@ -3,7 +3,7 @@ import {ProductConsumer} from "../../../context/Context";    // ProductConsumer 
 import product from "../Product/Product";
 import {Link} from "react-router-dom";
 import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
-
+import './Cart.css';
 
 
 function Cart(props) {
