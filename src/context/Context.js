@@ -1,10 +1,8 @@
 import  React, { Component } from 'react';
 import {StockData} from "./StockData"
 
-
-// provider: provides all the data and generally gives us access to data from context
-
-// consumer which as word say consumes the data from context
+// ProductProvider: provides all the data and generally gives us access to data from context
+// ProductConsumer which as word say consumes the data from context
 
 
 const ProductContext = React.createContext();
@@ -12,21 +10,17 @@ const ProductContext = React.createContext();
 class ProductProvider extends Component {
 
     state={
-
         navOpen:false,
         cartOpen: false,
         data:StockData,
         cart:[],
         total:0,
         shipping:10
-
     }
-
 
     // for open close
     handleNav=()=>{
         console.log("handleNav");
-
 
         if(this.state.cartOpen===true){
 
@@ -42,6 +36,7 @@ class ProductProvider extends Component {
 
     //for open close cart
     handleCartNav=()=>{
+
         if(this.state.navOpen===true){
             this.setState({
               navOpen:false
@@ -64,13 +59,12 @@ class ProductProvider extends Component {
         }
     }
 
-
     // add to cart functionality
     addToCart=(id)=>{
 
         console.log(`item ${id} added to the cart`);
 
-        const {data,cart }=this.state;
+        const {data}=this.state;
 
         let check=this.state.cart.find(item=>item.id===id);
 
@@ -97,7 +91,6 @@ class ProductProvider extends Component {
             // alert('This item is already in the cart');
         }
     }
-
 
     // delete single items
     deleteItem=(id)=>{
@@ -134,7 +127,6 @@ class ProductProvider extends Component {
             this.totalItems();
         })
     }
-
 
     //decrease items
     decreaseItem=(id)=>{

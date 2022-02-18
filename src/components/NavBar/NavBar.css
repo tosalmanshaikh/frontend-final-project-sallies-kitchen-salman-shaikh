@@ -1,0 +1,101 @@
+
+
+
+/*.................navigation-bar........................*/
+
+.food {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding-top: 3px;
+}
+
+nav {
+    background-color: #f3f1d0;
+    color: #ffffff;
+    display: flex;
+    padding: 0 65px;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.30rem;
+}
+
+
+nav a,
+nav a:visited,
+nav a:active {
+    color: #804d01;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1px;
+    padding-top: 5px;
+}
+
+.logo-container img {
+    width: 30px;
+    /*margin-right: 10px;*/
+    border-radius: 100px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+
+/*//--> you need to fix this still as it is not working*/
+
+@media only screen and (min-width: 600px) {
+    .navBar {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .navBar {
+        gap: .5rem;
+        padding: 1rem;
+        width:100%;
+        margin:auto;
+    }
+
+}
+
+
+
+/*.........second navigation bar with purple background.....*/
+
+.heading-home-page {
+    display: flex;
+    background-color: var(--primary-color);
+    margin: 5px;
+    border-radius: 2px;
+    flex-direction: row;
+    justify-content: center;
+    color: #f8e9e9;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+
+/*..log-in-out-buttons once you click on the accounts in navigation bar.*/
+
+.log-in-out-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

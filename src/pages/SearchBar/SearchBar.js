@@ -3,6 +3,7 @@ import axios from "axios";
 import { v4 as uuid } from "uuid";
 import Recipe from "../../pages/SearchBar/Recipe";
 import Alert from "../../pages/SearchBar/Alert";
+
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Banner from "../../components/Others/Banner/Banner";
 

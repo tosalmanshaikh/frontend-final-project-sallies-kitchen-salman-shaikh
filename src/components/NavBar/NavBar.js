@@ -6,22 +6,23 @@ import cartIcon from "../../images/HomepageIcons/Cart.png";
 import searchBarIcon from "../../images/HomepageIcons/Search.png";
 import accountIcon from "../../images/HomepageIcons/Account.png";
 import languageIcon from "../../images/HomepageIcons/Languages.png";
-import classes from './NavBar.module.css'
+import './NavBar.css';
 
 import {ProductConsumer} from "../../context/Context";
 import logo from "../../images/HomepageLogo/Logo.png";
 import Cart from "../Shop/Cart/Cart";
 
 
+
 function NavBar() {
     return (
 
-        <nav className={classes.NavBar}>
+        <nav className="NavBar">
 
             <ProductConsumer>
                 {(value) => {
 
-                    const {cart, handleNav, handleCartNav, navOpen, closeNavCart, addToCart, data} = value;
+                    const {cart, handleNav, handleCartNav, navOpen, closeNavCart} = value;
 
                     return (
 
@@ -29,8 +30,17 @@ function NavBar() {
                             <nav className="sticky">
                                 <div className="logo-btn">
 
-                                    <Link to="/" onClick={closeNavCart}><img className="food" alt="logo" src={logo}/><span
-                                        > </span></Link>
+                                    <Link to="/" onClick={closeNavCart}><img className="food" alt="logo" src={logo}/></Link>
+
+
+                                    <div className="cart hide" onClick={handleCartNav} > <i className="fas fa-shopping-cart"></i>
+                                        <span>{cart.length}</span>
+                                    </div>
+
+                                    <div className="btn" onClick={handleNav}>
+                                        <i className="fas fa-bars"></i>
+                                    </div>
+
 
                                     <div className="dra">
                                         <div className="drawers">
@@ -97,3 +107,65 @@ function NavBar() {
 }
 
 export default NavBar;
+
+
+//
+// import React from 'react';
+// import {Link} from 'react-router-dom';
+// import {ProductConsumer} from '../../context/Context';
+//
+// import logo from "../../images/HomepageLogo/Logo.png";
+// import Cart from "../Shop/Cart/Cart";
+//
+//
+// export default function Navbar() {
+//     return (
+//         <ProductConsumer>
+//             {value=>{
+//                 const{handleNav,navOpen,cartOpen, handleCartNav,closeNavCart,cart}=value;
+//
+//                 return(
+//                     <div className="container sticky">
+//
+//                         <nav className="sticky">
+//                             <div className="logo-btn">
+//
+//                                 <Link to="/" onClick={closeNavCart}><img src={logo} alt=""/> <span className="shoes"> shoes </span> addict</Link>
+//
+//                                 <div className="cart hide" onClick={handleCartNav} > <i className="fas fa-shopping-cart"></i>
+//                                     <span>{cart.length}</span>
+//                                 </div>
+//
+//                                 <div className="btn" onClick={handleNav}>
+//                                     <i className="fas fa-bars"></i>
+//                                 </div>
+//                             </div>
+//
+//                             <div className="dra">
+//                                 <div className="drawers">
+//                                     <ul  className={navOpen?"newLinks links":" links"} onClick={closeNavCart} >
+//                                         <li><Link to="/">home</Link></li>
+//                                         <li><Link to="/about">about</Link></li>
+//                                         <li><Link to="/products">products</Link></li>
+//                                         {/* <li><Link to="/" onClick={handleCartNav} >Cart <i className="fas fa-shopping-cart cart"><span >0</span></i></Link></li> */}
+//                                     </ul>
+//
+//
+//                                     <Cart value={value} />
+//
+//
+//
+//
+//
+//                                 </div>
+//                                 <span className="carta"  onClick={handleCartNav}>Cart <i className="fas fa-shopping-cart cart"><span >{cart.length}</span></i></span>
+//
+//                             </div>
+//
+//                         </nav>
+//                     </div>
+//                 )
+//             }}
+//         </ProductConsumer>
+//     )
+// }

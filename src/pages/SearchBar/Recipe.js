@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import RecipeDetails from "./RecipeDetails";
 import Banner from "../../components/Others/Banner/Banner";
 import Button from "../../components/Others/Button/Button";
+import './Recipe.css';
+
 
 function Recipe({recipe}) {
 
@@ -10,10 +12,11 @@ function Recipe({recipe}) {
 
     return (
 
+
         <div className="recipe">
 
             <Banner title={label}/>
-            <img className="recipe-image" src={image} alt={label}/>
+            <img className="recipeImage" src={image} alt={label}/>
 
             <section>
             <Button
@@ -32,6 +35,7 @@ function Recipe({recipe}) {
             </section>
 
         </div>
+
 
     )
 }

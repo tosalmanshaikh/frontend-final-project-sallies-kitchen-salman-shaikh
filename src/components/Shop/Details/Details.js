@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {ProductConsumer} from "../../../context/Context";
 import {Link} from "react-router-dom";
 import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
+import './Details.css';
 
 
 export default class Details extends Component {

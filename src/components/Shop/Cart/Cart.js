@@ -1,8 +1,9 @@
 import React from 'react';
-import {ProductConsumer} from "../../../context/Context";
+import {ProductConsumer} from "../../../context/Context";    // ProductConsumer which as word say consumes the data from context
 import product from "../Product/Product";
 import {Link} from "react-router-dom";
 import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
+
 
 
 function Cart(props) {
@@ -56,11 +57,9 @@ function Cart(props) {
                                                 <button onClick={()=>increaseItem(product.id)}>+</button>
                                             </div>
 
-
                                             <div className="del-item" onClick={()=>deleteItem(product.id)}>
                                                 <i className="fa fa-trash"></i>
                                             </div>
-
                                         </div>
                                     )
                                 })}

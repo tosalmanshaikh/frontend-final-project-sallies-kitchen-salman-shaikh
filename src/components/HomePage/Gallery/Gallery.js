@@ -7,6 +7,7 @@ import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
 import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
 import Coffee2 from '../../../images/ProductPhotos/Coffee/coffee2.jpg';
 import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.jpeg';
+import './Gallery.css';
 
 
 function Gallery() {
@@ -41,3 +42,8 @@ function Gallery() {
 }
 
 export default Gallery;
+
+
+
+
+
