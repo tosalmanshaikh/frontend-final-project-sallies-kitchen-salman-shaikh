@@ -10,6 +10,7 @@
 }
 
 
+
 .navBar{
     display: flex;
     flex-direction: row;
@@ -76,7 +77,7 @@ nav a:active {
 
 
 
-/*.........second navigation bar with purple background.....*/
+/*.......second navigation bar with purple background.....*/
 
 .heading-home-page {
     display: flex;
@@ -91,7 +92,7 @@ nav a:active {
 }
 
 
-/*..log-in-out-buttons once you click on the accounts in navigation bar.*/
+/*............log-in-out-buttons............*/
 
 .log-in-out-buttons {
     display: flex;
@@ -99,3 +100,40 @@ nav a:active {
     justify-content: center;
 }
 
+
+
+/*.............logo..........*/
+
+nav .logo-btn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+
+nav .logo-btn img{
+    width: 50px;
+    padding-right: 5px;
+}
+
+nav .logo-btn a{
+    font-size: 20px;
+    /*color: white;*/
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*nav.log-btn .food{*/
+/*    color: var(--primary-color);*/
+/*    padding-right: 5px;*/
+
+/*}*/
+
+/*nav .logo-btn .btn{*/
+/*    color: red;*/
+/*    cursor: pointer;*/
+/*}*/

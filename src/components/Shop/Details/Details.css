@@ -1,4 +1,4 @@
-/*...........................details......................*/
+/*........................... Product Details......................*/
 
 .det-center{
     box-shadow: 1px 1px 4px 1px var(--secondary-color);
@@ -90,3 +90,34 @@
         flex: 0 0 calc(49% - 10px)
     }
 }
+
+
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user h5 {
+    margin-right: 8px;
+}
+
+
+
+
+
+section  {
+    margin: 0 0 50px 0;
+}
+
+
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

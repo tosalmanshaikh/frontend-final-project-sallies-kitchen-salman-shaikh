@@ -36,38 +36,7 @@ a{
 }
 
 
-nav .logo-btn{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 10px;
-    align-items: center;
-    border-bottom: 1px solid;
-}
 
-
-nav .logo-btn img{
-    width: 50px;
-    padding-right: 5px;
-}
-
-
-nav .logo-btn a{
-    font-size: 20px;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-
-nav.log-btn .food{
-    color: var(--primary-color);
-    padding-right: 5px;
-
-}
-
-nav .logo-btn .btn{
-    color: red;
-    cursor: pointer;
-}
 
 .links{
     background: var(--tertiary-color);
@@ -251,7 +220,6 @@ nav{
 
 /*cart*/
 .img-cart {
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -419,3 +387,8 @@ nav{
     justify-content: flex-end;
     border-radius: 100px;
 }
+
+
+
+
+
