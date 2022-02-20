@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import classes from './IconDisplay.module.css'
+import './IconDisplay.css';
 
 //import icons
 import Croissants from '../../../images/ServiceIcons/Croissant2.png';
@@ -16,7 +16,7 @@ function IconDisplay() {
 
         {
             icon: Baked,
-            title: "Hand made"
+            title: "Homemade"
         },
 
         {
@@ -36,31 +36,36 @@ function IconDisplay() {
 
         {
             icon: Store,
-            title: "Visit our store"
+            title: "Visit us"
         },
 
         {
             icon: Delivery,
-            title: "Delivery service"
+            title: "Delivery"
         },
 
         {
             icon: Organic,
-            title: "Organic products"
+            title: "Organic"
         },
 
     ])
 
     return (
-        <div className={classes.Grid}>
 
-            <div className={classes.IconContainer}>
+        <div className="Grid">
+
+            <div className="IconContainer">
                 {services.map((item, index) => {
                     return (
-                        <article key={index} className={classes.IconCard}>
-                            <img className={classes.Icon} src={item.icon} alt=""/>
-                            <h3>{item.title}</h3>
+
+                        <article key={index} className="IconCard">
+                            <img className="IconDisplay" src={item.icon} alt=""/>
+                            <h3 className="TitleIcon">{item.title}</h3>
                         </article>
+
+
+
                     )
                 })}
             </div>
@@ -69,3 +74,4 @@ function IconDisplay() {
 }
 
 export default IconDisplay;
+

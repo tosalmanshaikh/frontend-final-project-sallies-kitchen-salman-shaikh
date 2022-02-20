@@ -57,10 +57,10 @@ function Home() {
                 </section>
 
                 <section>
-                    <p>Do you have an account with is?</p>
+                    <p>Do you already have an account with us or would you like to make one?</p>
                 </section>
 
-                 <Link classname="link-homepage" to="/signin">Log in</Link>
+                 <Link classname="link-homepage" to="/signin">Log in </Link> |
                  <Link classname="link-homepage" to="/signup"> Register </Link>
 
 

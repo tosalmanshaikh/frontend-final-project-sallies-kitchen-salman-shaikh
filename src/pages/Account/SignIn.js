@@ -39,7 +39,14 @@ function SignIn() {
     return (
         <>
             <SubTitle>
-            <Banner title="Log in"> </Banner>
+                <div className="searchbar-container">
+                <section>
+                    <SubTitle>
+                        <Banner title="Log in here"/>
+                        <Banner sub="If you already have an account"/>
+                    </SubTitle>
+                </section>
+                </div>
 
                 <form onSubmit={handleSubmit(onFormSubmit)}>
 
@@ -88,7 +95,10 @@ function SignIn() {
 
                 </form>
 
-            <p>You don't have an account yet? <Link to="/signup">Register</Link> </p>
+
+
+            <p>Don't have an account yet? <Link to="/signup">Register</Link> </p>
+
 
             </SubTitle>
         </>

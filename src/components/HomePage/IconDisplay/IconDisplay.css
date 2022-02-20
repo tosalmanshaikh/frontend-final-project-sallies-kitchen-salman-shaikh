@@ -1,7 +1,12 @@
+
+.Grid {
+    padding-left: 150px;
+    display: flex;
+
+}
+
 .IconContainer {
     width: 70%;
-    margin: 0 auto;
-    padding: 2rem 5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -11,14 +16,24 @@
 }
 
 .IconCard {
-    width: 15rem;
+    width: 12rem;
     margin-top: 1rem;
     align-self: center;
     justify-self: center;
 }
 
-.Icon {
-    width: 6rem;
+.IconDisplay {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 5rem;
+}
+
+.TitleIcon {
+    display: flex;
+    justify-items: center;
+
 }
 
 @media only screen and (max-width: 1442px) {

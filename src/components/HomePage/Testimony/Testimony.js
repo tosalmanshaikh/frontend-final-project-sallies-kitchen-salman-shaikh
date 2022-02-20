@@ -1,6 +1,7 @@
+
 // testimony home page
 import React, {useState} from 'react'
-import classes from './Testimony.module.css'
+import './Testimony.css';
 
 import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
 import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
@@ -31,15 +32,15 @@ function Testimony() {
     ])
 
     return (
-        <div className={classes.TestimonyContainer}>
+        <div className="TestimonyContainer">
 
             {Testimony.map((item,index) => {
                 return (
-                    <article className={classes.Card} key={index}>
+                    <article className="Card" key={index}>
 
                         <section>
-                            <figure className={classes.ImageContainer}>
-                              <img className={classes.CardImage} src={item.image} alt=""/>
+                            <figure className="ImageContainer">
+                                <img className="CardImage" src={item.image} alt=""/>
                             </figure>
                         </section>
 

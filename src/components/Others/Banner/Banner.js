@@ -1,12 +1,12 @@
 import React from 'react';
-import classes from "./Banner.module.css";
+import './Banner.css';
 
 function Banner({title, sub, children}) {
     return (
         <>
-            <div className={classes.Banner}>
-                <h2 className={classes.Title}>{title}</h2>
-                <p className={classes.Sub}>{sub}</p>
+            <div className="Banner">
+                <h2 className="Title">{title}</h2>
+                <p className="Sub">{sub}</p>
                 {children}
             </div>
         </>

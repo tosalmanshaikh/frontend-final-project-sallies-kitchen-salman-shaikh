@@ -1,15 +1,16 @@
-footer {
-    margin-top: 5rem;
+.Container{
+    display: inline-block;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
+
 .Sect {
-    padding: 1rem;
     width: 120%;
     text-align: center;
     letter-spacing: .2rem;
-    text-transform: capitalize;
-    font-size: 1rem;
-    margin: .5rem;
+    margin: 2.9rem;
 }
 
 .Sect p {
@@ -21,10 +22,10 @@ Footer img {
     margin: 0 .3rem 0 .3rem;
 }
 
-
 .Icon {
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .Bottom {
@@ -33,6 +34,7 @@ Footer img {
     margin: 0 auto;
     text-align: center;
     background-color: #f3f1d0;
+    height: 2rem;
 }
 
 .Bottom {
@@ -52,6 +54,7 @@ p {
     text-transform: none;
     text-align: center;
     font-size: 1rem;
+    /*background-color: red;*/
 }
 
 
@@ -60,7 +63,7 @@ p {
     .Container {
         gap: .1rem;
         padding: 0.1rem;
-        width:30%;
+        width:50%;
         margin:auto;
     }
 

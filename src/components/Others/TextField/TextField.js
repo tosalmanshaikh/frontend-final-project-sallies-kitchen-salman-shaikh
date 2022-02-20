@@ -1,5 +1,5 @@
 import React from 'react';
-import './TextField.module.css';
+import './TextField.css';
 
 
 function TextField({id, title, type, errors, register, name, validationRules, value, onChange, placeholder}) {

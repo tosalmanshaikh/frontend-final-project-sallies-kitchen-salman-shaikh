@@ -1,6 +1,7 @@
 // partners and clients: home page
 import React,{useState} from 'react'
-import classes from './Partners.module.css';
+import './Partners.css';
+
 
 import novi from '../../../images/PartnersLogo/Novi.png'
 import uts from '../../../images/PartnersLogo/UTS.png'
@@ -16,10 +17,10 @@ function Partners() {
     ])
 
     return (
-        <div className={classes.Container}>
+        <div className="Container">
             {parents.map((item, index) => {
                 return (
-                    <img className={classes.img} key={index} src={item} alt={`${item}`} />
+                    <img className="img" key={index} src={item} alt={`${item}`} />
                 )
             })}
         </div>
