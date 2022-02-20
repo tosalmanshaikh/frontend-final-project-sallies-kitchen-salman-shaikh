@@ -1,0 +1,91 @@
+/*...............buttons.......................*/
+
+button:hover{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 97%;
+    padding: 10px;
+    margin: 12px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+button:hover{
+    color: rgb(83,83,83);
+    border: 1px solid;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+a,
+a:visited,
+a:active {
+    color: var(--quaternary-color);
+}
+
+a:hover {
+    /*color: var(--secondary-color);*/
+    color: var(--secondary-color);
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/*!*-->..............links...........................*!*/
+
+.links{
+    font-weight: bold;
+}
+
+
+.links li a{
+    padding: 10px;
+}
+
+.links li a:hover{
+    padding: 10px 20px;
+    color: var(--tertiary-color);
+}
+
+
+.links{
+    display: flex;
+    background: transparent;
+    transform: translate(0);
+    position: relative;
+    top: auto;
+    bottom: 0;
+}
+
+.links li a{
+    border-bottom: none;
+    margin-left: 12px;
+}
+
+.links li a:hover{
+    padding: 10px;
+}
+
+.links li a:after{
+    border-bottom: none;
+}
+
+
+.links li a:hover:after{
+    border-bottom: none;
+}
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.module.css';
+import './Button.css';
 
 function Button({className = "button-item", type = "button", disabled, name, onClick, title}) {
     return (

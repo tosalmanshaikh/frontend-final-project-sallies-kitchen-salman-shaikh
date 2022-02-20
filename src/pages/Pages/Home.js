@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useHistory} from 'react-router-dom';
 import Banner from "../../components/Others/Banner/Banner";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import IconDisplay from "../../components/HomePage/IconDisplay/IconDisplay"
@@ -57,10 +57,11 @@ function Home() {
                 </section>
 
                 <section>
-                    <p><Link to="/signin">Log in </Link> if you already have an account <Link
-                        to="/signup"> Register </Link> if you dont have an account yet
-                    </p>
+                    <p>Do you have an account with is?</p>
                 </section>
+
+                 <Link classname="link-homepage" to="/signin">Log in</Link>
+                 <Link classname="link-homepage" to="/signup"> Register </Link>
 
 
             </SubTitle>
