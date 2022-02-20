@@ -12,26 +12,7 @@
 
 /*!*-->..............new shopping cart...........................*!*/
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
-li{
-    list-style:none;
-}
-
-a{
-    text-decoration: none;
-}
-
-.inside-container{
-    max-width: 1100px;
-    margin:10px 10px 10px 10px;
-    padding:20px 20px 20px 20px;
-    background-color: var(--primary-color);
-}
 
 
 .links{
@@ -45,14 +26,7 @@ a{
     font-weight: bold;
 }
 
-.newLinks{
-    background-color: var(--tertiary-color);
-    transform: translateX(0);
-    top:54px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
 
 .links li a{
     color: var(--tertiary-color);
@@ -88,12 +62,7 @@ a{
 }
 
 
-.cart{
-    color: black;
-    align-self: center;
-    cursor: pointer;
-    position: relative;
-}
+
 
 .cart span {
     position: absolute;
@@ -142,10 +111,6 @@ a{
 }
 
 
-.logo-btn .btn{
-    display: none;
-}
-
 
 
 .links{
@@ -175,9 +140,6 @@ a{
     border-bottom: none;
 }
 
-.hide{
-    display: none;
-}
 
 .cartNav{
     background-color: #fc8400;
@@ -186,39 +148,34 @@ a{
     right: -100%;
     width: 100%;
     transition: all 0.5s ease-in-out;
-}
-
-.newCartNav{
-    right: 0;
-    width: 390px;
-}
-
-
-.dra{
-    display: flex;
-    align-items: center;
-}
-
-.carta{
-    display: flex;
-    margin-left: 10px;
-    cursor: pointer;
-    color: var(--quaternary-color);
+    border-radius: 10px;
 }
 
 
 
-.img-cart {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+/*.cart-center{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 
 
-.cart-center{
-    display: flex;
-    flex-direction: column;
+/*// cart and buttons that dont work yet together - the navigation bar is not responsive as planned :(*/
+
+/*.cart{*/
+/*    color: black;*/
+/*    align-self: center;*/
+/*    cursor: pointer;*/
+/*    position: relative;*/
+/*}*/
+
+.logo-btn .btn{
+    display: none;
+
 }
+.hide{
+    display: none;
+}
+
 
 
 
@@ -233,7 +190,6 @@ a{
     justify-content: flex-end;
     border-radius: 100px;
 }
-
 
 
 

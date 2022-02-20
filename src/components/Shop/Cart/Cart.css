@@ -143,3 +143,47 @@
     font-size: 25px;
 }
 
+.img-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carta{
+    display: flex;
+    margin-left: 10px;
+    cursor: pointer;
+    color: var(--quaternary-color);
+}
+
+.dra{
+    display: flex;
+    align-items: center;
+}
+
+
+.newCartNav{
+    /*top: 69px;*/
+    right: 1px;
+    width: 385px;
+}
+
+
+/*//general*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
