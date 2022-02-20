@@ -88,11 +88,9 @@ function ContactForm() {
 
                 <div className="payment"><Link to="/">Submit </Link></div>
 
-
             </form>
         </SubTitle>
     );
 }
 
 export default ContactForm;
-

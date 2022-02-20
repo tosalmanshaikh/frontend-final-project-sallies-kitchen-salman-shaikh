@@ -13,7 +13,7 @@ function Footer() {
         <>
             <footer>
 
-                <div className="Container">
+                <div className="ContainerFooter">
                     <div className="Sect">
 
                         <h3>Our Address</h3>
@@ -33,7 +33,6 @@ function Footer() {
                         <p>
                             Email: info@sallieskitchen.nl
                         </p>
-
 
                         <div className="Icon">
 

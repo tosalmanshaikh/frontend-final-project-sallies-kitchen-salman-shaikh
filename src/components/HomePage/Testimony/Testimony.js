@@ -1,4 +1,3 @@
-
 // testimony home page
 import React, {useState} from 'react'
 import './Testimony.css';
@@ -6,7 +5,6 @@ import './Testimony.css';
 import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
 import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
 import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.jpeg';
-
 
 function Testimony() {
 

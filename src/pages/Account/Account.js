@@ -16,10 +16,9 @@ function Account() {
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="Account"/>
-                    <Banner sub="do you already have an account with us?"/>
+                    <Banner sub="Log in | Register"/>
                 </SubTitle>
             </section>
-            <p> Click here to log in, log out or register!</p>
 
 
             {/*//if authenticated that just show the logout button*/}

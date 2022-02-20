@@ -1,16 +1,13 @@
-.Container{
+.ContainerPartners{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-
-
 .img{
-    width: 13rem;
+    width: 15rem;
     margin: 2.5rem;
-
 }
 
 @media only screen and (max-width: 1442px) {
@@ -19,7 +16,6 @@
         padding: 1rem 3rem;
     }
 }
-
 
 @media only screen and (max-width: 782px) {
     .Container {

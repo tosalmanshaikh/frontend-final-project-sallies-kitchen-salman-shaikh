@@ -24,16 +24,13 @@
     clip-path: circle(40px at center);
 }
 
-/*//--> I am still not happy with the results :( help! */
 @media only screen and (max-width: 1442px) {
     .TestimonyContainer {
-
         gap: .1rem;
-        padding: 0.1rem;
-        width:10%;
+        padding: 2rem;
+        width:20%;
         margin:auto;
     }
-
 }
 
 @media only screen and (max-width: 782px) {

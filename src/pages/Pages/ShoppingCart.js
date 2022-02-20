@@ -21,10 +21,7 @@ function ShoppingCart () {
             </section>
         </SubTitle>
         </>
-
     );
 }
 
 export default ShoppingCart;
-
-

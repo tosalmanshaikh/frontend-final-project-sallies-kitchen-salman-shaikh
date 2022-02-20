@@ -4,14 +4,12 @@ import Banner from "../../components/Others/Banner/Banner";
 import Button from "../../components/Others/Button/Button";
 import './Recipe.css';
 
-
 function Recipe({recipe}) {
 
     const [show, setShow] = useState(false);
     const {label, image, url, ingredients} = recipe.recipe;
 
     return (
-
 
         <div className="recipe">
 
@@ -36,9 +34,7 @@ function Recipe({recipe}) {
 
         </div>
 
-
     )
 }
-
 
 export default Recipe;

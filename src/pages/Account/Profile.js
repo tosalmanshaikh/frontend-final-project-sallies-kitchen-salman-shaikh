@@ -7,7 +7,7 @@ import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 function Profile() {
 
-    const  {logout, isAuth} = useContext(AuthContext);
+    const  {logout} = useContext(AuthContext);
 
     const [profileData, setProfileData] = useState({});
     const {user} = useContext(AuthContext)

@@ -50,7 +50,6 @@ a:hover {
     font-weight: bold;
 }
 
-
 .links li a{
     padding: 10px;
 }
@@ -59,7 +58,6 @@ a:hover {
     padding: 10px 20px;
     color: var(--tertiary-color);
 }
-
 
 .links{
     display: flex;
@@ -82,7 +80,6 @@ a:hover {
 .links li a:after{
     border-bottom: none;
 }
-
 
 .links li a:hover:after{
     border-bottom: none;

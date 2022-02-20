@@ -63,9 +63,6 @@ function IconDisplay() {
                             <img className="IconDisplay" src={item.icon} alt=""/>
                             <h3 className="TitleIcon">{item.title}</h3>
                         </article>
-
-
-
                     )
                 })}
             </div>
@@ -74,4 +71,3 @@ function IconDisplay() {
 }
 
 export default IconDisplay;
-

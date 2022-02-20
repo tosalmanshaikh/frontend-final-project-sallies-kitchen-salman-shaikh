@@ -17,8 +17,8 @@ function Checkout(){
 
             <SubTitle>
             <section>
-                <p><Link to="/"> home </Link> or  <Link
-                    to="/products"> shop   </Link>
+                <p><Link to="/"> Home </Link> |  <Link
+                    to="/products"> Shop   </Link>
                 </p>
             </section>
             </SubTitle>

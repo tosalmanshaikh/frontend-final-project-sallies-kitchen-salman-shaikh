@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, useHistory} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Banner from "../../components/Others/Banner/Banner";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import IconDisplay from "../../components/HomePage/IconDisplay/IconDisplay"
@@ -10,14 +10,12 @@ import Gallery from "../../components/HomePage/Gallery/Gallery";
 function Home() {
     return (
         <>
-
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="Sallie's Kitchen"/>
                     <Banner sub="welcome to my home!"/>
                 </SubTitle>
             </section>
-
 
             <SubTitle>
                 <section>
@@ -26,13 +24,11 @@ function Home() {
                         possible. Its never a dull moment at ours as we constantly experimenting with flavours. In for a treat?"/>
                 </section>
 
-
                 <section>
                     <Banner title="Our Gallery"/>
                     <Banner sub="our beautiful creations"/>
                     <Gallery/>
                 </section>
-
 
                 <section>
                     <Banner title="who we are"/>
@@ -57,15 +53,13 @@ function Home() {
                 </section>
 
                 <section>
-                    <p>Do you already have an account with us or would you like to make one?</p>
-                </section>
+                    <Banner title="Accounts"/>
+                    <Banner sub="Click below on the links!"/>
 
+                </section>
                  <Link classname="link-homepage" to="/signin">Log in </Link> |
                  <Link classname="link-homepage" to="/signup"> Register </Link>
-
-
             </SubTitle>
-
         </>
     );
 }

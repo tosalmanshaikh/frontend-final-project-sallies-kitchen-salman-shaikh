@@ -16,24 +16,18 @@ function Careers () {
             </section>
 
             <SubTitle>
-
                 <Banner title="Current open positions"/>
                 <Banner sub="Bakery manager: Are you just crazy about baking as we are and you know the drill, then we are looking for you - Full time"/>
 
-
-                <div className="Container">
+                <div className="ContainerCareers">
                     <SubTitle>
                         <h2>Submit Application Form</h2>
                     </SubTitle>
 
                     <ContactForm/>
-
                 </div>
-
             </SubTitle>
         </div>
-
-
     );
 }
 

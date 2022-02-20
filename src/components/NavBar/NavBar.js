@@ -13,7 +13,6 @@ import logo from "../../images/HomepageLogo/Logo.png";
 import Cart from "../Shop/Cart/Cart";
 
 
-
 function NavBar() {
     return (
 
@@ -30,9 +29,7 @@ function NavBar() {
                             <nav className="sticky">
                                 <div className="logo-btn">
 
-
                                     <Link to="/" onClick={closeNavCart}><img className="food" alt="logo" src={logo}/></Link>
-
 
                                     <div className="cart hide" onClick={handleCartNav} > <i className="fas fa-shopping-cart"></i>
                                         <span>{cart.length}</span>
@@ -57,9 +54,7 @@ function NavBar() {
                                                     <li><Link to="/gallery">Gallery</Link></li>
                                                     <li><Link to="/careers">Careers</Link></li>
                                                     <li><Link to="/blogs">Blogs</Link></li>
-
                                                 </nav>
-
 
                                                     <Link to="/language">
                                                     <span className="logo-container">

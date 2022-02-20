@@ -95,10 +95,7 @@ function SignIn() {
 
                 </form>
 
-
-
             <p>Don't have an account yet? <Link to="/signup">Register</Link> </p>
-
 
             </SubTitle>
         </>

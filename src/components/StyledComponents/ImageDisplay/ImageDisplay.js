@@ -7,6 +7,5 @@ const ImageDisplay = Styled.div`
     background-position: center;
     background-size: cover;
     background-image: url(${props => props.img || 'red'});
- 
 `
 export default ImageDisplay;

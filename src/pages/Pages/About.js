@@ -32,9 +32,8 @@ function About() {
                 </section>
 
                 <section>
-                    <p><Link to="/products"> Start Shopping?</Link> </p>
+                    <p><Link to="/products"> Start shopping</Link> </p>
                 </section>
-
 
             </SubTitle>
         </div>

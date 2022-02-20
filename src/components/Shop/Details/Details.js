@@ -9,13 +9,12 @@ export default class Details extends Component {
 
     render(props) {
 
-
         return (
             <ProductConsumer>
 
                 {value => {
 
-                    const {data, addToCart, isInCart} = value;
+                    const {data, addToCart} = value;
                     console.log(this.props.match.params.id);
 
                     //parseInt:(this.props.match.params.id) is a string and it order to see it as a number we should use parseInt

@@ -19,7 +19,6 @@ const SubTitle = Styled.div`
         text-align: center;
         font-size: 1.5rem;
     }
-
 `
 
 export default SubTitle;

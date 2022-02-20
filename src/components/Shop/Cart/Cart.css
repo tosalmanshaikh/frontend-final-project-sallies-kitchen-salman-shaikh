@@ -1,10 +1,9 @@
-/*.............new cart........................... */
+/*..........................new cart........................... */
 
 .cartItem{
 
     background-color: var(--primary-color);
     z-index: 10;
-
 }
 
 .inside-btn {
@@ -169,7 +168,7 @@
 }
 
 
-/*//general*/
+/*/............General......................*/
 
 *{
     margin:0;
@@ -184,6 +183,3 @@ li{
 a{
     text-decoration: none;
 }
-
-
-

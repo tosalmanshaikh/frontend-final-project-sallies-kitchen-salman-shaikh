@@ -17,7 +17,6 @@ import CheeseCake from '../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.j
 import ChaiCake from '../images/ProductPhotos/ChaiCake/ChaiCake.JPG';
 
 
-
 export const StockData=[
 
     {
@@ -84,5 +83,3 @@ export const StockData=[
     },
 
 ]
-
-
