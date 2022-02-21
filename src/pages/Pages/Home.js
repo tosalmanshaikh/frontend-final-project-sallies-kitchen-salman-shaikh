@@ -6,6 +6,7 @@ import Testimony from "../../components/HomePage/Testimony/Testimony";
 import Parents from "../../components/HomePage/PartnersAndClients/Partners";
 import Gallery from "../../components/HomePage/Gallery/Gallery";
 
+
 function Home() {
     return (
         <>

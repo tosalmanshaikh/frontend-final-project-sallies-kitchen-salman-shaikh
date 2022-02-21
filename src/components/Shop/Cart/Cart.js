@@ -51,6 +51,8 @@ function Cart(props) {
                                                 <h4>€{product.price}</h4>
                                             </div>
 
+                                            {/*//how can I make sure that when we click this + or - it gets updated in the existing cart?*/}
+
                                             <div className="inc-dec-cart">
                                                 <button onClick={()=>decreaseItem(product.id)}>-</button>
                                                 {product.count}

@@ -55,7 +55,7 @@ export default class Details extends Component {
                                             </div>
 
                                             <section>
-                                                <p><Link to="/products"> Go back the products?</Link></p>
+                                                <p><Link to="/products"> Go back to the products?</Link></p>
                                             </section>
 
                                         </div>
