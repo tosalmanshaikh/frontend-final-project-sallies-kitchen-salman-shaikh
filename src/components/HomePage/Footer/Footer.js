@@ -4,6 +4,8 @@ import TwitterIcon from '../../../images/SocialMedia/twitter.svg';
 import InstagramIcon from '../../../images/SocialMedia/instagram.svg';
 import PinterestIcon from '../../../images/SocialMedia/pinterest.svg';
 import './Footer.css';
+import Banner from "../../Others/Banner/Banner";
+import {Link} from "react-router-dom";
 
 function Footer() {
 
@@ -16,23 +18,28 @@ function Footer() {
                 <div className="ContainerFooter">
                     <div className="Sect">
 
-                        <h3>Our Address</h3>
+                        <Banner title="Accounts"/>
+                        <Link classname="link-homepage" to="/signin">Log in </Link> |
+                        <Link classname="link-homepage" to="/signup"> Register </Link>
+                        </div>
 
-                        <p>
-                            Prinsestraat 47,
+                    <div className="Sect">
+                        <Banner title="Address"/>
+                        <Banner sub=
+                            "Prinsestraat 47,
                             2513 CA,
-                            Den Haag
-                        </p>
+                            Den Haag"
+                        />
                     </div>
 
                     <div className="Sect">
-                        <h3>Contact Detail</h3>
-                        <p>
-                            Phone: 0687654321
-                        </p>
-                        <p>
-                            Email: info@sallieskitchen.nl
-                        </p>
+                        <Banner title="Contact Detail"/>
+                        <Banner sub=
+                            "Phone: 0687654321"
+                        />
+                        <Banner sub=
+                            "Email: info@sallieskitchen.nl"
+                        />
 
                         <div className="Icon">
 

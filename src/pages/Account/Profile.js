@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {AuthContext} from "../../context/AuthContextProvider";
 import axios from "axios";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
+import Banner from "../../components/Others/Banner/Banner";
 
 
 function Profile() {
@@ -44,19 +45,20 @@ function Profile() {
     return (
         <>
             <SubTitle>
-            <h1>Profielpagina</h1>
+
             <section>
-                <h2>Gegevens</h2>
-                <p><strong>Gebruikersnaam:</strong>{user.username}</p>
+                <Banner title="Private and Confidential Credentials"/>
+                <p><strong>Username:</strong>{user.username}</p>
                 <p><strong>Email:</strong>{user.email}</p>
-                <p>{user.id}</p>
+                <p>Personal Id:{user.id}</p>
             </section>
+
             <section>
-                <h2>Strikt geheime profiel-content</h2>
                 <h3>{profileData.title}</h3>
                 <p>{profileData.content}</p>
             </section>
-            <p>Terug naar de <Link to="/">Homepagina</Link></p>
+
+            <section><p><Link to="/">Home </Link>|<Link to="/products"> Shop</Link> </p></section>
 
             <button
                 className="form-button"

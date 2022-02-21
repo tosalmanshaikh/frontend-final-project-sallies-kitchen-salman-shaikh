@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import Banner from "../../components/Others/Banner/Banner";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import IconDisplay from "../../components/HomePage/IconDisplay/IconDisplay"
@@ -51,14 +50,6 @@ function Home() {
                     <Banner title="Partners & Clients"/>
                     <Parents/>
                 </section>
-
-                <section>
-                    <Banner title="Accounts"/>
-                    <Banner sub="Click below on the links!"/>
-
-                </section>
-                 <Link classname="link-homepage" to="/signin">Log in </Link> |
-                 <Link classname="link-homepage" to="/signup"> Register </Link>
             </SubTitle>
         </>
     );
