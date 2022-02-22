@@ -80,12 +80,29 @@
 
 @media screen and (min-width: 976px) {
 
-    .product {
+    .products {
+        display: flex;
+        flex-direction: column;
         flex: 0 0 calc(25% - 20px);
         margin-bottom: 20px;
-
     }
 }
+
+@media only screen and (max-width: 1442px) {
+    .products{
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+    @media only screen and (max-width: 782px) {
+        .products{
+            width: 60%;
+            left: 12%;
+            margin: 0 auto;
+            display: grid;
+        }
+    }
 
 
 .cartBtn{

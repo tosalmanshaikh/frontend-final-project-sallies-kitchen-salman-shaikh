@@ -15,7 +15,7 @@ function Cart(props) {
         <ProductConsumer>
             {value => {
 
-                const {cart,total, deleteItem,increaseItem,decreaseItem}=value
+                const {cart,total, deleteItem,increaseItem,decreaseItem}=value;
 
                 return (
                     <ul className={cartOpen? "newCartNav cartNav cartItem":"cartNav cartItem"}>

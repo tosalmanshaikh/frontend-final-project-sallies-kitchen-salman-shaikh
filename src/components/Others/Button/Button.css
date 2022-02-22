@@ -32,10 +32,10 @@ a,
 a:visited,
 a:active {
     color: var(--quaternary-color);
+    font-weight: bold;
 }
 
 a:hover {
-    /*color: var(--secondary-color);*/
     color: var(--secondary-color);
     transition: 0.3s ease-in-out;
     border-radius: 10px;

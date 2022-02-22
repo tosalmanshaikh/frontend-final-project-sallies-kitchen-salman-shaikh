@@ -34,7 +34,8 @@ Footer img {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #f3f1d0;
+    /*background-color: #f3f1d0;*/
+    background-color: var(--tertiary-color);
     height: 2rem;
 }
 
@@ -46,6 +47,7 @@ Footer img {
 @media only screen and (max-width: 1442px) {
     .ContainerFooter {
         width: 77%;
+
     }
 }
 
@@ -59,9 +61,12 @@ p {
 
 @media only screen and (max-width: 1020px) {
     .Container {
+
         gap: .1rem;
         padding: 0.1rem;
         width:50%;
         margin:auto;
     }
 }
+
+
