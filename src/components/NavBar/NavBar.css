@@ -51,16 +51,20 @@ nav a:active {
 @media only screen and (min-width: 600px) {
     .navBar {
         width: 100%;
-        /*display: grid;*/
+
     }
 }
 
 @media only screen and (max-width: 1020px) {
     .navBar {
+
+        display: flex;
+        flex-direction: column;
         gap: .5rem;
         padding: 1rem;
         width: 100%;
         margin: auto;
+
     }
 }
 
@@ -151,5 +155,4 @@ nav .logo-btn a {
 /*    justify-content: flex-end;*/
 /*    border-radius: 100px;*/
 /*}*/
-
 

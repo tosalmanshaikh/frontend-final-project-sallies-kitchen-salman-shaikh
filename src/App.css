@@ -7,3 +7,52 @@
     --tertiary-color: rgb(245, 194, 84);
     --quaternary-color: rgb(128, 77, 1);
 }
+
+
+/*........loading......*/
+
+.loading-logo {
+    background-color: var(--primary-color);
+    font-size: x-large;
+    font-weight: lighter;
+    height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
