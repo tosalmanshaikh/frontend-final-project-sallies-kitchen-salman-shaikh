@@ -2,7 +2,6 @@
 
 Welcome to my 'Sallies' Kitchen App'. The best things in life are simple and so is my App! - :D 
 
-Steps to follow:
 1. Run `npm i` in your terminal to install all the dependencies  
 2. Run `npm start` to run the project 
 
@@ -35,7 +34,7 @@ Steps to follow:
 --> You can choose Home | Shop or simply log out if you wish
 
 
-# Problems my React App
+# Problems in my React App
 12. Responsive: Everything is working fine except for the Navigation bar which needs a fix, so it works on smaller screens. I plan to fix this error soon! 
 13. Errors: I have noticed that when you try to + or - the numbers are not updated in the shopping cart in the Navigation bar. I plan to fix this error soon! 
 
@@ -46,7 +45,6 @@ Steps to follow:
 
 
 # Conclusion
-15. 
 --> This being my first project I have used an older project to help me through the shopping cart. I found this project very challenging and yet very satisfying, I get the big picture now about 'React components'
 --> Here I have used the old school class base components as I wanted to start from the basic
 --> I am going to make a new e-commerce project right after this one, I plan to use React hooks and redux! 
