@@ -1,4 +1,4 @@
-import  React, { Component } from 'react';
+import React, {Component} from 'react';
 import {StockData} from "./StockData"
 
 // ProductProvider: provides all the data and generally gives us access to data from context
@@ -9,23 +9,23 @@ const ProductContext = React.createContext();
 
 class ProductProvider extends Component {
 
-    state={
-        navOpen:false,
+    state = {
+        navOpen: false,
         cartOpen: false,
-        data:StockData,
-        cart:[],
-        total:0,
-        shipping:10
+        data: StockData,
+        cart: [],
+        total: 0,
+        shipping: 10
     }
 
     // for open close
-    handleNav=()=>{
-        console.log("handleNav");
+    handleNav = () => {
+        // console.log("handleNav");
 
-        if(this.state.cartOpen===true){
+        if (this.state.cartOpen === true) {
 
             this.setState({
-                cartOpen:false,
+                cartOpen: false,
             })
         }
 
@@ -35,11 +35,11 @@ class ProductProvider extends Component {
     }
 
     //for open close cart
-    handleCartNav=()=>{
+    handleCartNav = () => {
 
-        if(this.state.navOpen===true){
+        if (this.state.navOpen === true) {
             this.setState({
-              navOpen:false
+                navOpen: false
             })
         }
 
@@ -50,118 +50,116 @@ class ProductProvider extends Component {
 
 
     // if cart is open we want to be closed
-    closeNavCart=()=>{
-        if(this.state.navOpen===true || this.state.cartOpen===true){
+    closeNavCart = () => {
+        if (this.state.navOpen === true || this.state.cartOpen === true) {
             this.setState({
-                navOpen:false,
-                cartOpen:false,
+                navOpen: false,
+                cartOpen: false,
             })
         }
     }
 
     // add to cart functionality
-    addToCart=(id)=>{
+    addToCart = (id) => {
 
-        console.log(`item ${id} added to the cart`);
+        // console.log(`item ${id} added to the cart`);
 
-        const {data}=this.state;
+        const {data} = this.state;
 
-        let check=this.state.cart.find(item=>item.id===id);
+        let check = this.state.cart.find(item => item.id === id);
 
-        if(!check){
+        if (!check) {
 
-            const filterData=data.filter(item=>{
-                return item.id===id
+            const filterData = data.filter(item => {
+                return item.id === id
             })
 
             //for each in order to change the situation of cart items
-            filterData.forEach(item=>{
-                item.isInCart=true;
+            filterData.forEach(item => {
+                item.isInCart = true;
             })
 
             this.setState({
-                cart:[...this.state.cart, ...filterData],
+                cart: [...this.state.cart, ...filterData],
                 cartOpen: true,
-            },()=>{
+            }, () => {
                 this.totalItems()
             })
-        }
-
-        else {
+        } else {
             // alert('This item is already in the cart');
         }
     }
 
     // delete single items
-    deleteItem=(id)=>{
+    deleteItem = (id) => {
 
-        const {cart}=this.state;
-        cart.forEach((item, index)=>{
+        const {cart} = this.state;
+        cart.forEach((item, index) => {
 
-            if(item.id===id){
-                cart.splice(index,1)
+            if (item.id === id) {
+                cart.splice(index, 1)
             }
 
-            item.isInCart=false;
+            item.isInCart = false;
 
         })
 
         this.setState({
-            cart:cart
+            cart: cart
         })
 
     }
 
     // increase items
-    increaseItem=(id)=>{
-        const {cart}=this.state;
-        cart.forEach(item=>{
-            if(item.id===id){
-                item.count +=1;
+    increaseItem = (id) => {
+        const {cart} = this.state;
+        cart.forEach(item => {
+            if (item.id === id) {
+                item.count += 1;
             }
         })
 
         this.setState({
             cart: cart
-        },()=>{
+        }, () => {
             this.totalItems();
         })
     }
 
     //decrease items
-    decreaseItem=(id)=>{
-    const {cart}=this.state;
+    decreaseItem = (id) => {
+        const {cart} = this.state;
 
-    cart.forEach(item=>{
-        if(item.id===id){
-            item.count===1 ?item.count=1:item.count -=1;
-        }
+        cart.forEach(item => {
+            if (item.id === id) {
+                item.count === 1 ? item.count = 1 : item.count -= 1;
+            }
 
-        this.setState({
-            cart:cart
-        },()=>{
-            this.totalItems();
+            this.setState({
+                cart: cart
+            }, () => {
+                this.totalItems();
+            })
         })
-    })
     }
 
     // get total items in the cart
-    totalItems=()=>{
+    totalItems = () => {
 
-        const {cart}=this.state;
+        const {cart} = this.state;
 
-        const cartTotal= cart.reduce((prev,item)=>{
-            return prev + (item.price*item.count)
-        },0)
+        const cartTotal = cart.reduce((prev, item) => {
+            return prev + (item.price * item.count)
+        }, 0)
 
         this.setState({
-            total:cartTotal
+            total: cartTotal
         })
     }
 
 
-    componentDidUpdate(){
-        localStorage.setItem("dataCart",JSON.stringify(this.state.cart));
+    componentDidUpdate() {
+        localStorage.setItem("dataCart", JSON.stringify(this.state.cart));
         localStorage.setItem("totalCart", JSON.stringify(this.state.total));
     }
 
@@ -172,17 +170,17 @@ class ProductProvider extends Component {
         //localstorage
         const dataCart = JSON.parse(localStorage.getItem("dataCart"));
 
-        if(dataCart!==null){
+        if (dataCart !== null) {
             this.setState({
-                cart:dataCart
+                cart: dataCart
             })
         }
 
         const totalCart = JSON.parse(localStorage.getItem("totalCart"));
 
-        if(totalCart !==null){
+        if (totalCart !== null) {
             this.setState({
-                total:totalCart
+                total: totalCart
             })
         }
 
@@ -194,13 +192,13 @@ class ProductProvider extends Component {
             <ProductContext.Provider value={{
 
                 ...this.state,
-                handleNav:this.handleNav,
-                closeNavCart:this.closeNavCart,
-                handleCartNav:this.handleCartNav,
-                addToCart:this.addToCart,
-                deleteItem:this.deleteItem,
-                increaseItem:this.increaseItem,
-                decreaseItem:this.decreaseItem
+                handleNav: this.handleNav,
+                closeNavCart: this.closeNavCart,
+                handleCartNav: this.handleCartNav,
+                addToCart: this.addToCart,
+                deleteItem: this.deleteItem,
+                increaseItem: this.increaseItem,
+                decreaseItem: this.decreaseItem
 
             }}>
                 {this.props.children}

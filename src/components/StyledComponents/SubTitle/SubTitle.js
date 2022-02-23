@@ -1,7 +1,7 @@
 import Styled from 'styled-components'
 
 const SubTitle = Styled.div`
-    color: ${props => props.color || "var(--tertiary-color)" };
+    color: ${props => props.color || "var(--tertiary-color)"};
     width: 60%;
     margin: 2rem auto;
     text-align: ${props => props.align || "center"};

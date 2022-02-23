@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import axios from "axios";
-import { v4 as uuid } from "uuid";
+import {v4 as uuid} from "uuid";
 import Recipe from "../../pages/SearchBar/Recipe";
 import Alert from "../../pages/SearchBar/Alert";
 
@@ -37,11 +37,10 @@ function SearchBar() {
         setQuery(e.target.value)
     }
 
-    function onSubmit(e){
+    function onSubmit(e) {
         e.preventDefault();
         getData();
     }
-
 
     return (
 
@@ -55,34 +54,35 @@ function SearchBar() {
             </section>
 
             <SubTitle>
-            <Banner title="Search your favourite food item here!"/>
+                <Banner title="Search your favourite food item here!"/>
 
-            <form onSubmit={onSubmit} className="search-form">
+                <form onSubmit={onSubmit} className="search-form">
 
-                {alert !== "" && <Alert alert={alert} />}
-                <input
-                    type="text"
-                    name="query"
-                    onChange={onChange}
-                    value={query}
-                    autoComplete="off"
-                    placeholder="Search Food"
-                />
-                <button
-                    className="form-button"
-                    type="submit"
-                    value="Search"
-                >Search</button>
-            </form>
+                    {alert !== "" && <Alert alert={alert}/>}
+                    <input
+                        type="text"
+                        name="query"
+                        onChange={onChange}
+                        value={query}
+                        autoComplete="off"
+                        placeholder="Search Food"
+                    />
+                    <button
+                        className="form-button"
+                        type="submit"
+                        value="Search"
+                    >Search
+                    </button>
+                </form>
 
-            <div className="recipes">
+                <div className="recipes">
 
-                {/*check if the recipe array is empty or not, if it is not empty it means we have to receive the data requested, if the first condition is true the second part will be executed!*/}
-                {/*uuid:this package will generate a unique id for each recipe in the list when we search for the food*/}
+                    {/*check if the recipe array is empty or not, if it is not empty it means we have to receive the data requested, if the first condition is true the second part will be executed!*/}
+                    {/*uuid:this package will generate a unique id for each recipe in the list when we search for the food*/}
 
-                {recipes !== [] &&
-                    recipes.map(recipe => <Recipe key={uuid()} recipe={recipe} />)}
-            </div>
+                    {recipes !== [] &&
+                        recipes.map(recipe => <Recipe key={uuid()} recipe={recipe}/>)}
+                </div>
 
             </SubTitle>
 

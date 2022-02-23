@@ -18,7 +18,7 @@ function AuthContextProvider({children}) {
     function login(JWT) {
         // Ik verwacht een jwtToken als ik aangeroepen word!
         console.log(JWT)
-        localStorage.setItem('token', JWT )
+        localStorage.setItem('token', JWT)
         console.log("gebruiker is ingelogd")
 
         const decode = jwt_decode(JWT)
@@ -28,13 +28,13 @@ function AuthContextProvider({children}) {
     }
 
     //checken of er een token is -> //checken of de token nog geldig is -> // ZO JA: gegevens ophalen via een netwerk request ->// ZO NEE: dan doen we niks.
-    useEffect(()=> {
-        console.log('context wordt gerefresht!')
+    useEffect(() => {
+        // console.log('context wordt gerefresht!')
 
         //we maken the token again as it is outside the scope.
         const token = localStorage.getItem('token')
 
-        if (token){
+        if (token) {
             const decode = jwt_decode(token)
             getUserData(decode.sub, token)
 
@@ -48,7 +48,8 @@ function AuthContextProvider({children}) {
             }, 4000)
         }
 
-    },[])
+    }, [])
+
 //empty dependency means it going to  rerender everytime we refresh.
 
     function logout() {
@@ -62,14 +63,14 @@ function AuthContextProvider({children}) {
         history.push("/");
     }
 
-    async function getUserData(id, token, redirect){
-        try{
+    async function getUserData(id, token, redirect) {
+        try {
             const result = await axios.get(`https://frontend-educational-backend.herokuapp.com/api/user`,
-            // const result = await axios.get(`http://localhost:3000/600/users/${id}`,
+                // const result = await axios.get(`http://localhost:3000/600/users/${id}`,
                 {
-                    headers:{
+                    headers: {
                         "Content-Type": "application/json",
-                        Authorization:`Bearer ${token}`,
+                        Authorization: `Bearer ${token}`,
                     }
                 })
             toggleIsAuth({
@@ -78,28 +79,27 @@ function AuthContextProvider({children}) {
                 user: {
                     email: result.data.email,
                     username: result.data.username,
-                    id:  result.data.id,
+                    id: result.data.id,
                 },
                 status: 'done',
             });
 
             history.push(redirect)
 
-        }catch (e){
+        } catch (e) {
             console.error(e)
         }
     }
 
     const contextData = {
-        isAuth : isAuth.isAuth,
+        isAuth: isAuth.isAuth,
         user: isAuth.user,
         login: login,
         logout: logout
-
     }
 
     return (<AuthContext.Provider value={contextData}>
-        {isAuth.status === 'done'? children : <p>Loading...</p>}
+        {isAuth.status === 'done' ? children : <p>Loading...</p>}
     </AuthContext.Provider>);
 }
 

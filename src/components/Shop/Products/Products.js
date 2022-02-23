@@ -12,27 +12,27 @@ function Products() {
         <ProductConsumer>
 
             {function (value) {
-                const {data, closeNavCart,addToCart} = value;
+                const {data, closeNavCart, addToCart} = value;
 
                 return (
 
                     <div className="product-container">
-                            <section className="heading-home-page">
-                                <SubTitle>
-                                    <Banner title="Shop"/>
-                                    <Banner sub="welcome to our shop!"/>
-                                </SubTitle>
-                            </section>
+                        <section className="heading-home-page">
+                            <SubTitle>
+                                <Banner title="Shop"/>
+                                <Banner sub="welcome to our shop!"/>
+                            </SubTitle>
+                        </section>
 
-                            <div className="products">
-                                <div className="products-center">
-                                    {data.map(data => {
-                                        return <Product key={data.id} data={data} closeNavCart={closeNavCart} addToCart={()=>addToCart(data.id)}/>
-                                    })}
-                                </div>
+                        <div className="products">
+                            <div className="products-center">
+                                {data.map(data => {
+                                    return <Product key={data.id} data={data} closeNavCart={closeNavCart}
+                                                    addToCart={() => addToCart(data.id)}/>
+                                })}
                             </div>
-                    </div>
-                )
+                        </div>
+                    </div>)
             }}
         </ProductConsumer>
 

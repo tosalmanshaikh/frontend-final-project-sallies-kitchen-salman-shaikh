@@ -1,6 +1,6 @@
 /*...............buttons.......................*/
 
-button:hover{
+button:hover {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
 }
@@ -19,8 +19,8 @@ button {
     color: white;
 }
 
-button:hover{
-    color: rgb(83,83,83);
+button:hover {
+    color: rgb(83, 83, 83);
     border: 1px solid;
 }
 
@@ -46,20 +46,20 @@ a:hover {
 
 /*!*-->..............links...........................*!*/
 
-.links{
+.links {
     font-weight: bold;
 }
 
-.links li a{
+.links li a {
     padding: 10px;
 }
 
-.links li a:hover{
+.links li a:hover {
     padding: 10px 20px;
     color: var(--tertiary-color);
 }
 
-.links{
+.links {
     display: flex;
     background: transparent;
     transform: translate(0);
@@ -68,20 +68,20 @@ a:hover {
     bottom: 0;
 }
 
-.links li a{
+.links li a {
     border-bottom: none;
     margin-left: 12px;
 }
 
-.links li a:hover{
+.links li a:hover {
     padding: 10px;
 }
 
-.links li a:after{
+.links li a:after {
     border-bottom: none;
 }
 
-.links li a:hover:after{
+.links li a:hover:after {
     border-bottom: none;
 }
 

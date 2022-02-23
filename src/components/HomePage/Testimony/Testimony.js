@@ -32,7 +32,7 @@ function Testimony() {
     return (
         <div className="TestimonyContainer">
 
-            {Testimony.map((item,index) => {
+            {Testimony.map((item, index) => {
                 return (
                     <article className="Card" key={index}>
 

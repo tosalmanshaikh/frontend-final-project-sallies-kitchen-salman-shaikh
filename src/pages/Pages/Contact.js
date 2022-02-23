@@ -18,7 +18,6 @@ function Contact() {
         mode: 'onChange',
     });
 
-
     function onFormSubmit(data) {
         console.log(data);
     }
@@ -26,7 +25,6 @@ function Contact() {
     return (
 
         <div>
-
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="Contact us"/>
@@ -40,7 +38,6 @@ function Contact() {
 
 
                 <ContactForm onSubmit={handleSubmit(onFormSubmit)}>
-
                     <TextField
                         name="firstname"
                         placeholder="your firstname"

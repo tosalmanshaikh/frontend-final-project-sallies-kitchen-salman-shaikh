@@ -17,19 +17,19 @@ function Recipe({recipe}) {
             <img className="recipeImage" src={image} alt={label}/>
 
             <section>
-            <Button
-                onClick={() => setShow(!show)}
-                title="Ingredients"
-                type="submit"
-            />
+                <Button
+                    onClick={() => setShow(!show)}
+                    title="Ingredients"
+                    type="submit"
+                />
 
-            {show && <RecipeDetails ingredients={ingredients}/>}
+                {show && <RecipeDetails ingredients={ingredients}/>}
             </section>
 
             <section>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-                more about this recipe?
-            </a>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                    more about this recipe?
+                </a>
             </section>
 
         </div>

@@ -1,15 +1,15 @@
 /*........................... Product Details......................*/
 
-.inside-container{
+.inside-container {
     max-width: 1100px;
-    margin:10px 10px 10px 10px;
-    padding:20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     background-color: var(--primary-color);
     border-radius: 3px;
 }
 
 
-.det-center{
+.det-center {
     box-shadow: 1px 1px 4px 1px var(--secondary-color);
 }
 
@@ -21,80 +21,80 @@
     letter-spacing: 0.4rem;
 }
 
-.det-info .det-img{
+.det-info .det-img {
     width: 100%;
     display: block;
     margin: 0 auto;
 }
 
-.det-center .det-info{
+.det-center .det-info {
     margin-top: 10px;
     padding: 0 10px;
 }
 
-.det-info h3, .det-info h4, .det-info p, .det-info .but-options{
+.det-info h3, .det-info h4, .det-info p, .det-info .but-options {
     margin-bottom: 15px;
 }
 
-.det-info h3{
+.det-info h3 {
     text-align: center;
     letter-spacing: 0.1rem;
     text-decoration: none;
 }
 
-.det-info h4{
+.det-info h4 {
     text-align: center;
     letter-spacing: 0.1rem;
     text-decoration: none;
 }
 
-.det-info .but-options{
+.det-info .but-options {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
 }
 
-.det-info span{
+.det-info span {
     font-weight: bold;
 }
 
 
-.enabled{
+.enabled {
     background-color: red !important;
 }
 
-.disable{
+.disable {
     background-color: green !important;
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 500px) {
 
-    .det-center{
+    .det-center {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .det-center .det-img{
+    .det-center .det-img {
         position: relative;
     }
 
-    .det-center .det-img:after{
-        content:'';
+    .det-center .det-img:after {
+        content: '';
         position: absolute;
         border-right: 1px solid var(--tertiary-color);
         height: 100%;
         right: 0;
-        top:0;
+        top: 0;
     }
 
-    .det-center .det-img img{
-        width:90%
+    .det-center .det-img img {
+        width: 90%
     }
 
-    .det-center .det-info, .det-center .det-img{
+    .det-center .det-info, .det-center .det-img {
         flex: 0 0 calc(49% - 10px)
     }
 }
@@ -110,7 +110,7 @@
     margin-right: 8px;
 }
 
-section  {
+section {
     margin: 0 0 50px 0;
 }
 

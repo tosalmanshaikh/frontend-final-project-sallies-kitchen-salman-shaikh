@@ -27,13 +27,13 @@ function About() {
                 </figure>
 
                 <section>
-                <Banner sub="I believe in simplicity. The best things in life are simple and it all starts with using the best
+                    <Banner sub="I believe in simplicity. The best things in life are simple and it all starts with using the best
                     ingredients possible."/>
                 </section>
 
                 <section>
                     <Banner title="Lets get you all stocked up"/>
-                    <p><Link to="/products"> Shop here</Link> </p>
+                    <p><Link to="/products"> Shop here</Link></p>
                 </section>
 
             </SubTitle>

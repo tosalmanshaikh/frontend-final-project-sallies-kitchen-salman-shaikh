@@ -1,13 +1,13 @@
 /*..........................new cart........................... */
 
-.cartItem{
+.cartItem {
 
     background-color: var(--primary-color);
     z-index: 10;
 }
 
 .inside-btn {
-    background: rgb(112,112,112);
+    background: rgb(112, 112, 112);
     color: #ccc;
     width: 30px;
     height: 30px;
@@ -21,17 +21,17 @@
 
 
 .inside-btn:hover {
-    background: rgb(83,83,83);
+    background: rgb(83, 83, 83);
 }
 
-.img-cart{
+.img-cart {
     display: inline-block;
     width: 100%;
-    background: rgb(161,161,161);
+    background: rgb(161, 161, 161);
     border-radius: 10%;
 }
 
-.img-cart img{
+.img-cart img {
     width: 100px;
     background: #fc8400;
     height: 60px;
@@ -39,7 +39,7 @@
     display: block;
 }
 
-.cart-center{
+.cart-center {
     position: relative;
     display: grid;
     border-top: 1px solid;
@@ -51,20 +51,20 @@
     padding: 5px 15px;
 }
 
-.item-cart p{
-    color:rgb(71,71,71);
+.item-cart p {
+    color: rgb(71, 71, 71);
     font-size: 18px;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.inc-dec-cart{
+.inc-dec-cart {
     display: flex;
     justify-content: space-between;
 
 }
 
-.price-cart h4{
+.price-cart h4 {
     display: flex;
     flex-direction: row;
     justify-items: flex-end;
@@ -73,19 +73,19 @@
     text-align: right;
 }
 
-.del-item{
+.del-item {
     position: absolute;
     right: -8px;
-    top:20px;
+    top: 20px;
     cursor: pointer;
     padding: 2px 10px;
 }
 
-.del-item:hover{
-    color: rgb(83,83,83)
+.del-item:hover {
+    color: rgb(83, 83, 83)
 }
 
-.extra-info{
+.extra-info {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -93,16 +93,16 @@
     font-size: small;
 }
 
-.extra-info h3{
-    color: rgb(58,58,58);
+.extra-info h3 {
+    color: rgb(58, 58, 58);
     letter-spacing: 0.1rem;
 }
 
 .extra-info h3 span {
-    color: rgb(58,58,58);
+    color: rgb(58, 58, 58);
 }
 
-.payment a{
+.payment a {
     border: 1px solid var(--quaternary-color);
     display: inline-block;
     width: 150px;
@@ -117,8 +117,8 @@
     border-radius: 10px;
 }
 
-.payment:hover{
-    border: 1px solid rgb(240,238,238);
+.payment:hover {
+    border: 1px solid rgb(240, 238, 238);
     background: var(--tertiary-color);
     justify-items: center;
     justify-content: center;
@@ -135,7 +135,7 @@
 }
 
 
-.empty{
+.empty {
     background-color: var(--primary-color);
     text-align: center;
     font-weight: bold;
@@ -148,20 +148,20 @@
     justify-content: center;
 }
 
-.carta{
+.carta {
     display: flex;
     margin-left: 10px;
     cursor: pointer;
     color: var(--quaternary-color);
 }
 
-.dra{
+.dra {
     display: flex;
     align-items: center;
 }
 
 
-.newCartNav{
+.newCartNav {
     /*top: 69px;*/
     right: 1px;
     width: 385px;
@@ -170,16 +170,16 @@
 
 /*/............General......................*/
 
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-li{
-    list-style:none;
+li {
+    list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }

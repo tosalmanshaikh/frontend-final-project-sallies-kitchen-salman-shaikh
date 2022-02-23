@@ -1,11 +1,11 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import {useForm} from 'react-hook-form';
 import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 import {Link} from "react-router-dom";
 
 
 function ContactForm() {
-    const { register, formState: { errors }, handleSubmit, watch } = useForm({
+    const {register, formState: {errors}, handleSubmit, watch} = useForm({
         mode: 'onChange',
     });
 
@@ -58,7 +58,6 @@ function ContactForm() {
                     })}
                 />
                 {errors.phone && <p>{errors.phone.message}</p>}
-
 
 
                 <label htmlFor="zipcode-field">Postcode:</label>

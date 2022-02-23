@@ -116,8 +116,6 @@
 // export default NavBar;
 
 
-
-
 // trail 1 - unsuccessful: troubleshoot with Sam? - fix it for good!
 
 // Navigation bar: home, shop, about, contact, gallery, careers, language, search, account, cart
@@ -244,7 +242,6 @@
 // export default NavBar;
 
 
-
 // new try out: update the nav bar, troubleshoot with Florestan to fix the error!
 
 import React from 'react';
@@ -279,9 +276,11 @@ function NavBar() {
                             <nav className="sticky">
 
                                 <div className="logo-btn">
-                                    <Link to="/" onClick={closeNavCart}><img className="food" alt="logo" src={logo}/></Link>
+                                    <Link to="/" onClick={closeNavCart}><img className="food" alt="logo"
+                                                                             src={logo}/></Link>
 
-                                    <div className="cart hide" onClick={handleCartNav} > <i className="fas fa-shopping-cart"></i>
+                                    <div className="cart hide" onClick={handleCartNav}><i
+                                        className="fas fa-shopping-cart"></i>
                                         <span>{cart.length}</span>
                                     </div>
 
@@ -294,18 +293,18 @@ function NavBar() {
                                             <ul className={navOpen ? "newLinks links" : "links"}
                                                 onClick={closeNavCart}>
 
-                                                <div  className="links-container show-container">
+                                                <div className="links-container show-container">
                                                     <ul className="links">
-                                                <nav className="navBar">
-                                                    <li><Link to="/">Home</Link></li>
-                                                    <li><Link to="/about">About</Link></li>
-                                                    <li><Link to="/products">Shop</Link></li>
-                                                    <li><Link to="/contact">Contact</Link></li>
-                                                    <li><Link to="/faq">FAQ</Link></li>
-                                                    <li><Link to="/gallery">Gallery</Link></li>
-                                                    <li><Link to="/careers">Careers</Link></li>
-                                                    <li><Link to="/blogs">Blogs</Link></li>
-                                                </nav>
+                                                        <nav className="navBar">
+                                                            <li><Link to="/">Home</Link></li>
+                                                            <li><Link to="/about">About</Link></li>
+                                                            <li><Link to="/products">Shop</Link></li>
+                                                            <li><Link to="/contact">Contact</Link></li>
+                                                            <li><Link to="/faq">FAQ</Link></li>
+                                                            <li><Link to="/gallery">Gallery</Link></li>
+                                                            <li><Link to="/careers">Careers</Link></li>
+                                                            <li><Link to="/blogs">Blogs</Link></li>
+                                                        </nav>
                                                     </ul>
                                                 </div>
 
@@ -349,27 +348,26 @@ function NavBar() {
 
                                                 <div className="nav-center">
                                                     <div className="nav-header">
-                                                <button className="nav-toggle">
-                                                    <FaBars/>
-                                                </button>
-                                                </div>
+                                                        <button className="nav-toggle">
+                                                            <FaBars/>
+                                                        </button>
+                                                    </div>
                                                 </div>
 
-                                               <div  className="links-container show-container">
-                                                 {/*<ul className="links">*/}
-                                                 {/*  <li><Link to="/">Home</Link></li>*/}
-                                                 {/*  <li><Link to="/about">About</Link></li>*/}
-                                                 {/*  <li><Link to="/products">Shop</Link></li>*/}
-                                                 {/*  <li><Link to="/contact">Contact</Link></li>*/}
-                                                 {/*  <li><Link to="/faq">FAQ</Link></li>*/}
-                                                 {/*  <li><Link to="/gallery">Gallery</Link></li>*/}
-                                                 {/*  <li><Link to="/careers">Careers</Link></li>*/}
-                                                 {/*  <li><Link to="/blogs">Blogs</Link></li>*/}
-                                                 {/*</ul>*/}
+                                                <div className="links-container show-container">
+                                                    {/*<ul className="links">*/}
+                                                    {/*  <li><Link to="/">Home</Link></li>*/}
+                                                    {/*  <li><Link to="/about">About</Link></li>*/}
+                                                    {/*  <li><Link to="/products">Shop</Link></li>*/}
+                                                    {/*  <li><Link to="/contact">Contact</Link></li>*/}
+                                                    {/*  <li><Link to="/faq">FAQ</Link></li>*/}
+                                                    {/*  <li><Link to="/gallery">Gallery</Link></li>*/}
+                                                    {/*  <li><Link to="/careers">Careers</Link></li>*/}
+                                                    {/*  <li><Link to="/blogs">Blogs</Link></li>*/}
+                                                    {/*</ul>*/}
                                                 </div>
 
                                                 {/*<ul className="social-icons"></ul>*/}
-
 
 
                                             </ul>

@@ -6,7 +6,6 @@ import SubTitle from '../../components/StyledComponents/SubTitle/SubTitle';
 function Faq() {
     return (
         <div>
-
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="FAQ"/>

@@ -4,10 +4,9 @@ import Banner from "../../components/Others/Banner/Banner";
 import Gallery from "../../components/HomePage/Gallery/Gallery"
 
 
-function GalleryNav () {
+function GalleryNav() {
     return (
         <div>
-
             <section className="heading-home-page">
                 <SubTitle>
                     <Banner title="Look at that"/>

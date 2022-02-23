@@ -5,7 +5,6 @@ import Testimony from "../../components/HomePage/Testimony/Testimony";
 
 function Blogs() {
     return (
-
         <div>
             <section className="heading-home-page">
                 <SubTitle>

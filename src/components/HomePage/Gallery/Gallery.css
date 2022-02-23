@@ -6,11 +6,11 @@
     grid-template-rows: repeat(12, 5vw);
     gap: 1.5rem;
     padding: 2rem;
-    width:60%;
-    margin:auto;
+    width: 60%;
+    margin: auto;
 }
 
-.HomePageGallery{
+.HomePageGallery {
     grid-template-rows: repeat(8, 5vw);
     margin-bottom: 2rem;
 }
@@ -73,7 +73,7 @@
     .Gallery {
         gap: .5rem;
         padding: 1rem;
-        width:80%;
-        margin:auto;
+        width: 80%;
+        margin: auto;
     }
 }

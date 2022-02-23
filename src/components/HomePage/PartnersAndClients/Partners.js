@@ -1,5 +1,5 @@
 // partners and clients: home page
-import React,{useState} from 'react'
+import React, {useState} from 'react'
 import './Partners.css';
 
 import novi from '../../../images/PartnersLogo/Novi.png'
@@ -18,7 +18,7 @@ function Partners() {
         <div className="ContainerPartners">
             {parents.map((item, index) => {
                 return (
-                    <img className="img" key={index} src={item} alt={`${item}`} />
+                    <img className="img" key={index} src={item} alt={`${item}`}/>
                 )
             })}
         </div>

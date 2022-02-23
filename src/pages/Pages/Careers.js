@@ -4,7 +4,7 @@ import Banner from "../../components/Others/Banner/Banner";
 import ContactForm from "../../components/Others/ContactForm/ContactForm";
 
 
-function Careers () {
+function Careers() {
     return (
 
         <div>
@@ -17,7 +17,8 @@ function Careers () {
 
             <SubTitle>
                 <Banner title="Current open positions"/>
-                <Banner sub="Bakery manager: Are you just crazy about baking as we are and you know the drill, then we are looking for you - Full time"/>
+                <Banner
+                    sub="Bakery manager: Are you just crazy about baking as we are and you know the drill, then we are looking for you - Full time"/>
 
                 <div className="ContainerCareers">
                     <SubTitle>
@@ -32,7 +33,3 @@ function Careers () {
 }
 
 export default Careers;
-
-
-
-

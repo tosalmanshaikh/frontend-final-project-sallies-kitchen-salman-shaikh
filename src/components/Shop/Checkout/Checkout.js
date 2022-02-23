@@ -3,10 +3,8 @@ import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 import Banner from "../../Others/Banner/Banner";
 import {Link} from "react-router-dom";
 
-function Checkout(){
-
+function Checkout() {
     return (
-
         <div>
             <section className="heading-home-page">
                 <SubTitle>
@@ -14,15 +12,13 @@ function Checkout(){
                     <Banner sub="we are going to get this to you as soon as we can!"/>
                 </SubTitle>
             </section>
-
-            <SubTitle>
             <section>
-                <p><Link to="/"> Home </Link> |  <Link
-                    to="/products"> Shop   </Link>
-                </p>
+                <SubTitle>
+                    <p><Link to="/"> Home </Link> | <Link
+                        to="/products"> Shop </Link>
+                    </p>
+                </SubTitle>
             </section>
-            </SubTitle>
-
         </div>
 
     );

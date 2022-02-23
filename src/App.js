@@ -32,7 +32,7 @@ import Payment from "./components/Shop/Payment/Payment";
 
 function App() {
 
-    const { isAuth } = useContext(AuthContext)
+    const {isAuth} = useContext(AuthContext)
 
     return (
 
@@ -43,9 +43,9 @@ function App() {
             <Route>
                 <Switch>
 
-                    <Route path="/" exact component={Home} />
+                    <Route path="/" exact component={Home}/>
                     <Route path="/about" exact component={About}/>
-                    <Route path='/blogs' exact component={Blogs} />
+                    <Route path='/blogs' exact component={Blogs}/>
                     <Route path="/contact" exact component={Contact}/>
                     <Route path="/faq" exact component={Faq}/>
                     <Route path="/gallery" exact component={GalleryNav}/>
