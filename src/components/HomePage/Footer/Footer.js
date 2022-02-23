@@ -19,8 +19,8 @@ function Footer() {
                     <div className="Sect">
 
                         <Banner title="Accounts"/>
-                        <Link classname="link-homepage" to="/signin">Log in </Link> |
-                        <Link classname="link-homepage" to="/signup"> Register </Link>
+                        <Link className="link-homepage" to="/signin">Log in </Link> |
+                        <Link className="link-homepage" to="/signup"> Register </Link>
                         </div>
 
                     <div className="Sect">

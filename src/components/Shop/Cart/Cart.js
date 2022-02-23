@@ -38,7 +38,7 @@ function Cart(props) {
                                 {cart.map(product=>{
 
                                     return(
-                                        <div className="cart-center">
+                                        <div key={product.id} className="cart-center">
                                             <div className="img-cart">
                                                 <img src={product.image} alt=""/>
                                             </div>
