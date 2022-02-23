@@ -38,7 +38,7 @@ Welcome to my 'Sallies' Kitchen App'. The best things in life are simple and so 
 12. Responsive: Everything is working fine except for the Navigation bar which needs a fix, so it works on smaller screens. I plan to fix this error soon! 
 13. Errors: I have noticed that when you try to + or - the numbers are not updated in the shopping cart in the Navigation bar. I plan to fix this error soon! 
 
-14. I have also noticed the loading is longer than usual: 
+14. I have also noticed the loading time is longer than usual: 
 --> I have looked into this and the reason behind was the large photos, which I deleted right away the ones that I have are large sized photos - I will look into this soon! 
 --> I also replaced the social logos as this was also making it slow
 --> I had a few errors in the console log, they are all fixed now!  
