@@ -1,11 +1,10 @@
 import React from 'react';
-import FacebookIcon from '../../../images/SocialMedia/facebook.svg';
-import TwitterIcon from '../../../images/SocialMedia/twitter.svg';
-import InstagramIcon from '../../../images/SocialMedia/instagram.svg';
-import PinterestIcon from '../../../images/SocialMedia/pinterest.svg';
 import './Footer.css';
 import Banner from "../../Others/Banner/Banner";
 import {Link} from "react-router-dom";
+
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faYoutube, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
 
@@ -13,6 +12,7 @@ function Footer() {
 
     return (
         <>
+
             <footer>
 
                 <div className="ContainerFooter">
@@ -21,12 +21,12 @@ function Footer() {
                         <Banner title="Accounts"/>
                         <Link className="link-homepage" to="/signin">Log in </Link> |
                         <Link className="link-homepage" to="/signup"> Register </Link>
-                        </div>
+                    </div>
 
                     <div className="Sect">
                         <Banner title="Address"/>
                         <Banner sub=
-                            "Prinsestraat 47,
+                                    "Prinsestraat 47,
                             2513 CA,
                             Den Haag"
                         />
@@ -35,23 +35,36 @@ function Footer() {
                     <div className="Sect">
                         <Banner title="Contact Detail"/>
                         <Banner sub=
-                            "Phone: 0687654321"
+                                    "Phone: 0687654321"
                         />
                         <Banner sub=
-                            "Email: info@sallieskitchen.nl"
+                                    "Email: info@sallieskitchen.nl"
                         />
 
                         <div className="Icon">
 
-                            <img src={FacebookIcon} alt="facebook icon"/>
-                            <img src={TwitterIcon} alt="twitter icon"/>
-                            <img src={InstagramIcon} alt="instagram icon"/>
-                            <img src={PinterestIcon} alt="pinterest icon"/>
+                            <section className="social">
+                                <a className="youtube-social" href="https://www.youtube.com/watch?v=VBlFHuCzPgY"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faYoutube} size="2x"/>
+                                </a>
+
+                                <a className="youtube-social" href="https://www.linkedin.com/in/salman-shaikh-8a5bb8a9/"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                                </a>
+
+                                <a className="youtube-social" href="https://github.com/tosalmanshaikh?tab=repositories"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faGithub} size="2x"/>
+                                </a>
+                            </section>
+
                         </div>
 
                     </div>
-
                 </div>
+
             </footer>
 
             <div className="Bottom">

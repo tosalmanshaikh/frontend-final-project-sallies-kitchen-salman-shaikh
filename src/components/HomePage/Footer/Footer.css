@@ -18,9 +18,10 @@
     margin: 0;
 }
 
-Footer img {
+Footer a {
     width: 3rem;
     margin: 0 .3rem 0 .3rem;
+
 }
 
 .Icon {
@@ -34,7 +35,6 @@ Footer img {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    /*background-color: #f3f1d0;*/
     background-color: var(--tertiary-color);
     height: 2rem;
 }
