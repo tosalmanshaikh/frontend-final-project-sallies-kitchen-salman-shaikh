@@ -15,7 +15,7 @@ export default class Details extends Component {
                 {value => {
 
                     const {data, addToCart} = value;
-                    console.log(this.props.match.params.id);
+                    // console.log(this.props.match.params.id);
 
                     //parseInt:(this.props.match.params.id) is a string and it order to see it as a number we should use parseInt
                     let results = data.find(data => data.id === parseInt(this.props.match.params.id));

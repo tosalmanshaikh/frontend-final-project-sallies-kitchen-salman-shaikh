@@ -4,7 +4,7 @@ import Banner from "../../Others/Banner/Banner";
 import {Link} from "react-router-dom";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faYoutube, faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faYoutube, faGithub, faLinkedin, faFigma} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
 
@@ -44,20 +44,27 @@ function Footer() {
                         <div className="Icon">
 
                             <section className="social">
-                                <a className="youtube-social" href="https://www.youtube.com/watch?v=VBlFHuCzPgY"
+
+                                <a className="youtube-social" href="https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh"
                                    target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faYoutube} size="2x"/>
+                                    <FontAwesomeIcon icon={faGithub} size="3x"/>
+                                </a>
+
+                                <a className="youtube-social" href="https://www.figma.com/file/D9eOnGY8WcL3ze2CR7Mjhs/Final-project?node-id=0%3A1"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <FontAwesomeIcon icon={faFigma} size="3x"/>
                                 </a>
 
                                 <a className="youtube-social" href="https://www.linkedin.com/in/salman-shaikh-8a5bb8a9/"
                                    target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faLinkedin} size="2x"/>
+                                    <FontAwesomeIcon icon={faLinkedin} size="3x"/>
                                 </a>
 
-                                <a className="youtube-social" href="https://github.com/tosalmanshaikh?tab=repositories"
+                                <a className="youtube-social" href="https://www.youtube.com/watch?v=VBlFHuCzPgY"
                                    target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faGithub} size="2x"/>
+                                    <FontAwesomeIcon icon={faYoutube} size="3x"/>
                                 </a>
+
                             </section>
 
                         </div>

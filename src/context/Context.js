@@ -38,10 +38,10 @@ class ProductProvider extends Component {
     handleCartNav = () => {
 
         if (this.state.navOpen === true) {
-            this.setState({
-                navOpen: false
-            })
-        }
+                this.setState({
+                    navOpen: false
+                })
+            }
 
         this.setState({
             cartOpen: !this.state.cartOpen
@@ -157,17 +157,17 @@ class ProductProvider extends Component {
         })
     }
 
+//-> For the local storage so even after we refresh the data would stay in the shopping cart
 
     componentDidUpdate() {
         localStorage.setItem("dataCart", JSON.stringify(this.state.cart));
         localStorage.setItem("totalCart", JSON.stringify(this.state.total));
     }
 
-
     componentDidMount() {
         this.totalItems();
 
-        //localstorage
+
         const dataCart = JSON.parse(localStorage.getItem("dataCart"));
 
         if (dataCart !== null) {
@@ -183,7 +183,6 @@ class ProductProvider extends Component {
                 total: totalCart
             })
         }
-
     }
 
 
