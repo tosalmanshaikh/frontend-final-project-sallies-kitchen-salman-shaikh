@@ -54,14 +54,9 @@ YouTube: dedicated to Nova
 
 
 # Problems in my React App
-12. Responsive: Navigation bar needs a fix so that it turns into a button. I plan to fix this error soon! 
-13. Error: I have noticed that when you try to + or - the numbers are not updated in the shopping cart in the Navigation bar. I plan to fix this error soon! 
-
-
-# I have also noticed the loading time is longer than usual
---> I have looked into this and the reason behind was the large photos, which I deleted right away as I wasn't using them, the ones that I have are large sized photos - I will look into this soon! 
---> I also replaced the social logos as this was also making it slow
---> I had a few errors in the console log, they are all fixed now!  
+--> Responsive: Navigation bar needs a fix so that it turns into a button. I plan to fix this error soon! 
+--> Error: I have noticed that when you try to + or - the numbers are not updated in the shopping cart in the Navigation bar. I plan to fix this error soon! 
+--> I have also noticed the loading time is longer than usual: Large Photos are making it slow will look into this in near future.
 
 
 # Conclusion
