@@ -6,7 +6,6 @@
 
 
 # Home
---> gives you some information about the bakery
 ![Home](src/images/ReadMeImages/Home.png)
 
 
@@ -18,8 +17,7 @@ Github: this will bring you to my repository.
 Figma: this will bring you to my figma project.
 LinkedIn: to my personal account 
 YouTube: dedicated to Nova
-
-[//]: # (![Footer]&#40;src/images/ReadMeImages/Footer.png&#41;)
+![Footer](src/images/ReadMeImages/Footer.png)
 
 
 # About
