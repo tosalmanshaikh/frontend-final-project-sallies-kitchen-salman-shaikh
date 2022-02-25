@@ -1,4 +1,4 @@
-# Welcome to my 'Sallies' Kitchen App'. The best things in life are simple and so is my App! - :D
+# Welcome to my 'Sallies' Kitchen App'.
 
 --> Run `npm i` in your terminal to install all the dependencies  
 --> Run `npm start` to run the project 
