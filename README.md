@@ -4,7 +4,6 @@
 --> Run `npm start` to run the project
 
 
-
 # Home
 ![Home](src/images/ReadMeImages/Home.png)
 
