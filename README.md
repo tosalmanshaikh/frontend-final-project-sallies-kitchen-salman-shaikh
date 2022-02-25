@@ -11,19 +11,18 @@
 
 # Footer
 --> Register | Log in
---> Active links to Social media. 
 
-Github: this will bring you to my repository.
-Figma: this will bring you to my figma project.
-LinkedIn: to my personal account 
-YouTube: dedicated to Nova
+--> Active links to Social media.
+`Github`: this will bring you to my repository.
+`Figma`: this will bring you to my figma project.
+`LinkedIn`: to my personal account 
+`YouTube`: dedicated to Nova
 ![Footer](src/images/ReadMeImages/Footer.png)
 
 
 # About
 --> Simple, you also have active links here that will bring you to the shop or to the account
-
-[//]: # (![About]&#40;src/images/ReadMeImages/About.png&#41;)
+![About](src/images/ReadMeImages/About.png)
 
 # Shop
 --> You can directly click on the Add to cart button and the shopping cart will open directly
@@ -33,9 +32,8 @@ YouTube: dedicated to Nova
 --> You can delete the item as well by clicking on the icon on the right 
 --> You can open the cart by clicking on the shopping cart and simply close it with the 'x' close button
 --> You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
---> Your order has been placed you can now either choose to click Home | Shop 
-
-[//]: # (![Shop]&#40;src/images/ReadMeImages/Shop.png&#41;)
+--> Your order has been placed you can now either choose to click Home | Shop
+![Shop](src/images/ReadMeImages/Shop.png)
 
 
 # Contact, FAQ, Gallery, Careers, Blogs
