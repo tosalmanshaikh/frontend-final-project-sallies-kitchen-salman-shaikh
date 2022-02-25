@@ -18,12 +18,14 @@ Github: this will bring you to my repository.
 Figma: this will bring you to my figma project.
 LinkedIn: to my personal account 
 YouTube: dedicated to Nova
-![Footer](src/images/ReadMeImages/Footer.png)
+
+[//]: # (![Footer]&#40;src/images/ReadMeImages/Footer.png&#41;)
 
 
 # About
 --> Simple, you also have active links here that will bring you to the shop or to the account
-![About](src/images/ReadMeImages/About.png)
+
+[//]: # (![About]&#40;src/images/ReadMeImages/About.png&#41;)
 
 # Shop
 --> You can directly click on the Add to cart button and the shopping cart will open directly
@@ -34,31 +36,37 @@ YouTube: dedicated to Nova
 --> You can open the cart by clicking on the shopping cart and simply close it with the 'x' close button
 --> You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
 --> Your order has been placed you can now either choose to click Home | Shop 
-![Shop](src/images/ReadMeImages/Shop.png)
+
+[//]: # (![Shop]&#40;src/images/ReadMeImages/Shop.png&#41;)
 
 
 # Contact, FAQ, Gallery, Careers, Blogs
 --> Very simple, but a quick stroll will do
-![Faq](src/images/ReadMeImages/Faq.png)
+
+[//]: # (![Faq]&#40;src/images/ReadMeImages/Faq.png&#41;)
 
 
 # Languages
 --> I will be working on this in near future
-![Languages](src/images/ReadMeImages/Languages.png)
+
+[//]: # (![Languages]&#40;src/images/ReadMeImages/Languages.png&#41;)
 
 # Search
 --> Here you can search for food recipes
 --> Just type any food item in the search-bar
 --> When you do this you can click on the ingredients alternatively you can click on the link for more details
-![Search](src/images/ReadMeImages/Search.png)
+
+[//]: # (![Search]&#40;src/images/ReadMeImages/Search.png&#41;)
 
 # Account
 --> You can either log in | register here
 --> I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
 --> Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
 --> You can choose Home | Shop or simply log out if you wish
-![](src/images/ReadMeImages/LogIn.png)
-![](src/images/ReadMeImages/Register.png)
+
+[//]: # (![]&#40;src/images/ReadMeImages/LogIn.png&#41;)
+
+[//]: # (![]&#40;src/images/ReadMeImages/Register.png&#41;)
 
 
 # Problems in my React App
