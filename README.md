@@ -5,11 +5,11 @@
 
 
 # Home
-![Home](src/images/ReadMeImages/Home.png)
+![Home](src/images/ReadMeImages/Home.jpg)
 
 
 # Footer
-![Footer](src/images/ReadMeImages/Footer.png)
+![Footer](src/images/ReadMeImages/Footer.jpg)
 --> Register | Log in
 
 --> Active links to Social media.
@@ -19,11 +19,11 @@
 `YouTube`: dedicated to Nova
 
 # About
-![About](src/images/ReadMeImages/About.png)
+![About](src/images/ReadMeImages/About.jpg)
 --> Simple, you also have active links here that will bring you to the shop or to the account
 
 # Shop
-![Shop](src/images/ReadMeImages/Shop.png)
+![Shop](src/images/ReadMeImages/Shop.jpg)
 --> You can directly click on the Add to cart button and the shopping cart will open directly
 --> Notice that the item in the cart is now changed to 'already in the cart'
 --> You can also click on the photo for a detailed description. you can add this to the cart here alternatively or go back to the products. If you click and nothing happens means your item is already in the cart.
@@ -35,24 +35,24 @@
 
 
 # Contact, FAQ, Gallery, Careers, Blogs
-![Faq](src/images/ReadMeImages/Faq.png)
+![Faq](src/images/ReadMeImages/Faq.jpg)
 --> Very simple, but a quick stroll will do
 
 
 # Languages
-![Languages](src/images/ReadMeImages/Languages.png)
+![Languages](src/images/ReadMeImages/Languages.jpg)
 --> I will be working on this in near future
 
 # Search
-![Search](src/images/ReadMeImages/Search.png)
+![Search](src/images/ReadMeImages/Search.jpg)
 --> Here you can search for food recipes
 --> Just type any food item in the search-bar
 --> When you do this you can click on the ingredients alternatively you can click on the link for more details
 
 
 # Account
-![](src/images/ReadMeImages/LogIn.png)
-![](src/images/ReadMeImages/Register.png)
+![](src/images/ReadMeImages/LogIn.jpg)
+![](src/images/ReadMeImages/Register.jpg)
 --> You can either log in | register here
 --> I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
 --> Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
