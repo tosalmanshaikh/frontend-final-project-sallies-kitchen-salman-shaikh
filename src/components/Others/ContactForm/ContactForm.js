@@ -85,6 +85,11 @@ function ContactForm() {
                     Sign me up to your news letters
                 </label>
 
+                {/*<button type="submit">*/}
+                {/*    Submit*/}
+                {/*</button>*/}
+
+                {/*//temporary solution to give you the felling that your form is actually submitted*/}
                 <div className="payment"><Link to="/">Submit </Link></div>
 
             </form>

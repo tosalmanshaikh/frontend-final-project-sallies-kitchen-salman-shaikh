@@ -1,25 +1,29 @@
 # Welcome to my 'Sallies' Kitchen App'.
 
 --> Run `npm i` in your terminal to install all the dependencies  
---> Run `npm start` to run the project 
+--> Run `npm start` to run the project
+
 
 
 # Home
 --> gives you some information about the bakery
+![Home](src/images/ReadMeImages/Home.png)
+
 
 # Footer
---> Register | Log in  
-
+--> Register | Log in
 --> Active links to Social media. 
+
 Github: this will bring you to my repository.
 Figma: this will bring you to my figma project.
 LinkedIn: to my personal account 
 YouTube: dedicated to Nova
+![Footer](src/images/ReadMeImages/Footer.png)
 
 
 # About
 --> Simple, you also have active links here that will bring you to the shop or to the account
-
+![About](src/images/ReadMeImages/About.png)
 
 # Shop
 --> You can directly click on the Add to cart button and the shopping cart will open directly
@@ -30,27 +34,31 @@ YouTube: dedicated to Nova
 --> You can open the cart by clicking on the shopping cart and simply close it with the 'x' close button
 --> You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
 --> Your order has been placed you can now either choose to click Home | Shop 
+![Shop](src/images/ReadMeImages/Shop.png)
 
 
 # Contact, FAQ, Gallery, Careers, Blogs
 --> Very simple, but a quick stroll will do
+![Faq](src/images/ReadMeImages/Faq.png)
 
 
 # Languages
 --> I will be working on this in near future
-
+![Languages](src/images/ReadMeImages/Languages.png)
 
 # Search
 --> Here you can search for food recipes
 --> Just type any food item in the search-bar
 --> When you do this you can click on the ingredients alternatively you can click on the link for more details
-
+![Search](src/images/ReadMeImages/Search.png)
 
 # Account
 --> You can either log in | register here
 --> I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
 --> Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
 --> You can choose Home | Shop or simply log out if you wish
+![](src/images/ReadMeImages/LogIn.png)
+![](src/images/ReadMeImages/Register.png)
 
 
 # Problems in my React App
@@ -70,4 +78,11 @@ YouTube: dedicated to Nova
 --> `Nova` | Novi Hogeschool 
 --> `Florestan` | Frontend Developer 
 
+
+# Git hub:  
+https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh
+
+
+# Figma:
+https://www.figma.com/file/D9eOnGY8WcL3ze2CR7Mjhs/Final-project?node-id=0%3A1
 

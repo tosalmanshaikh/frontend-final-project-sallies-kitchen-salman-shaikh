@@ -45,7 +45,7 @@ function AuthContextProvider({children}) {
                     user: null,
                     status: 'done'
                 })
-            }, 4000)
+            }, 1000)
         }
 
     }, [])
