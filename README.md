@@ -1,22 +1,23 @@
-# Welcome to my 'Sallies' Kitchen Demo Shopping App'.
+# Welcome to my 'Sallies' Kitchen App' - In this app you are able to make an account log in/log out. You can virtually shop or look for a recipe in the search engine. 
 
 What do I need to use this app?
---> Computer 
+--> clean working computer or a modern laptop 
 --> An IDE such as webstorm to run this application
 --> `https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh` - you can directly clone this to your IDE or zip it and open it and run it!
 
 What do I need to install in my terminal?
---> Run `npm i` in your terminal to install all the dependencies
---> Run `npm start` to run the project
-You should be able to run to project with this two simple commands above! 
-
-Still having troubles running the project? Then try installing this below as well! 
+--> Run `npm i` in your terminal to install all the dependencies: More info about Install Node.js and NPM @ `https://docs.npmjs.com/cli/v8/commands/npm-install`
+--> Run `react-hook-form` in your terminal
 --> Run `npm i react-router-dom@5.1.2`in your terminal: we are using the old version as in the newer version things are a bit different 'Routing' wise!
 --> Run `npm i axios` in your terminal
+--> Run `npm start` to run the project
 
 # Home
 ![Home](src/images/ReadMeImages/Home.jpg)
 --> Very simple, but a quick stroll will do
+
+Want to see the codes? 
+src -> components -> HomePage
 
 # Footer
 ![Footer](src/images/ReadMeImages/Footer.jpg)
@@ -28,9 +29,15 @@ Still having troubles running the project? Then try installing this below as wel
 `LinkedIn`: to my personal account
 `YouTube`: dedicated to Nova
 
+Codes:
+src -> components -> Footer
+
 # About
 ![About](src/images/ReadMeImages/About.jpg)
 --> Simple, you also have active links here that will bring you to the shop or to the account
+
+Codes:
+src -> Pages -> About
 
 # Shop
 ![Shop](src/images/ReadMeImages/Shop.jpg)
