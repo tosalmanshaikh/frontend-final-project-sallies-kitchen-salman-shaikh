@@ -16,7 +16,7 @@ Still having troubles running the project? Then try installing this below as wel
 
 # Home
 ![Home](src/images/ReadMeImages/Home.jpg)
-
+--> Very simple, but a quick stroll will do
 
 # Footer
 ![Footer](src/images/ReadMeImages/Footer.jpg)
