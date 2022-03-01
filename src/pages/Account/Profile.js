@@ -10,7 +10,7 @@ function Profile() {
 
     const {logout} = useContext(AuthContext);
 
-    const [profileData, setProfileData] = useState({});
+    // const [profileData, setProfileData] = useState({});
     const {user} = useContext(AuthContext)
 
     useEffect(() => {
@@ -21,7 +21,6 @@ function Profile() {
 
             try {
 
-                // const result = await axios.get ('http://localhost:3000/660/private-content',
                 const result = await axios.get('https://frontend-educational-backend.herokuapp.com/api/user',
 
 
@@ -32,8 +31,8 @@ function Profile() {
                             Authorization: `Bearer ${token}`,
                         }
                     })
-                setProfileData(result.data)
-                console.log(profileData)
+                // setProfileData(result.data)
+                // console.log(profileData)
 
             } catch (e) {
                 console.error(e)
@@ -52,13 +51,13 @@ function Profile() {
                     <Banner title="Private and Confidential Credentials"/>
                     <p><strong>Username:</strong>{user.username}</p>
                     <p><strong>Email:</strong>{user.email}</p>
-                    <p>Personal Id:{user.id}</p>
+                    <p><strong>Personal Id:</strong>{user.id}</p>
                 </section>
 
-                <section>
-                    <h3>{profileData.title}</h3>
-                    <p>{profileData.content}</p>
-                </section>
+                {/*<section>*/}
+                {/*    <h3>{profileData.title}</h3>*/}
+                {/*    <p>{profileData.content}</p>*/}
+                {/*</section>*/}
 
                 <section><p><Link to="/">Home </Link>|<Link to="/products"> Shop</Link></p></section>
 

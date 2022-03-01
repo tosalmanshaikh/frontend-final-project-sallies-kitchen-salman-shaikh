@@ -17,7 +17,7 @@ export default class Product extends Component {
             <ImageDisplay>
                 <ProductConsumer>
 
-                    {value => {
+                    {function (value) {
 
                         return (
 

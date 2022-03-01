@@ -13,7 +13,8 @@ function Cart(props) {
     return (
         <SubTitle>
             <ProductConsumer>
-                {value => {
+
+                {function (value) {
 
                     const {cart, total, deleteItem, increaseItem, decreaseItem} = value;
 
