@@ -1,8 +1,18 @@
-# Welcome to my 'Sallies' Kitchen App'.
+# Welcome to my 'Sallies' Kitchen Demo Shopping App'.
 
---> Run `npm i` in your terminal to install all the dependencies  
+What do I need to use this app?
+--> Computer 
+--> An IDE such as webstorm to run this application
+--> `https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh` - you can directly clone this to your IDE or zip it and open it and run it!
+
+What do I need to install in my terminal?
+--> Run `npm i` in your terminal to install all the dependencies
 --> Run `npm start` to run the project
+You should be able to run to project with this two simple commands above! 
 
+Still having troubles running the project? Then try installing this below as well! 
+--> Run `npm i react-router-dom@5.1.2`in your terminal: we are using the old version as in the newer version things are a bit different 'Routing' wise!
+--> Run `npm i axios` in your terminal
 
 # Home
 ![Home](src/images/ReadMeImages/Home.jpg)
@@ -60,19 +70,17 @@
 
 
 # Problems in my React App
---> Responsive: Navigation bar needs a fix so that it turns into a button. I plan to fix this error soon! 
---> Error: I have noticed that when you try to + or - the numbers are not updated in the shopping cart in the Navigation bar. I plan to fix this error soon! 
---> I have also noticed the loading time is longer than usual: Large Photos are making it slow will look into this in near future.
+--> Responsive: Navigation bar needs a fix so that it turns into a button/modal. I plan to fix this error soon!
 
 
 # Conclusion
 --> This being my first project I have used an older project to help me through the shopping cart. I found this project extremely challenging and yet very satisfying, I get the big picture now about 'React components'
 --> Here I have used the old school class base components as I wanted to start from the basic
---> I am going to make a new e-commerce project right after this one, I plan to use React hooks and redux! 
+--> I am going to make a new e-commerce project right after this one, I plan to use React hooks and redux!
 
 
 # Special Thanks 
---> `Sam`| Novi Hogeschool 
+--> `Sam - #Hero`| Novi Hogeschool 
 --> `Nova` | Novi Hogeschool 
 --> `Florestan` | Frontend Developer 
 
