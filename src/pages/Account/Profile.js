@@ -10,7 +10,6 @@ function Profile() {
 
     const {logout} = useContext(AuthContext);
 
-    // const [profileData, setProfileData] = useState({});
     const {user} = useContext(AuthContext)
 
     useEffect(() => {
@@ -31,8 +30,7 @@ function Profile() {
                             Authorization: `Bearer ${token}`,
                         }
                     })
-                // setProfileData(result.data)
-                // console.log(profileData)
+
 
             } catch (e) {
                 console.error(e)
@@ -54,10 +52,6 @@ function Profile() {
                     <p><strong>Personal Id:</strong>{user.id}</p>
                 </section>
 
-                {/*<section>*/}
-                {/*    <h3>{profileData.title}</h3>*/}
-                {/*    <p>{profileData.content}</p>*/}
-                {/*</section>*/}
 
                 <section><p><Link to="/">Home </Link>|<Link to="/products"> Shop</Link></p></section>
 

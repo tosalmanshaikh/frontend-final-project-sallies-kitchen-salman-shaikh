@@ -3,7 +3,7 @@ import axios from "axios";
 import {useHistory, Link} from "react-router-dom";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import {useForm} from "react-hook-form";
-import TextField from "../../components/Others/TextField/TextField";
+import TextField from "./TextField/TextField";
 import Button from "../../components/Others/Button/Button";
 import Banner from "../../components/Others/Banner/Banner";
 

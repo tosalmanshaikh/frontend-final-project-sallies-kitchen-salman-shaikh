@@ -1,23 +1,23 @@
-# Welcome to my 'Sallies' Kitchen App' - In this app you are able to make an account log in/log out. You can virtually shop or look for a recipe in the search engine. 
+# Welcome to my 'Sallies' Kitchen App' 
+In this app you are able to make an account log in/log out. You can virtually shop or look for a recipe in the search engine.
 
 What do I need to use this app?
---> clean working computer or a modern laptop 
---> An IDE such as webstorm to run this application
---> `https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh` - you can directly clone this to your IDE or zip it and open it and run it!
+- Clean working computer or a modern laptop 
+- An IDE such as webstorm to run this application
+- Project link: `https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh` - you can directly clone this to your IDE or zip it and open it and run it!
 
 What do I need to install in my terminal?
---> Run `npm i` in your terminal to install all the dependencies: More info about Install Node.js and NPM @ `https://docs.npmjs.com/cli/v8/commands/npm-install`
---> Run `react-hook-form` in your terminal
---> Run `npm i react-router-dom@5.1.2`in your terminal: we are using the old version as in the newer version things are a bit different 'Routing' wise!
---> Run `npm i axios` in your terminal
---> Run `npm start` to run the project
+- Run `npm i` in your terminal to install all the dependencies: More info about Install Node.js and NPM @ `https://docs.npmjs.com/cli/v8/commands/npm-install`
+- Run `react-hook-form` in your terminal
+- Run `npm i react-router-dom@5.1.2`in your terminal: we are using the old version as in the newer version things are a bit different 'Routing' wise!
+- Run `npm i axios` in your terminal
+- Run `npm start` to run the project
 
 # Home
 ![Home](src/images/ReadMeImages/Home.jpg)
---> Very simple, but a quick stroll will do
+- Very simple, but a quick stroll will do
 
-Want to see the codes? 
-src -> components -> HomePage
+Codes: src -> components -> HomePage
 
 # Footer
 ![Footer](src/images/ReadMeImages/Footer.jpg)
@@ -29,15 +29,13 @@ src -> components -> HomePage
 `LinkedIn`: to my personal account
 `YouTube`: dedicated to Nova
 
-Codes:
-src -> components -> Footer
+Codes: src -> components -> Footer
 
 # About
 ![About](src/images/ReadMeImages/About.jpg)
 --> Simple, you also have active links here that will bring you to the shop or to the account
 
-Codes:
-src -> Pages -> About
+Codes: src -> Pages -> About
 
 # Shop
 ![Shop](src/images/ReadMeImages/Shop.jpg)
@@ -50,21 +48,32 @@ src -> Pages -> About
 --> You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
 --> Your order has been placed you can now either choose to click Home | Shop
 
+Codes: 
+1. src -> components -> Shop folder
+2. src -> context -> context, StockData
 
 # Contact, FAQ, Gallery, Careers, Blogs
 ![Faq](src/images/ReadMeImages/Faq.jpg)
 --> Very simple, but a quick stroll will do
+
+Codes: 
+1. src -> Pages -> Contact
+2. src -> Others -> ContactForm
 
 
 # Languages
 ![Languages](src/images/ReadMeImages/Languages.jpg)
 --> I will be working on this in near future
 
+Codes: src -> pages -> Pages -> Language
+
 # Search
 ![Search](src/images/ReadMeImages/Search.jpg)
 --> Here you can search for food recipes
 --> Just type any food item in the search-bar
 --> When you do this you can click on the ingredients alternatively you can click on the link for more details
+
+Codes: src -> components -> pages -> SearchBar
 
 
 # Account
@@ -75,9 +84,14 @@ src -> Pages -> About
 --> Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
 --> You can choose Home | Shop or simply log out if you wish
 
+Codes: 
+1. src -> context -> AuthContextProvider
+2. src -> components -> pages -> Account
+
 
 # Problems in my React App
 --> Responsive: Navigation bar needs a fix so that it turns into a button/modal. I plan to fix this error soon!
+--> Newest problem :( - I had a bug and Sam helped me fix this ever since I have a new problem. When I click on the delete button the amount is not getting updated anymore - I will look into this soon! 
 
 
 # Conclusion
