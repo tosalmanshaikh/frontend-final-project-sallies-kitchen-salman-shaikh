@@ -54,7 +54,7 @@ Codes:
 
 # Contact, FAQ, Gallery, Careers, Blogs
 ![Faq](src/images/ReadMeImages/Faq.jpg)
---> Very simple, but a quick stroll will do
+- Very simple, but a quick stroll will do
 
 Codes: 
 1. src -> Pages -> Contact
