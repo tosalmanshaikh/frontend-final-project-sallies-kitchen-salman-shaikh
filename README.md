@@ -98,7 +98,6 @@ Codes: src -> components -> HomePage
 
 # Problems in my React App
 - Responsive: Navigation bar needs a fix so that it turns into a button/modal. I plan to fix this error soon!
-- Newest problem :( - I had a bug and Sam helped me fix this ever since I have a new problem. When I click on the delete button the amount is not getting updated anymore - I will look into this soon! 
 
 
 # Conclusion
