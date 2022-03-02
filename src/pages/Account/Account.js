@@ -1,8 +1,10 @@
+/*// === Account: log in, log out when you click account logo in the navigation bar  ===*/
+
 import React, {useContext} from 'react';
 import {useHistory} from 'react-router-dom';
+import Banner from "../../components/Others/Banner/Banner";
 import {AuthContext} from "../../context/AuthContextProvider";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Banner from "../../components/Others/Banner/Banner";
 
 function Account() {
 

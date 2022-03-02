@@ -1,7 +1,9 @@
+/*// === Checkout  ===*/
+
 import React from 'react';
-import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 import Banner from "../../Others/Banner/Banner";
 import {Link} from "react-router-dom";
+import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 
 function Checkout() {
     return (

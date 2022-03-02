@@ -1,3 +1,5 @@
+// === For the Shop  ===
+
 import React, {Component} from 'react';
 import {StockData} from "./StockData"
 

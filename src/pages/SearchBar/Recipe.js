@@ -1,3 +1,5 @@
+/*// === Recipe  ===*/
+
 import React, {useState} from "react";
 import RecipeDetails from "./RecipeDetails";
 import Banner from "../../components/Others/Banner/Banner";

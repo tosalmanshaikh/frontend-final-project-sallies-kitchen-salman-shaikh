@@ -1,7 +1,9 @@
+/*// === Gallery page  ===*/
+
 import React from 'react';
-import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Banner from "../../components/Others/Banner/Banner";
 import Gallery from "../../components/HomePage/Gallery/Gallery"
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 
 function GalleryNav() {

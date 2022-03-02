@@ -1,8 +1,10 @@
+/*// === Product Details: when you click on the image and want more details, and zoomed in product image  ===*/
+
 import React, {Component} from 'react';
-import {ProductConsumer} from "../../../context/Context";
 import {Link} from "react-router-dom";
-import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 import './Details.css';
+import {ProductConsumer} from "../../../context/Context";
+import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
 
 
 export default class Details extends Component {

@@ -1,7 +1,9 @@
+/*// === Shopping Cart page  ===*/
+
 import React from 'react';
-import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Banner from "../../components/Others/Banner/Banner";
 import {Link} from "react-router-dom";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 function ShoppingCart() {
     return (

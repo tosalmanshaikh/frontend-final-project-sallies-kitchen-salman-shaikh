@@ -1,3 +1,5 @@
+// === For styling I have used this in the product display ===
+
 import Styled from 'styled-components'
 
 const ImageDisplay = Styled.div`

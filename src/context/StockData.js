@@ -1,3 +1,5 @@
+/*// === Stock Data  ===*/
+
 // === Muffins imports ===
 import Muffins from '../images/ProductPhotos/Muffins/ZucchiniFetaMint.jpg';
 

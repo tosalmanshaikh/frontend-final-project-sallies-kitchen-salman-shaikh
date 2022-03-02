@@ -1,3 +1,5 @@
+// === For styling: I have used this overall in my project ===
+
 import Styled from 'styled-components'
 
 const SubTitle = Styled.div`

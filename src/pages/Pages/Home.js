@@ -1,10 +1,12 @@
+/*// === Home page  ===*/
+
 import React from 'react';
 import Banner from "../../components/Others/Banner/Banner";
-import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import IconDisplay from "../../components/HomePage/IconDisplay/IconDisplay"
 import Testimony from "../../components/HomePage/Testimony/Testimony";
 import Parents from "../../components/HomePage/PartnersAndClients/Partners";
 import Gallery from "../../components/HomePage/Gallery/Gallery";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 
 function Home() {

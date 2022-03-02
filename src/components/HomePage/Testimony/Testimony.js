@@ -1,7 +1,9 @@
-// testimony home page
+/*// === Testimony - Homepage  ===*/
+
 import React, {useState} from 'react'
 import './Testimony.css';
 
+/*// === Import photos  ===*/
 import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
 import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
 import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.jpeg';

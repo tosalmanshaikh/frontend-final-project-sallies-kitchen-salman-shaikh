@@ -1,7 +1,9 @@
-// partners and clients: home page
+/*// === Partners and clients - home page  ===*/
+
 import React, {useState} from 'react'
 import './Partners.css';
 
+/*// === Import logo's  ===*/
 import novi from '../../../images/PartnersLogo/Novi.png'
 import uts from '../../../images/PartnersLogo/UTS.png'
 import perron from '../../../images/PartnersLogo/Perron.png'

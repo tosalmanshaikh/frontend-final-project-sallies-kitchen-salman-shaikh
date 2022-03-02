@@ -1,7 +1,9 @@
+/*// === Blog page  ===*/
+
 import React from 'react';
 import Banner from "../../components/Others/Banner/Banner";
-import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Testimony from "../../components/HomePage/Testimony/Testimony";
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 function Blogs() {
     return (

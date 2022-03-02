@@ -1,3 +1,5 @@
+/*// === Faq page  ===*/
+
 import React from 'react'
 import Banner from '../../components/Others/Banner/Banner';
 import SubTitle from '../../components/StyledComponents/SubTitle/SubTitle';

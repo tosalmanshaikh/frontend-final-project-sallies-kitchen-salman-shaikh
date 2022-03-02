@@ -1,3 +1,5 @@
+/*// === Banners: I have this all over in my project ===*/
+
 import React from 'react';
 import './Banner.css';
 

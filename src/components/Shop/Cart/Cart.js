@@ -1,3 +1,5 @@
+/*// === Cart: that pops out from the right side  ===*/
+
 import React from 'react';
 import {ProductConsumer} from "../../../context/Context";    // ProductConsumer which as word say consumes the data from context
 import product from "../Product/Product";
@@ -52,7 +54,6 @@ function Cart(props) {
                                                     <h4>€{product.price}</h4>
                                                 </div>
 
-                                                {/*//how can I make sure that when we click this + or - it gets updated in the existing cart?*/}
 
                                                 <div className="inc-dec-cart">
                                                     <button onClick={() => decreaseItem(product.id)}>-</button>
@@ -99,6 +100,3 @@ function Cart(props) {
 }
 
 export default Cart;
-
-
-

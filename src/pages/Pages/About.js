@@ -1,8 +1,10 @@
+/*// === About page  ===*/
+
 import React from 'react';
-import Banner from "../../components/Others/Banner/Banner";
-import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
-import Salman from '../../images/AboutSalman/Salman.PNG';
 import {Link} from "react-router-dom";
+import Banner from "../../components/Others/Banner/Banner";
+import Salman from '../../images/AboutSalman/Salman.PNG';
+import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 
 
 function About() {

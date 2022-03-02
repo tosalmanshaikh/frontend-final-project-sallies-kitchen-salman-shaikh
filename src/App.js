@@ -1,5 +1,4 @@
-//1. Routing
-//2. Log in: Log out
+/*// === Routing, Log in, log out  ===*/
 
 import './App.css';
 import {Route, Switch} from "react-router-dom";

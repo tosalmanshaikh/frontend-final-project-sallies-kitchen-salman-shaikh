@@ -1,4 +1,9 @@
+// === Gallery: we have used this in the homepage and one more time in the Gallery from the Navigation bar  ===
+
 import React from 'react'
+import './Gallery.css';
+
+// === Import photos ===
 import BananaBread from '../../../images/ProductPhotos/BananaBread/BananaBread.JPG';
 import ChilliDarkChocolate from '../../../images/ProductPhotos/SpecialCroissants/ChilliDarkChocolate.jpeg'
 import SourDoughHero from '../../../images/ProductPhotos/Bread/SourdoughNaturalHero.JPG';
@@ -7,7 +12,6 @@ import Coffee1 from '../../../images/ProductPhotos/Coffee/coffee1.jpg';
 import SpecialCroissants from '../../../images/ProductPhotos/SpecialCroissants/SpecialCroissantsHero.JPG'
 import Coffee2 from '../../../images/ProductPhotos/Coffee/coffee2.jpg';
 import CheesecakeRedfruits from '../../../images/ProductPhotos/CheeseCake/CheeseCakeRedFruits.jpeg';
-import './Gallery.css';
 
 
 function Gallery() {

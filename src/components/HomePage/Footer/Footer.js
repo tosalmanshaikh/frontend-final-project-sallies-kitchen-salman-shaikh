@@ -1,3 +1,5 @@
+// === Footer: we have this on all the pages as standard  ===
+
 import React from 'react';
 import './Footer.css';
 import Banner from "../../Others/Banner/Banner";

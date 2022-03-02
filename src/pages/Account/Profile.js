@@ -1,7 +1,10 @@
-import React, {useContext, useEffect, useState} from 'react';
+/*// === Profile: this will show you your private and confidential information only if you are logged in  ===*/
+
+import React, {useContext, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {AuthContext} from "../../context/AuthContextProvider";
 import axios from "axios";
+
+import {AuthContext} from "../../context/AuthContextProvider";
 import SubTitle from "../../components/StyledComponents/SubTitle/SubTitle";
 import Banner from "../../components/Others/Banner/Banner";
 

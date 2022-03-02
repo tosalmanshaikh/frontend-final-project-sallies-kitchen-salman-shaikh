@@ -1,3 +1,5 @@
+/*// === Text Field: used in the log in and log out  ===*/
+
 import React from 'react';
 import './TextField.css';
 

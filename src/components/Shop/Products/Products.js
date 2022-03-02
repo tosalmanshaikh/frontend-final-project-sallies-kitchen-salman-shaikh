@@ -1,9 +1,12 @@
+/*// === Products - all the products displayed when you click the shop in the navigation bar  ===*/
+
 import React from 'react';
-import {ProductConsumer} from "../../../context/Context";
 import Product from "../Product/Product";
+import "./Products.css";
 import Banner from "../../Others/Banner/Banner";
 import SubTitle from "../../StyledComponents/SubTitle/SubTitle";
-import "./Products.css";
+import {ProductConsumer} from "../../../context/Context";
+
 
 
 function Products() {

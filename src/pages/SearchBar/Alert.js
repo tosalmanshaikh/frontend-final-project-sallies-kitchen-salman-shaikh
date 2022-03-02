@@ -1,3 +1,5 @@
+/*// === Alert  ===*/
+
 import React from "react";
 
 function Alert({alert}) {

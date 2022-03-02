@@ -1,3 +1,5 @@
+/*// === Product itself ===*/
+
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
 import {ProductConsumer} from "../../../context/Context";  // ProductConsumer which as word say consumes the data from context
