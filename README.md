@@ -21,9 +21,9 @@ Codes: src -> components -> HomePage
 
 # Footer
 ![Footer](src/images/ReadMeImages/Footer.jpg)
---> Register | Log in
+- Register | Log in
 
---> Active links to Social media.
+- Active links to Social media.
 `Github`: this will bring you to my repository.
 `Figma`: this will bring you to my figma project.
 `LinkedIn`: to my personal account
@@ -33,20 +33,20 @@ Codes: src -> components -> Footer
 
 # About
 ![About](src/images/ReadMeImages/About.jpg)
---> Simple, you also have active links here that will bring you to the shop or to the account
+- Simple, you also have active links here that will bring you to the shop or to the account
 
 Codes: src -> Pages -> About
 
 # Shop
 ![Shop](src/images/ReadMeImages/Shop.jpg)
---> You can directly click on the Add to cart button and the shopping cart will open directly
---> Notice that the item in the cart is now changed to 'already in the cart'
---> You can also click on the photo for a detailed description. you can add this to the cart here alternatively or go back to the products. If you click and nothing happens means your item is already in the cart.
---> You can add the items in the cart or decrease the items as you wish
---> You can delete the item as well by clicking on the icon on the right
---> You can open the cart by clicking on the shopping cart and simply close it with the 'x' close button
---> You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
---> Your order has been placed you can now either choose to click Home | Shop
+- You can directly click on the Add to cart button and the shopping cart will open directly
+- Notice that the item in the cart is now changed to 'already in the cart'
+- You can also click on the photo for a detailed description. you can add this to the cart here alternatively or go back to the products. If you click and nothing happens means your item is already in the cart.
+- You can add the items in the cart or decrease the items as you wish
+- You can delete the item as well by clicking on the icon on the right
+- You can open the cart by clicking on the shopping cart and simply close it with the 'x' close button
+- You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
+- Your order has been placed you can now either choose to click Home | Shop
 
 Codes: 
 1. src -> components -> Shop folder
@@ -63,15 +63,15 @@ Codes:
 
 # Languages
 ![Languages](src/images/ReadMeImages/Languages.jpg)
---> I will be working on this in near future
+- I will be working on this in near future
 
 Codes: src -> pages -> Pages -> Language
 
 # Search
 ![Search](src/images/ReadMeImages/Search.jpg)
---> Here you can search for food recipes
---> Just type any food item in the search-bar
---> When you do this you can click on the ingredients alternatively you can click on the link for more details
+- Here you can search for food recipes
+- Just type any food item in the search-bar
+- When you do this you can click on the ingredients alternatively you can click on the link for more details
 
 Codes: src -> components -> pages -> SearchBar
 
@@ -79,10 +79,10 @@ Codes: src -> components -> pages -> SearchBar
 # Account
 ![](src/images/ReadMeImages/LogIn.jpg)
 ![](src/images/ReadMeImages/Register.jpg)
---> You can either log in | register here
---> I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
---> Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
---> You can choose Home | Shop or simply log out if you wish
+- You can either log in | register here
+- I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
+- Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
+- You can choose Home | Shop or simply log out if you wish
 
 Codes: 
 1. src -> context -> AuthContextProvider
@@ -90,26 +90,26 @@ Codes:
 
 
 # Problems in my React App
---> Responsive: Navigation bar needs a fix so that it turns into a button/modal. I plan to fix this error soon!
---> Newest problem :( - I had a bug and Sam helped me fix this ever since I have a new problem. When I click on the delete button the amount is not getting updated anymore - I will look into this soon! 
+- Responsive: Navigation bar needs a fix so that it turns into a button/modal. I plan to fix this error soon!
+- Newest problem :( - I had a bug and Sam helped me fix this ever since I have a new problem. When I click on the delete button the amount is not getting updated anymore - I will look into this soon! 
 
 
 # Conclusion
---> This being my first project I have used an older project to help me through the shopping cart. I found this project extremely challenging and yet very satisfying, I get the big picture now about 'React components'
---> Here I have used the old school class base components as I wanted to start from the basic
---> I am going to make a new e-commerce project right after this one, I plan to use React hooks and redux!
+- This being my first project I have used an older project to help me through the shopping cart. I found this project extremely challenging and yet very satisfying, I get the big picture now about 'React components'
+- Here I have used the old school class base components as I wanted to start from the basic
+- I am going to make a new e-commerce project right after this one, I plan to use React hooks and redux!
 
 
 # Special Thanks 
---> `Sam - #Hero`| Novi Hogeschool 
---> `Nova` | Novi Hogeschool 
---> `Florestan` | Frontend Developer 
+- `Sam - #Hero`| Novi Hogeschool 
+- `Nova` | Novi Hogeschool 
+- `Florestan` | Frontend Developer 
 
 
 # Git hub:  
-https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh
+- https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh
 
 
 # Figma:
-https://www.figma.com/file/D9eOnGY8WcL3ze2CR7Mjhs/Final-project?node-id=0%3A1
+- https://www.figma.com/file/D9eOnGY8WcL3ze2CR7Mjhs/Final-project?node-id=0%3A1
 
