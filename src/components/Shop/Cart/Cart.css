@@ -1,5 +1,9 @@
 /*..........................new cart........................... */
 
+.count {
+    margin-top: 18px;
+}
+
 .cartItem {
 
     background-color: var(--primary-color);

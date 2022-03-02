@@ -56,13 +56,15 @@ function Cart(props) {
 
                                                 <div className="inc-dec-cart">
                                                     <button onClick={() => decreaseItem(product.id)}>-</button>
-                                                    {product.count}
+                                                    <div className="count">{product.count}</div>
                                                     <button onClick={() => increaseItem(product.id)}>+</button>
+
+                                                    <div className="del-item" onClick={() => deleteItem(product.id)}>
+                                                        <i className="fa fa-trash"></i>
+                                                    </div>
                                                 </div>
 
-                                                <div className="del-item" onClick={() => deleteItem(product.id)}>
-                                                    <i className="fa fa-trash"></i>
-                                                </div>
+
                                             </div>
                                         )
                                     })}
