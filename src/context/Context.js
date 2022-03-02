@@ -38,10 +38,10 @@ class ProductProvider extends Component {
     handleCartNav = () => {
 
         if (this.state.navOpen === true) {
-                this.setState({
-                    navOpen: false
-                })
-            }
+            this.setState({
+                navOpen: false
+            })
+        }
 
         this.setState({
             cartOpen: !this.state.cartOpen
@@ -106,6 +106,8 @@ class ProductProvider extends Component {
 
         this.setState({
             cart: cart
+        }, () => {
+            this.totalItems();
         })
 
     }
