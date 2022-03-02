@@ -21,6 +21,7 @@ Codes: src -> components -> HomePage
 
 # Footer
 ![Footer](src/images/ReadMeImages/Footer.jpg)
+
 - Register | Log in
 
 - Active links to Social media.
@@ -29,16 +30,18 @@ Codes: src -> components -> HomePage
 `LinkedIn`: to my personal account
 `YouTube`: dedicated to Nova
 
-Codes: src -> components -> Footer
+- Codes: src -> components -> Footer
 
 # About
 ![About](src/images/ReadMeImages/About.jpg)
+
 - Simple, you also have active links here that will bring you to the shop or to the account
 
-Codes: src -> Pages -> About
+- Codes: src -> Pages -> About
 
 # Shop
 ![Shop](src/images/ReadMeImages/Shop.jpg)
+
 - You can directly click on the Add to cart button and the shopping cart will open directly
 - Notice that the item in the cart is now changed to 'already in the cart'
 - You can also click on the photo for a detailed description. you can add this to the cart here alternatively or go back to the products. If you click and nothing happens means your item is already in the cart.
@@ -48,43 +51,47 @@ Codes: src -> Pages -> About
 - You can click on the payment if you like and that will bring you to a simple form. Once you fill this in you can click on 'Place your order'
 - Your order has been placed you can now either choose to click Home | Shop
 
-Codes: 
+- Codes: 
 1. src -> components -> Shop folder
 2. src -> context -> context, StockData
 
 # Contact, FAQ, Gallery, Careers, Blogs
 ![Faq](src/images/ReadMeImages/Faq.jpg)
+
 - Very simple, but a quick stroll will do
 
-Codes: 
+- Codes: 
 1. src -> Pages -> Contact
 2. src -> Others -> ContactForm
 
 
 # Languages
 ![Languages](src/images/ReadMeImages/Languages.jpg)
+
 - I will be working on this in near future
 
-Codes: src -> pages -> Pages -> Language
+- Codes: src -> pages -> Pages -> Language
 
 # Search
 ![Search](src/images/ReadMeImages/Search.jpg)
+
 - Here you can search for food recipes
 - Just type any food item in the search-bar
 - When you do this you can click on the ingredients alternatively you can click on the link for more details
 
-Codes: src -> components -> pages -> SearchBar
+- Codes: src -> components -> pages -> SearchBar
 
 
 # Account
 ![](src/images/ReadMeImages/LogIn.jpg)
 ![](src/images/ReadMeImages/Register.jpg)
+
 - You can either log in | register here
 - I have used Novi backend for my project. The input field is responsive so nothing can go wrong here as the placeholder will tell you as you go 
 - Once you have made an account, now you can log in with your details, only you are able to see your personal details, you will notice that the button is now switched to log-out, this simply would mean that you are logged in!
 - You can choose Home | Shop or simply log out if you wish
 
-Codes: 
+- Codes: 
 1. src -> context -> AuthContextProvider
 2. src -> components -> pages -> Account
 
