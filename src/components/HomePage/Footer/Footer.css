@@ -45,12 +45,22 @@ Footer a {
     margin: 0;
 }
 
+
+@media only screen and (min-width: 500px) {
+    .ContainerFooter {
+        width: 77%;
+        padding-left: 2rem;
+
+    }
+}
+
 @media only screen and (max-width: 1442px) {
     .ContainerFooter {
         width: 77%;
 
     }
 }
+
 
 
 p {
@@ -69,3 +79,66 @@ p {
         margin: auto;
     }
 }
+
+
+.social {
+    width: 100%;
+    padding-left: 1rem;
+
+}
+
+
+@media only screen and (min-width: 500px) {
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        width: 77%;
+        padding-right: 2rem;
+        /*background-color: red;*/
+
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        width: 30%;
+        padding-right: 2rem;
+
+    }
+}
+
+
+@media only screen and (min-width: 1020px) {
+    .social {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+    .Sect {
+        width: 77%;
+        padding-left: 2rem;
+
+    }
+}
+
+@media only screen and (max-width: 1442px) {
+    .Sect {
+        width: 115%;
+
+    }
+}
+
+
+

@@ -40,7 +40,7 @@ function Testimony() {
 
                         <section>
                             <figure className="ImageContainer">
-                                <img className="CardImage" src={item.image} alt=""/>
+                                <img className="CardImage" src={item.image} alt={item.image}/>
                             </figure>
                         </section>
 

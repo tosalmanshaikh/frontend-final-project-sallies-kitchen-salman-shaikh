@@ -6,6 +6,30 @@
     padding-bottom: 30px;
 }
 
+
+@media only screen and (min-width: 600px) {
+    .food {
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .food {
+
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding: 1rem;
+        width: 100%;
+        margin: auto;
+
+    }
+}
+
+
+
+
 .navBar {
     display: flex;
     flex-direction: row;
@@ -48,10 +72,9 @@ nav a:active {
     justify-content: space-between;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     .navBar {
         width: 100%;
-
     }
 }
 
@@ -60,11 +83,10 @@ nav a:active {
 
         display: flex;
         flex-direction: column;
-        gap: .5rem;
         padding: 1rem;
         width: 100%;
         margin: auto;
-
+        letter-spacing: 0.3rem;
     }
 }
 
@@ -81,6 +103,25 @@ nav a:active {
     color: #f8e9e9;
     font-size: medium;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .heading-home-page {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .heading-home-page {
+
+        width: 100%;
+        margin: auto;
+
+    }
 }
 
 
@@ -116,7 +157,7 @@ nav .logo-btn a {
 }
 
 .cartNav {
-    background-color: #ff962e;
+    /*background-color: #ff962e;*/
     position: fixed;
     top: 54px;
     bottom: 0;
@@ -126,7 +167,7 @@ nav .logo-btn a {
 }
 
 .cartNav {
-    background-color: #fc8400;
+    /*background-color: #fc8400;*/
     position: fixed;
     bottom: 0;
     right: -100%;
@@ -155,4 +196,3 @@ nav .logo-btn a {
 /*    justify-content: flex-end;*/
 /*    border-radius: 100px;*/
 /*}*/
-

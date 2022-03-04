@@ -52,6 +52,38 @@ a:hover {
 
 .links li a {
     padding: 10px;
+    /*border-bottom: 1px solid gray;*/
+    /*display: block;*/
+    /*!*background-color: red;*!*/
+    /*text-transform: capitalize;*/
+    /*position: relative;*/
+}
+
+
+
+@media only screen and (min-width: 500px) {
+    .links li a {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .heading-home-page {
+
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*gap: .5rem;*/
+        /*padding: 1rem;*/
+        width: 100%;
+        /*padding-left: 6rem;*/
+        margin: auto;
+        /*background-color:orange;*/
+
+    }
 }
 
 .links li a:hover {
