@@ -187,3 +187,7 @@ li {
 a {
     text-decoration: none;
 }
+
+.disabled {
+    background-color:  gray;
+}
