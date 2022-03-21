@@ -7,7 +7,7 @@ import {StockData} from "./StockData"
 // ProductConsumer which as word say consumes the data from context
 
 
-const ProductContext = React.createContext();
+const ProductContext = React.createContext({});
 
 class ProductProvider extends Component {
 

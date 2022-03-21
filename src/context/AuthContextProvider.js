@@ -35,7 +35,7 @@ function AuthContextProvider({children}) {
 
         // console.log('context wordt gerefresht!')
 
-        //we maken the token again as it is outside the scope.
+        //we make the token again as it is outside the scope.
         const token = localStorage.getItem('token')
 
         if (token) {

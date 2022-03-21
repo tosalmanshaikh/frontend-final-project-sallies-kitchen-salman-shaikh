@@ -39,7 +39,6 @@ function SignUp() {
 
     return (
         <SubTitle>
-            {/*<Banner title="Register"> </Banner>*/}
 
             <section className="searchbar-container">
                 <SubTitle>
