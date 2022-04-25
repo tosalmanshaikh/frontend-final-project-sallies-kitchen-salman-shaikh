@@ -7,10 +7,7 @@ What do I need to use this app?
 - Project link: `https://github.com/tosalmanshaikh/frontend-final-project-sallies-kitchen-salman-shaikh` - you can directly clone this to your IDE or zip it and open it and run it!
 
 What do I need to install in my terminal?
-- Run `npm i` in your terminal to install all the dependencies: More info about Install Node.js and NPM @ `https://docs.npmjs.com/cli/v8/commands/npm-install`
-- Run `react-hook-form` in your terminal
-- Run `npm i react-router-dom@5.1.2`in your terminal: we are using the old version as in the newer version things are a bit different 'Routing' wise!
-- Run `npm i axios` in your terminal
+- Run `npm i` in your terminal to install all the dependencies
 - Run `npm start` to run the project
 
 # Home
