@@ -1,26 +1,26 @@
 /*// === Partners and clients - styling  ===*/
 
 .ContainerPartners {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
 }
 
 .img {
-    width: 15rem;
-    margin: 2.5rem;
+   width: 11rem;
+   margin: 1.5rem;
 }
 
 @media only screen and (max-width: 1442px) {
-    .Container {
-        width: 90%;
-        padding: 1rem 3rem;
-    }
+   .Container {
+      width: 90%;
+      padding: 1rem 3rem;
+   }
 }
 
 @media only screen and (max-width: 782px) {
-    .Container {
-        width: 100%;
-    }
+   .Container {
+      width: 100%;
+   }
 }
