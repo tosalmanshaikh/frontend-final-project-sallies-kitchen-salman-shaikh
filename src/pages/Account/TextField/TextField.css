@@ -14,25 +14,25 @@ label {
 /*..............General-form-styling..................*/
 
 form {
-    display: flex;
-    flex-direction: column;
-    background-color: #efe2ba;
-    padding: 32px;
-    max-width: 790px;
-    border-radius: 4px;
-    font-size: large;
-    font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  background-color: #efe2ba;
+  padding: 32px;
+  max-width: auto;
+  border-radius: 4px;
+  font-size: large;
+  font-weight: bolder;
 }
 
 form label {
-    margin: 4px 0;
-    font-weight: bold;
-    color: #804d01;
+  margin: 4px 0;
+  font-weight: bold;
+  color: #804d01;
 }
 
 form input {
-    padding: 10px 10px 10px 10px;
-    margin: 6px 10px 10px 10px;
-    font-weight: lighter;
-    font-size: medium;
+  padding: 10px 10px 10px 10px;
+  margin: 6px 10px 10px 10px;
+  font-weight: lighter;
+  font-size: medium;
 }
