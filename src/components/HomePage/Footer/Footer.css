@@ -1,114 +1,106 @@
 /*// === Footer styling  ===*/
 
 .ContainerFooter {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .Sect {
-   width: 100%;
-   text-align: center;
-   letter-spacing: 0.3rem;
-   margin: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  margin: 1.5rem;
 }
 
 Footer a {
-   width: 3rem;
-   margin: 0 0.3rem 0 0.3rem;
+  width: 3rem;
+  margin: 0 0.3rem 0 0.3rem;
 }
 
 .Icon {
-   display: flex;
-   justify-content: center;
-   padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  flex-wrap: nowrap;
 }
 
 .Bottom {
-   padding: 0.5rem 0 0.5rem 0;
-   width: 100%;
-   margin: 0 auto;
-   text-align: center;
-   background-color: var(--tertiary-color);
-   height: 2rem;
+  padding: 0.5rem 0 0.5rem 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--tertiary-color);
+  height: 2rem;
 }
 
 .Bottom {
-   color: #804d01;
-   margin: 0;
+  color: #804d01;
+  margin: 0;
 }
 
-@media only screen and (min-width: 500px) {
-   .ContainerFooter {
-      width: 100%;
-   }
+@media only screen and (min-width: 768px) and (max-width: 1441px) {
+  .ContainerFooter {
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width: 1442px) {
-   .ContainerFooter {
-      width: 100%;
-   }
+@media only screen and (min-width: 1442px) {
+  .ContainerFooter {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ContainerFooter {
+    width: 100%;
+  }
 }
 
 p {
-   text-transform: none;
-   text-align: center;
-   font-size: 1rem;
+  text-transform: none;
+  text-align: center;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 1020px) {
-   .Container {
-      gap: 0.1rem;
-      padding: 0.1rem;
-      width: 50%;
-      margin: auto;
-   }
+  .Container {
+    gap: 0.1rem;
+    padding: 0.1rem;
+    width: 50%;
+    margin: auto;
+  }
 }
 
 .social {
-   width: 100%;
-   padding-left: 1rem;
+  width: 100%;
+  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 500px) {
-   .social {
-      display: flex;
-      flex-direction: row;
-      justify-items: center;
-      width: 77%;
-      padding-right: 2rem;
-      /*background-color: red;*/
-   }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (min-width: 800px) {
-   .social {
-      display: flex;
-      flex-direction: row;
-      justify-items: center;
-      width: 30%;
-      padding-right: 2rem;
-   }
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 30%;
+    padding-right: 2rem;
+  }
 }
 
 @media only screen and (min-width: 1020px) {
-   .social {
-      width: 100%;
-      display: inline-block;
-   }
+  .social {
+    width: 100%;
+    display: inline-block;
+  }
 }
-
-/* @media only screen and (min-width: 500px) {
-   .Sect {
-      width: 77%;
-      padding-left: 2rem;
-   }
-}
-
-@media only screen and (max-width: 1442px) {
-   .Sect {
-      width: 115%;
-   }
-} */

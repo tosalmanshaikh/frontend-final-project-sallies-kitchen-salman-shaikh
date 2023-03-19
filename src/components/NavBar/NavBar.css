@@ -1,192 +1,194 @@
 /*// === Navigation bar - styling  ===*/
 
 .food {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1.87rem;
 }
 
-
 @media only screen and (min-width: 600px) {
-    .food {
-        width: 100%;
-
-    }
+  .food {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1020px) {
-    .food {
-
-        display: flex;
-        flex-direction: column;
-        gap: .5rem;
-        padding: 1rem;
-        width: 100%;
-        margin: auto;
-
-    }
+  .food {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+  }
 }
 
-
-
-
 .navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    justify-items: center;
-    padding-top: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+  padding-top: 0.18rem;
 }
 
 nav {
-    background-color: #f3f1d0;
-    color: #ffffff;
+  background-color: #f3f1d0;
+  color: #ffffff;
+  display: flex;
+  padding: 0 4rem;
+  align-items: center;
+  justify-content: space-around;
+  letter-spacing: 0.25rem;
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 100%;
     display: flex;
-    padding: 0 65px;
-    align-items: center;
-    justify-content: space-around;
-    letter-spacing: 0.30rem;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  nav {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 nav a,
 nav a:visited,
 nav a:active {
-    color: #804d01;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: #804d01;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .logo-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1px;
-    padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1px;
+  padding-top: 0.31rem;
 }
 
 .logo-container img {
-    width: 30px;
-    border-radius: 100px;
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
+  border-radius: 6.25rem;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  padding: 0.25rem;
 }
 
 @media only screen and (min-width: 500px) {
-    .navBar {
-        width: 100%;
-    }
+  .navBar {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1020px) {
-    .navBar {
-
-        display: flex;
-        flex-direction: column;
-        padding: 1rem;
-        width: 100%;
-        margin: auto;
-        letter-spacing: 0.3rem;
-    }
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    margin: auto;
+    letter-spacing: 0.3rem;
+  }
 }
-
 
 /*.......second navigation bar with purple background.....*/
 
 .heading-home-page {
-    display: flex;
-    background-color: var(--primary-color);
-    margin: 5px;
-    border-radius: 2px;
-    flex-direction: row;
-    justify-content: center;
-    color: #f8e9e9;
-    font-size: medium;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  display: flex;
+  background-color: var(--primary-color);
+  margin: 0.31rem;
+  border-radius: 0.12rem;
+  flex-direction: row;
+  justify-content: center;
+  color: #f8e9e9;
+  font-size: medium;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, sans-serif;
 }
 
-
 @media only screen and (min-width: 600px) {
-    .heading-home-page {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-
-    }
+  .heading-home-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 1020px) {
-    .heading-home-page {
-
-        width: 100%;
-        margin: auto;
-
-    }
+  .heading-home-page {
+    width: 100%;
+    margin: auto;
+  }
 }
-
 
 /*............log-in-out-buttons............*/
 
 .log-in-out-buttons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-
 
 /*.............logo..........*/
 
 nav .logo-btn {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 10px;
-    align-items: center;
-    border-bottom: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.62rem 0.62rem;
+  align-items: center;
+  border-bottom: 1px solid;
 }
 
 nav .logo-btn img {
-    width: 50px;
-    padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 2.5rem;
 }
 
 nav .logo-btn a {
-    font-size: 20px;
-    /*color: white;*/
-    display: flex;
-    align-items: center;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .cartNav {
-    /*background-color: #ff962e;*/
-    position: fixed;
-    top: 54px;
-    bottom: 0;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
-    border-bottom: 1px solid #9b8787;
+  position: fixed;
+  top: 3.37rem;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-bottom: 0.06rem solid #9b8787;
 }
 
 .cartNav {
-    /*background-color: #fc8400;*/
-    position: fixed;
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    transition: all 0.5s ease-in-out;
-    border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.62rem;
 }
-
 
 .hide {
-    display: none;
+  display: none;
 }
-
 
 .logo-btn .btn {
-    display: none;
-
+  display: none;
 }
-
 
 /*//....................light-dark-mode: for the future..............//*/
 

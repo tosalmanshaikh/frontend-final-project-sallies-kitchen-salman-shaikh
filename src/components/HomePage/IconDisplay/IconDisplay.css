@@ -1,52 +1,49 @@
 /*// === Our Services icons: styling  ===*/
 
 .Grid {
-   padding-left: 150px;
-   display: flex;
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .IconContainer {
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: center;
-   color: #804d01;
-   text-align: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: #804d01;
+  text-align: center;
 }
 
 .IconCard {
-   width: 12rem;
-   margin-top: 1rem;
-   align-self: center;
-   justify-self: center;
+  padding-left: 5rem;
+  width: 15rem;
+  margin-top: 1rem;
 }
 
 .IconDisplay {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   justify-items: center;
-   width: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  width: 5rem;
 }
 
 .TitleIcon {
-   display: flex;
-   justify-items: center;
+  display: flex;
+  justify-items: center;
 }
 
 @media only screen and (max-width: 1442px) {
-   .IconContainer {
-      width: 95%;
-      padding: 1rem 3rem;
-   }
+  .IconContainer {
+    /* padding-right: 1rem; */
+  }
 }
 
 @media only screen and (max-width: 782px) {
-   .IconContainer {
-      display: grid;
-      width: 100%;
-      margin: auto;
-   }
+  .IconContainer {
+    display: grid;
+    width: 100%;
+    margin: auto;
+  }
 }
