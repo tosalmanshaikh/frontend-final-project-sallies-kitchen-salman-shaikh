@@ -1,19 +1,28 @@
 /*//--> This is awesome way to create this as your basic colors and you can easily reuse everywhere!*/
 
 :root {
-
-    --primary-color: rgb(155, 135, 135);
-    --secondary-color: rgb(239, 188, 151);
-    --tertiary-color: rgb(245, 194, 84);
-    --quaternary-color: rgb(128, 77, 1);
+  --primary-color: rgb(155, 135, 135);
+  --secondary-color: rgb(239, 188, 151);
+  --tertiary-color: rgb(245, 194, 84);
+  --quaternary-color: rgb(128, 77, 1);
 }
-
 
 /*........loading......*/
 
 .loading-logo {
-   background-color: var(--primary-color);
-   font-size: x-large;
-   font-weight: lighter;
-   height: 2rem;
+  background-color: var(--primary-color);
+  font-size: x-large;
+  font-weight: lighter;
+  height: 2rem;
+}
+
+/*Setting the standard so I can work with rem and scale down with mobile screen*/
+html {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
 }

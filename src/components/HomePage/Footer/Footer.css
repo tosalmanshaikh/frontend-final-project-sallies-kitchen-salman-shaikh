@@ -23,7 +23,7 @@ Footer a {
 .Icon {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 2.5rem;
   flex-wrap: nowrap;
 }
 
