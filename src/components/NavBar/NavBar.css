@@ -1,19 +1,18 @@
 /*// === Navigation bar - styling  ===*/
 
-.food {
+.logo {
   display: flex;
   flex-direction: row;
-  padding-bottom: 1.87rem;
 }
 
 @media only screen and (min-width: 600px) {
-  .food {
+  .logo {
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 1020px) {
-  .food {
+  .logo {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -23,35 +22,36 @@
   }
 }
 
+.material-symbols-outlined {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
 .navBar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  justify-items: center;
-  padding-top: 0.18rem;
 }
 
 nav {
   background-color: #f3f1d0;
   color: #ffffff;
   display: flex;
-  padding: 0 4rem;
+  padding: 0 13rem;
   align-items: center;
   justify-content: space-around;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.35rem;
 }
 
 @media only screen and (min-width: 600px) {
   nav {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
 
 @media only screen and (max-width: 1020px) {
   nav {
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -106,7 +106,6 @@ nav a:active {
 .heading-home-page {
   display: flex;
   background-color: var(--primary-color);
-  margin: 0.31rem;
   border-radius: 0.12rem;
   flex-direction: row;
   justify-content: center;
@@ -145,16 +144,15 @@ nav a:active {
 nav .logo-btn {
   display: flex;
   justify-content: space-between;
-  padding: 0.62rem 0.62rem;
+  padding: 0.5rem 0.5rem;
   align-items: center;
-  border-bottom: 1px solid;
 }
 
 nav .logo-btn img {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 2.5rem;
+  width: 2.3rem;
 }
 
 nav .logo-btn a {
@@ -166,7 +164,7 @@ nav .logo-btn a {
 
 .cartNav {
   position: fixed;
-  top: 3.37rem;
+  top: 80px;
   bottom: 0;
   width: 100%;
   transition: all 0.5s ease-in-out;
@@ -198,3 +196,40 @@ nav .logo-btn a {
 /*    justify-content: flex-end;*/
 /*    border-radius: 100px;*/
 /*}*/
+
+.toggle-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-options {
+    display: none;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .toggle-menu,
+  .toggle-menu:hover {
+    display: block;
+    color: var(--quaternary-color);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-inline: 0;
+  }
+
+  .mobile-options {
+    position: absolute;
+    left: -24.5rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.4rem;
+    gap: 0.5rem;
+  }
+}

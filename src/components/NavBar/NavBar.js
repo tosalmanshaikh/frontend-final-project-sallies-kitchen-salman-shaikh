@@ -1,6 +1,6 @@
 /*// === Navigation bar: Home, Shop, About, Contact, Gallery, Careers, Language, Search, Account, Cart, Light mode   ===*/
 
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cartIcon from "../../images/HomepageIcons/Cart.png";
 import searchBarIcon from "../../images/HomepageIcons/Search.png";
@@ -13,90 +13,115 @@ import logo from "../../images/HomepageLogo/Logo.png";
 import Cart from "../Shop/Cart/Cart";
 
 function NavBar() {
+  // Creating state and function for fold out menu when screen size changes
+  const [mobileMenu, toggleMobileMenu] = useState(false);
+
+  function showMobileMenu() {
+    toggleMobileMenu((prev) => !prev);
+  }
+
   return (
-    <nav className="NavBar">
+    <nav className="navBar">
+      {/*Creating the icons with display on toggle mode*/}
+      <button className="toggle-menu" type="button" onClick={showMobileMenu}>
+        {!mobileMenu ? (
+          <span className="material-symbols-outlined">menu</span>
+        ) : (
+          <span className="material-symbols-outlined">close</span>
+        )}
+      </button>
       <ProductConsumer>
         {function (value) {
           const { cart, handleNav, handleCartNav, navOpen, closeNavCart } =
             value;
 
           return (
-            <div className="container sticky">
-              <nav className="sticky">
-                <div className="logo-btn">
-                  <Link to="/" onClick={closeNavCart}>
-                    <img className="food" alt="logo" src={logo} />
-                  </Link>
+            <div className="dra">
+              <div className="logo-btn">
+                <Link to="/" onClick={closeNavCart}>
+                  <img className="logo" alt="logo" src={logo} />
+                </Link>
 
-                  {/*//This is here on purpose - I want to fix the navigation bar so it turns into a button: Future plans*/}
-                  {/*<div className="cart hide" onClick={handleCartNav} > <i className="fas fa-shopping-cart"></i>*/}
-                  {/*    <span>{cart.length}</span>*/}
-                  {/*</div>*/}
+                <ul
+                  className={navOpen ? "newLinks links" : "links"}
+                  onClick={closeNavCart}
+                >
+                  <nav
+                    className={mobileMenu ? "mobile-options" : "menu-options"}
+                  >
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                      <Link to="/products">Shop</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact</Link>
+                    </li>
+                    <li>
+                      <Link to="/faq">FAQ</Link>
+                    </li>
+                    <li>
+                      <Link to="/gallery">Gallery</Link>
+                    </li>
+                    <li>
+                      <Link to="/careers">Careers</Link>
+                    </li>
+                    <li>
+                      <Link to="/blogs">Blogs</Link>
+                    </li>
+                  </nav>
 
-                  {/*<div className="btn" onClick={handleNav}>*/}
-                  {/*    <i className="fas fa-bars"></i>*/}
-                  {/*</div>*/}
-
-                  <div className="dra">
-                    <div className="drawers">
-                      <ul
-                        className={navOpen ? "newLinks links" : "links"}
-                        onClick={closeNavCart}
-                      >
-                        <nav className="navBar">
-                          <li>
-                            <Link to="/">Home</Link>
-                          </li>
-                          <li>
-                            <Link to="/about">About</Link>
-                          </li>
-                          <li>
-                            <Link to="/products">Shop</Link>
-                          </li>
-                          <li>
-                            <Link to="/contact">Contact</Link>
-                          </li>
-                          <li>
-                            <Link to="/faq">FAQ</Link>
-                          </li>
-                          <li>
-                            <Link to="/gallery">Gallery</Link>
-                          </li>
-                          <li>
-                            <Link to="/careers">Careers</Link>
-                          </li>
-                          <li>
-                            <Link to="/blogs">Blogs</Link>
-                          </li>
-                        </nav>
-
-                        {/* <Link to="/language">
+                  {/* <Link to="/language">
                                                     <span className="logo-container">
                                                     <img src={languageIcon} alt="logo" className="logo"/>
                                                      </span>
                                                 </Link> */}
 
-                        <Link to="/search-bar">
-                          <span className="logo-container">
+                  <Link to="/search-bar">
+                    {/* <span className="logo-container">
                             <img
                               src={searchBarIcon}
                               alt="logo"
                               className="logo"
                             />
-                          </span>
-                        </Link>
+                          </span> */}
+                    <span className="material-symbols-outlined">search</span>
+                  </Link>
 
-                        <Link to="/account">
-                          <span className="logo-container">
+                  <Link to="/account">
+                    {/* <span className="logo-container">
                             <img
                               src={accountIcon}
                               alt="logo"
                               className="logo"
                             />
-                          </span>
-                        </Link>
+                          </span> */}
+                    <span className="material-symbols-outlined">person</span>
+                  </Link>
 
-                        <Link to="/shopping-cart">
+                  <Link to="/shopping-cart">
+                    {/* <span className="logo-container"> */}
+                    <span className="carta" onClick={handleCartNav}>
+                      <span
+                        className="material-symbols-outlined"
+                        onClick={handleNav}
+                      >
+                        shopping_cart
+                      </span>
+
+                      {cart.reduce(function (a, b) {
+                        return a + b.count;
+                      }, 0)}
+                    </span>
+                    {/* </span> */}
+                  </Link>
+
+                  {/* original  */}
+                  {/* <Link to="/shopping-cart">
                           <span className="logo-container">
                             <span className="carta" onClick={handleCartNav}>
                               <img
@@ -110,17 +135,14 @@ function NavBar() {
                               }, 0)}
                             </span>
                           </span>
-                        </Link>
+                        </Link> */}
 
-                        {/*future plans*/}
-                        {/*<button className="btn-light">light mode</button>*/}
-                      </ul>
+                  {/*future plans*/}
+                  {/*<button className="btn-light">light mode</button>*/}
+                </ul>
 
-                      <Cart valueProps={value} />
-                    </div>
-                  </div>
-                </div>
-              </nav>
+                <Cart valueProps={value} />
+              </div>
             </div>
           );
         }}

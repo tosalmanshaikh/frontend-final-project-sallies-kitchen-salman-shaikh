@@ -33,14 +33,6 @@
   border-radius: 10%;
 }
 
-.img-cart img {
-  width: 100px;
-  background: #fc8400;
-  height: 60px;
-  text-align: center;
-  display: block;
-}
-
 .cart-center {
   position: relative;
   display: grid;
@@ -162,7 +154,7 @@
 }
 
 .newCartNav {
-  /* top: 69px; */
+  top: 80px;
   right: 1px;
   width: 24rem;
 }

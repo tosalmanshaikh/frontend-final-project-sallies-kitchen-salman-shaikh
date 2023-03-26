@@ -35,4 +35,5 @@ form input {
   margin: 6px 10px 10px 10px;
   font-weight: lighter;
   font-size: medium;
+  width: 100%;
 }
